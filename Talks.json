@@ -1,0 +1,3306 @@
+[
+   {
+      "id":"549",
+      "title":"[PT-BR] Durable Functions: Orquestrando funções stateful com serverless",
+      "description":"As Durable Functions são uma extensão das Azure Functions, que possibilitam a orquestração de funções com código, em um ambiente serverless. Nesta sessão vamos entender melhor o seu poder, e onde utilizá-las.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"10/12/2020 13:00",
+      "speakers":[
+         "Ana Carolina Manzan"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"550",
+      "title":"[PT-BR] Conhecendo as soluções de containers do Microsoft Azure",
+      "description":"Azure Container Instances, Web App for Containers, Azure Kubernetes Services, Azure Container Registry, Azure Service Fabric, Azure Managed OpenShift são tantas soluções disponíveis para trabalhar com containers dentro do Microsoft Azure que as vezes ficamos perdidos e não sabemos qual utilizar. Nesta palestra, vamos conhecer algumas destas soluções e entender os melhores cenários de aplicação de cada um delas.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"10/12/2020 14:00",
+      "speakers":[
+         "André Dias"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"551",
+      "title":"[PT-BR] Primeiros passos com Azure Sphere para IoT",
+      "description":"Azure Sphere é o novo ecossistema da Microsoft que envolve tanto um sistema operacional como uma plataforma de hardware segura para Internet das Coisas. Veja nessa palestra o que é o Azure Sphere, e nesses primeiros passos você poderá ver como configurar e operar um dispositivo IoT neste ecossistema.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"10/12/2020 15:00",
+      "speakers":[
+         "André Curvello "
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"552",
+      "title":"[PT-BR] Desenvolvendo e entregando soluções multi-tenant com Azure Apps",
+      "description":"Nessa sessão veremos como podemos usar as Azure Apps integradas a plataformas do Azure e Office 365 para desenvolver e entregar soluções multi-tenant.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"10/12/2020 16:00",
+      "speakers":[
+         "Douglas Romão"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"553",
+      "title":"[PT-BR] Monitorando seus recursos com o Azure Monitor",
+      "description":"Nesta palestra demonstro como como utilizar o Azure Monitor para gerar insights e monitorar toda sua gama de serviços publicados no Azure.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"10/12/2020 17:00",
+      "speakers":[
+         "Ericson da Fonseca"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"554",
+      "title":"[PT-BR] Migração de Ambientes para o Azure - Projeto e Prática",
+      "description":"Nessa palestra teremos uma visão geral de um projeto de migração e as ferramentas utilizadas na prática para migração para o Azure.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"11/12/2020 13:00",
+      "speakers":[
+         "Francisco Ferreira",
+         "Vinicius Perrot"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"555",
+      "title":"[PT-BR] Provisionando o ambiente de Dev e Ops com Kubernetes usando Helm, Terraform, e Azure",
+      "description":"Terraform é uma ferramenta poderosa que te permite criar recursos, como máquinas virtuais, bancos de dados, e clusteres Kubernetes. Ela possui um adaptador pra Azure que já permite gerenciar diversos dos seus recursos. Essa palestra apresentará uma visão geral do Terraform, e como utilizar no dia a dia de desenvolvimento, chegando até produção. Veremos também como utilizar o Helm para empacotar a aplicação que vai rodar no Kubernetes e em seguida fazer o seu deploy. Por fim, o ciclo de desenvolvimento com Kubernetes será demonstrado utilizando AKS DevSpaces.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "scheduler":"11/12/2020 14:00",
+      "speakers":[
+         "Giovanni Bassi"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"556",
+      "title":"[PT-BR] Projetando arquiteturas do mundo real para gateways de API",
+      "description":"Em um mundo pós-SOA, você sabe como expor e gerenciar serviços? Nesta palestra, veja como outras empresas aproveitam o conjunto de ferramentas de integração do Azure - com o API Management em destaque - para projetar, arquitetar, publicar, gerenciar e expor seus serviços web, microsserviços e APIs de forma automatizada e escalável.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"11/12/2020 15:00",
+      "speakers":[
+         "Igor Abade"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"557",
+      "title":"[PT-BR] Como Ser Aprovado na Certificação AZ-104 em menos de 30 dias",
+      "description":"Nesta sessão, você irá aprender o método aprendizagem acelerada, para ser aprovado na certificaçào AZ-104, bem como ter acesso ao material de estudo, guias e o mapas mentais. ",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"11/12/2020 16:00",
+      "speakers":[
+         "Josué Vidal"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"559",
+      "title":"[PT-BR] Application Insights: entenda como monitorar suas aplicações Web",
+      "description":"Nessa talk vou falar um pouco sobre o application Insights. Para que serve, onde usar, como usar. E farei algumas demonstrações utilizando diversas linguagens de programação",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"11/12/2020 17:00",
+      "speakers":[
+         "Luigi Tavolaro Santini"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"560",
+      "title":"[PT-BR] Docker para Streaming de Vide em Multiplas plataformas com Azure Container Instances",
+      "description":"O fim do hangout over air fez com que buscássemos soluções para transmitir lives de forma fácil. Com o uso de ferramentas de stream Open Source, Docker e Azure Container Instances transmitimos lives a 60 FPS's para o Youtube e Facebook em 2019. Entenda o processo e como tirar proveito dessas tecnologias.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"12/12/2020 13:00",
+      "speakers":[
+         "Luiz Carlos Faria "
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"561",
+      "title":"[PT-BR] Alta Disponibilidade com DR no Azure",
+      "description":"Nesta sessão, iremos abordar os elementos indispensáveis em um projeto de continuidade de negócios seja em caso de desastre ou recuperação em caso de falha. O Microsoft Azure possui várias alternativas que podem lhe ajudar a reduzir o seu custo de uma solução de banco de dados HADR (alta disponibilidade e recuperação de desastre).",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"12/12/2020 14:00",
+      "speakers":[
+         "Maycon Alves",
+         "Marcondes Alexandre"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"562",
+      "title":"[PT-BR] Blockchain na prática com Azure Blockchain Workbench e Power BI",
+      "description":"O Azure Blockchain se constitui como uma poderosa ferramenta para o deploy de aplicações que suportem processos de negócios dentro das organizações, nesta palestra vamos entender sobre como trabalhar com gerenciamento de contratos de ponta a ponta bem como a exploração destes dados em uma camada de visualização usando o Microsoft Power BI.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"12/12/2020 15:00",
+      "speakers":[
+         "Orlando Gomes",
+         "Rogério da Rocha Rodrigues"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"563",
+      "title":"[PT-BR] Servidor de arquivos on-premises nunca mais! Azure File Share",
+      "description":"Será mostrado como atuar com Azure File Share e possibilidade utilizando Linux e Windows.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"12/12/2020 16:00",
+      "speakers":[
+         "Osanam Giordane",
+         "Daniel Santos"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"564",
+      "title":"[PT-BR] ASP.NET Core, Docker, Azure Container Service & App Service na prática ",
+      "description":"Nesta palestra iremos conceituar as principais novidades do ASP.NET Core, Docker e Azure Container Service. Aprenda os principais conceitos do fenômeno dos containers e como publicar a sua primeira aplicação .NET Core com Docker no Azure.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "scheduler":"12/12/2020 17:00",
+      "speakers":[
+         "Rafael Cruz"
+      ],
+      "joinUrl":"https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTljYmZlNDctMjBjNy00MjUzLWIyZTItMTIxMGM1YTMyMGEy%40thread.v2/0?context=%7b%22Tid%22%3a%22261a50e0-6670-44d2-8071-cebd39486ad9%22%2c%22Oid%22%3a%22e80375b6-5e97-46ce-9468-08773c23531a%22%7d"
+   },
+   {
+      "id":"565",
+      "title":"[PT-BR] Escalando uma api para 100K req/s com o poder do Azure",
+      "description":"Através de um exemplo real, vamos aprender como podemos tunar nossa api para chegar no máximo de requisições possíveis com o minimo de hardware.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Rafael Ferreira dos Santos"
+      ]
+   },
+   {
+      "id":"566",
+      "title":"[PT-BR] Containers no Azure: Docker, Kubernetes e suas diferentes possibilidades",
+      "description":"Azure Containers Instances, Azure Container Registry, Azure App Service, Azure Kubernetes Service... São inúmeras as possibilidades para utilização de containers Docker na nuvem Microsoft, cada uma mais adequada a um conjunto de cenários específicos. Acompanhe esta apresentação para conhecer os diferentes serviços com suporte a Docker e Kubernetes no Microsoft Azure, bem como as possibilidades oferecidas por cada um!",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Renato Jose Groffe",
+         "Luiz Carlos Faria "
+      ]
+   },
+   {
+      "id":"567",
+      "title":"[PT-BR] Do Obscuro ao Analytics com Azure Data Factory, Azure Stream Analytics e Power BI",
+      "description":"Nessa palestra vamos mostrar como trazer seus dados em tempo real para um dashboard em Power BI, usando Azure Data Factory e Azure Stream Analytics.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Dornel",
+         "Flávio Farias"
+      ]
+   },
+   {
+      "id":"568",
+      "title":"[PT-BR] Rastreabilidade, Confiança e Dados com Azure Blockchain e Power BI",
+      "description":"Nessa sessão iremos demonstrar como podemos criar um ambiente confiável e com rastreabilidade para diversos segmentos do mercado que precisam demonstrar transparência em seus processos através dos recursos do Azure Blockchain. Além disso vamos mostrar como utilizar os dados gerados pelo Azure Blockchain no Power BI para ajudar na tomada de decisões e analises.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Rogério da Rocha Rodrigues"
+      ]
+   },
+   {
+      "id":"569",
+      "title":"[PT-BR] Migrando ambientes de Infra, Dev e Data para o Azure",
+      "description":"Demonstrar de forma prática as principais técnicas de migração de ambientes para o Azure",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Rubens Guimarães"
+      ]
+   },
+   {
+      "id":"570",
+      "title":"[PT-BR] Creando Tokens con VS Code y Azure Blockchain Service (Español) \nCreating Tokens with VS Code and Azure Blockchain Service (English)",
+      "description":"Las criptomonedas son sin dudas el más popular pero no el único caso de uso de Tokenización. Analizaremos distintos escenarios y entenderemos cómo implementarlos utilizando VS Code y Azure Blockchain Service. \n\nCryptocurrencies are by far the most popular but not the only use case for Tokenization. We will analyze different scenarios and understand how to implement them using VS Code and Azure Blockchain Service.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Sebastián Leonardo Pérez"
+      ]
+   },
+   {
+      "id":"571",
+      "title":"[PT-BR] Buscas Cognitivas com Azure Search",
+      "description":" A busca cognitiva é um recurso de IA do Azure Search, usado para extrair texto de imagens, blobs e outras fontes de dados não estruturadas com o objetivo de enriquecer o conteúdo e habilitar cenarios que antes exigiam interação manual.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Thiago Custódio ",
+         "Alexandro Prado"
+      ]
+   },
+   {
+      "id":"572",
+      "title":"[PT-BR] Azure Serveless: Guía de supervivencia",
+      "description":"Serverless es una arquitectura que vino para quedarse, porque ofrece simplicidad en la gestión y reduce las complicaciones de la puesta en marcha de la plataforma de desarrollo. Microsoft tiene como oferta Azure Functions que permite construir funciones que se alinean con esta arquitectura, pero ¿cómo emepzamos a trabajar? En la charla/guía se tratará desde el origen del concepto a los tipos de funciones que se pueden construir en la plataforma, los lenguajes soportados, casos de uso y recomendaciones para empezar a trabajar, sin morir en el intento.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Victor Silva"
+      ]
+   },
+   {
+      "id":"573",
+      "title":"[PT-BR] Funções e Habilidades, como criar experiências de conversação utilizando Alexa, Azure e C#",
+      "description":"A palestra aborda temas como desenvolvimento de habilidades para Alexa, arquitetura Serverless com funções do Azure e integração continua com Azure DevOps.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "William Rodriguez"
+      ]
+   },
+   {
+      "id":"574",
+      "title":"[PT-BR] Infraestrutura como Código com Terraform no Microsoft Azure",
+      "description":"A Terraform é uma ferramenta poderosa para automatizar a implantação de sua infraestrutura em várias nuvens, tanto públicas quanto privadas. Neste palestra, Implementando o Terraform no Microsoft Azure, você aprenderá sobre as nuances de implantar infraestrutura como código no Azure com a Terraform, e aproveitar os serviços no Azure para melhorar sua automação. Ao final da palestra, você terá as habilidades e o conhecimento de usar o Terraform necessários para implantar e gerenciar a infraestrutura como código no Microsoft Azure.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Gilson Banin"
+      ]
+   },
+   {
+      "id":"575",
+      "title":"[PT-BR] Migrando o seu banco de dados SQL on-prem para o Azure",
+      "description":"O objetivo deste conteúdo é explicar as soluções da Microsoft para ajudar nosso Cliente a migrar seu ambiente de banco de dados on-prem para o Azure.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "André Rodrigues",
+         "Fabio Gentile"
+      ]
+   },
+   {
+      "id":"576",
+      "title":"[PT-BR] Como assassinar sua governança de dados em projetos que envolvam Data Warehouse e Data Lake?",
+      "description":"Neste talk, vou apresentar como prejudicar a governança de dados corporativa, implementado Data Warehouse e Data Lake de formas isoladas. Além disso, apresentar as boas prática de arquitetura de dados para projetos corporativos.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Claudio Bonel"
+      ]
+   },
+   {
+      "id":"577",
+      "title":"[PT-BR] Soluções de Alta Disponibilidade com Azure SQL",
+      "description":"O Azure SQL oferece um conjunto de soluções de alta disponibilidade para as empresas que necessitam oferecer serviços cada vez mais disponíveis aos seus clientes. Nesta jornada apresentaremos os modelos e as situações de uso para você aproveitar ao máximo os recursos de alta disponibilidade do Azure SQL",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Cristiano Rodrigues"
+      ]
+   },
+   {
+      "id":"578",
+      "title":"[PT-BR] A DBA virou Engenheira de Dados, e agora?",
+      "description":"As carreiras mudam e novas oportunidades surgem. \nQuais foram as mudanças na carreira da DBA mais apaixonada do mundo, quando ela foi trabalhar no time de Engenharia de Dados da XP Inc?",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Danielle Monteiro"
+      ]
+   },
+   {
+      "id":"579",
+      "title":"[PT-BR] Azure + PaaS + Bancos de Dados = S2",
+      "description":"Nessa apresentação, irei demonstrar uma visão geral sobre as soluções de bancos de dados no Azure utilizando o modelo de PaaS, isto é, a Microsoft trabalha para manter a infraestrutura funcionando e você trabalhar pra agregar valor ao negócio e propor melhores soluções. \n\nVeremos o Azure SQL Database, Azure Managed Instance, MySQL e Postgres. IMPERDÍVEL!",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Dirceu Resende"
+      ]
+   },
+   {
+      "id":"580",
+      "title":"[PT-BR] Query Store - Como ele pode ajudar na análise de Lentidão do seu ambiente?",
+      "description":"Nessa palestra você vai aprender o que é o Query Store, possíveis problemas ao habilitar, novidades no SQL 2019 e, principalmente, como essa feature pode te ajudar na análise de Lentidão do seu ambiente.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Fabrício França Lima"
+      ]
+   },
+   {
+      "id":"581",
+      "title":"[PT-BR] O poder do Power Automate na integração com o SQL",
+      "description":"Nesta sessão vamos abordar como o Power Automate(Flow) facilita a vida de quem sabe tudo sobre dados mas tem dificuldade de criar integrações com outras plataformas, como o Forms, Teams e etc. ",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes"
+      ]
+   },
+   {
+      "id":"582",
+      "title":"[PT-BR] SQL SERVER 2019: features que todo DBA deveria conhecer",
+      "description":"O SQL SERVER 2019 revoluciona o mundo dos SGBDs com o Big Data Clusters e todas suas melhorias! Mas e os recursos para os DBAs? Existem muitos! Nesta apresentação vamos mostrar alguns deles como: Memory Optimized Tempdb metadata, Transparent Database Encryption enhancements, Accelerated Database Recovery, Data virtualization e é claro: SQL SERVER na plataforma que você escolher!",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Marcelo Adade"
+      ]
+   },
+   {
+      "id":"583",
+      "title":"[PT-BR] Alta Disponibilidade no SQL SERVER like a boss",
+      "description":"Neste workshop vamos explorar as atuais opções de Alta Disponibilidade e recuperação de desastres no SQL SERVER. Dentre as tecnologias apresentadas, vamos falar sobre: Log Shipping, Always On Failover Cluster Instances e Availability Groups. ",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Marcelo Adade"
+      ]
+   },
+   {
+      "id":"584",
+      "title":"[PT-BR] Hacking Database",
+      "description":"Como garantir a segurança de seu ambiente de banco de dados SQL Server​?\nEventos por falha de segurança acontecem o tempo todo, como estamos nos preparando para isso?\nJá pensou se o seu banco de dados está completamente protegido contra invasões e ataques?\nVamos Hackear um SQL Server e identificar como configurar meu banco de dados para evitar falhas e vulnerabilidades além de conhecer alguns protocolos e melhores práticas de segurança para seus ambientes.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Marcus Vinícius Bittencourt"
+      ]
+   },
+   {
+      "id":"585",
+      "title":"[PT-BR] Aplicando o Resumable Online Index Create in SQL Server 2019",
+      "description":"No SQL Server 2017, foram introduzidas reconstruções de índices on-line resumíveis que permitem pausar e retomar as operações de reconstrução de índices. Este recurso é especialmente útil em ambientes OLTP ocupados onde há janelas de manutenção limitadas. Exploramos esse recurso no SQL Server 2017 Resumable Online Index Rebuilds e More on Resumable Online Index Rebuilds in SQL Server 2017.\n\nRecentemente, a Microsoft lançou a pré-visualização do SQL Server 2019 no Ignite 2018. O SQL Server 2019 contém muitos aprimoramentos de recursos em relação às versões anteriores do SQL Server. Nesta dica, vamos analisar os aprimoramentos para a criação de índices online no SQL Server 2019.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Pedro Antonio Galvão Junior"
+      ]
+   },
+   {
+      "id":"586",
+      "title":"[PT-BR] PowerShell for SQL Server DBAs V3.0",
+      "description":"Nesta sessão você vai se apaixonar pelo PowerShell!\nVenha saber como funciona o PowerShell/PowerShell Core, como usar o .NET Framework, WMI, vários módulos PowerShell e como criar seu próprio módulo para tarefas de administração em ambientes mistos e distribuídos.\nBaseado na minha experiência desde 2008 e com uma experiência anterior em ambientes Linux, o PowerShell é uma ferramenta altamente útil para instâncias e bancos de dados do administrador SQL Server.\nVejo você então!",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Crespi"
+      ]
+   },
+   {
+      "id":"587",
+      "title":"[PT-BR] 10 dicas de performance com SQL",
+      "description":"Os detalhes fazem a diferença, vamos discutir sobre alguns pontos que podem fazer a sua aplicação ficar muito mais rápida mexendo apenas no banco de dados.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Vinicius Mussak"
+      ]
+   },
+   {
+      "id":"588",
+      "title":"[PT-BR] Virei DBA, e agora?",
+      "description":"Se você é analista de sistemas+DBA, desenvolvedor+DBA, gerente de infra-estrutura+DBA, suporte técnico+DBA, estagiário+DBA ou mesmo um mero DBA, esse palestra pode ser útil pra você. Depois de trabalhar por vários anos com desenvolvimento e consultoria, o MVP em SQL Server Fabiano Amorim tenho gastado vários dias com tarefas do dia a dia de um DBA. Nessa sessão ele irá falar um pouco dessa atividade e mostrar algumas dicas que podem fazer seu dia a dia mais tranquilo. Espere assuntos do tipo, checklist, powershell, dicas e mais dicas...",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Fabiano Amorim"
+      ]
+   },
+   {
+      "id":"589",
+      "title":"[PT-BR] Você já teve problemas com o TEMPDB? Eu também e sei como te ajudar a resolvê-los",
+      "description":"O TEMPDB sempre é um dos principais gargalos de qualquer instância de banco de dados utilizando o SQL Server, correto?\nMas você sabia que temos como ajustar o servidor de banco de dados para que o TEMPDB deixe de ser o principal causador de problemas de performance em seu ambiente?\nNesta sessão vamos conversar sobre a arquitetura do TEMPDB e como podemos monitorar e melhorar a performance da sua instância com apenas alguns ajustes rápidos e simples de serem feitos.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Vitor Fava"
+      ]
+   },
+   {
+      "id":"590",
+      "title":"[PT-BR] Ransomwares: Caso reais e solucionados",
+      "description":"Se você quer ver um ransomware em ação, assista nossa apresentação onde traremos alguns casos reais e como eles aconteceram e como foram solucionados.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "André Ruschel",
+         "Rafael Felipe"
+      ]
+   },
+   {
+      "id":"591",
+      "title":"[PT-BR] Reduzindo custos no Azure em 42%",
+      "description":"Como o uso das ferramentas corretas e analise profunda para utilização dos recursos do Azure pode reduzir sua conta, sem limitação de funcionalidades.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Marcelo Sincic"
+      ]
+   },
+   {
+      "id":"592",
+      "title":"[PT-BR] Entregando projetos em uma empresa Top 500 da Fortune.",
+      "description":"Nesta palestra você irá aprender as lições aprendidas após um ano entregando projetos nos Estados Unidos para uma empresa Top 500 da Fortune.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Thiago Custódio "
+      ]
+   },
+   {
+      "id":"593",
+      "title":"[PT-BR] Workshop de Entity Framework Core",
+      "description":"Como usar corretamente o EntityFramework, Dicas, Truques e boas Praticas",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Carlos dos Santos ",
+         "Rafael Almeida Santos"
+      ]
+   },
+   {
+      "id":"594",
+      "title":"[PT-BR] BDD com .NET Core",
+      "description":"Behavior Driven Development (BDD ou ainda uma tradução Desenvolvimento Guiado por Comportamento)  é uma técnica de desenvolvimento de software ágil que surge com a iniciativa de tentar  construir software cada vez mais orientado ao negócio. Iremos ver na prática como implantar BDD com .NET e aprender um pouco mais sobre as diferenças de BDD, DDD e TDD.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Jhonathan de Souza Soares"
+      ]
+   },
+   {
+      "id":"595",
+      "title":"[PT-BR] Boas práticas em construção de APIs",
+      "description":"Com o crescimento da utilização de APIs ter uma boa implementação pode fazer sua API ser performática, simples e de fácil uso. Aprenda com o Guidelines da Microsoft como desenvolver melhor a sua API.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Rafael Cruz"
+      ]
+   },
+   {
+      "id":"596",
+      "title":"[PT-BR] Blazor: novidades introduzidas no .NET 5",
+      "description":"O Blazor representa uma das maiores inovações relacionadas à desenvolvimento Web introduzidas na plataforma .NET desde a sua criação, evoluindo como uma tecnologia robusta para criação de aplicações de alta performance através da junção de todos os recursos disponíveis no C# e WebAssembly.  Venha conhecer nessa palestra todas as melhorias presentes no .NET 5 em relação a este fantástico Single Page Application da plataforma .NET.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Alexandre Malavasi ",
+         "Gustavo Bellini Bigardi"
+      ]
+   },
+   {
+      "id":"597",
+      "title":"[PT-BR] Fullstack C#",
+      "description":"Nesta palestra vamos ver como podemos utilizar C# para entregar literalmente todo um ecossistema, do backend ao aplicativo móvel! Vamos passar por ASP.NET, APIs, SPAs e Mobile, tudo com C#, compartilhando a mesma regra de negócio! Topa este desafio?",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Andre Baltieri "
+      ]
+   },
+   {
+      "id":"598",
+      "title":"[PT-BR] Gerenciando APIs com Azure API Management",
+      "description":"Venha entender como expor suas APIs, configurar políticas de acesso e consumo e como utilizar o Terraform para habilitar uma esteira de CI/CD para o API Management.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "André Dias"
+      ]
+   },
+   {
+      "id":"599",
+      "title":"[PT-BR] Domain-Driven Design: Out of the Box",
+      "description":"Venha conhecer o Domain-Driven Design (DDD) visto de outro ângulo. Saiba quais devem ser suas motivações ao considerar a abordagem do Domain-Driven Design e os erros mais comuns cometidos por profissionais e empresas na concepção de suas soluções.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "André Luiz Secco",
+         "Thiago Bertuzzi"
+      ]
+   },
+   {
+      "id":"600",
+      "title":"[PT-BR] Não existe microsserviços sem OAuth2 e OpenId Connect",
+      "description":"Em ambientes cada vez mais complexos. Microsserviços tem se tornado ponto de partida para alcance de performance e escalabilidade. Mas diante de tantas API's como fazer Autenticação e Autorização? Veja nessa palestra porque os protocolos OAuth2 e OpenId Connect são indispensáveis para seu ambiente e como o IdentityServer4 é indispensável para você.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Bruno Brito",
+         "Eduardo Pires"
+      ]
+   },
+   {
+      "id":"601",
+      "title":"[PT-BR] Modernizando suas aplicações Desktop com WinUI",
+      "description":"Você tem aplicações Desktop que gostaria de modernizar, sem ter a necessidade de reescrevê-las? Com WinUI, você pode transformar a interface de usuário de suas aplicações, sem a necessidade de reescrevê-las, adotando a interface de usuário do Windows 10.\nEsta palestra irá mostrar como usar o WinUI para modernizar suas aplicações desktop.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Bruno Sonnino"
+      ]
+   },
+   {
+      "id":"602",
+      "title":"[PT-BR] Arquiteturas que você deve e sempre quis conhecer",
+      "description":"Já tentou imaginar como é a arquitetura e o stack das aplicações mais populares do mundo?\nO que existe por trás delas fazendo tudo funcionar? O que você deveria conhecer daquilo?\n\nConheça também as arquiteturas de vanguarda que você com certeza deveria saber implementar.\nComo separar o que é hype e o que é duradouro? Como identificar a melhor arquitetura para sua aplicação?\n\nConfira nesta apresentação a resposta para estas e muitas outras perguntas.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Eduardo Pires",
+         "Bruno Brito"
+      ]
+   },
+   {
+      "id":"603",
+      "title":"[PT-BR] Programación Asincrónica en .Net Core",
+      "description":"Hoy se vuelve muy importante conocer los principios asíncronos  y como podemos utilizarlos .Net. Veremos los conceptos principales, problemas comunes, escenarios complejos  y que palabras claves que nos brinda C# para poder trabajar asincrónicamente.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Fernando Sonego"
+      ]
+   },
+   {
+      "id":"604",
+      "title":"[PT-BR] Desconstruindo o .NET",
+      "description":"Nesta palestra veremos como o .NET é por dentro, para entender como ele faz para entregar tanto poder e ao mesmo tempo manter-se tão fácil de programar. Veremos como a estrutura de tipos funciona, como o compilador lida com LINQ, async/await e yield e outras construções, além de como a orientação a objetos é implementada internamente.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Giovanni Bassi"
+      ]
+   },
+   {
+      "id":"605",
+      "title":"[PT-BR] Construindo sites com Jekyll, WSL 2, VS Code, Azure DevOps e Azure Storage",
+      "description":"Jekyll é uma ótima ferramenta para construir sites estáticos, mas o Windows e o Azure não eram os melhores ambientes para trabalhar com eles... Até agora! Saiba nesta sessão como aproveitar o Windows Subsystem for Linux (WSL) do Windows 10, Visual Studio Code, Azure DevOps e Azure Storage para agilizar o seu processo de desenvolvimento e implantação de sites Jekyll!",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Igor Abade"
+      ]
+   },
+   {
+      "id":"606",
+      "title":"[PT-BR] Meu VS Code roda no GitHub! ",
+      "description":"Que o VS Code é a ferramenta de desenvolvimento mais versátil não temos dúvida, mas sabia que agora você pode usar o VS Code direto do navegador? E mais, totalmente integrado ao GitHub?",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Julio Arruda"
+      ]
+   },
+   {
+      "id":"607",
+      "title":"[PT-BR] O futuro do .NET",
+      "description":"Entre o Microsoft Build do ano passado e deste ano foram anunciadas várias novidades em torno do .NET como .NET 5 , MAUI, C# 9, Blazor, ASP.NET Core, EF Core etc. O .NET 5 é uma grande mudança no mundo do .NET pois unifica todos os runtimes pré-existentes em um só. Nessa palestra, vamos entender melhor essas mudanças e qual o impacto no nosso dia a dia e no futuro.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Letticia Nicoli",
+         "Mahmoud Ali"
+      ]
+   },
+   {
+      "id":"609",
+      "title":"[PT-BR] Cloud application patterns",
+      "description":"Attendees will explore architectures and cloud application patterns with Azure Services thru problem-solving exercises. The session would include: experienced session lead who would be committed to setting the agenda and activities, technical mentors who would answer your technical questions, ability to learn a breadth of Azure services from IaaS, PaaS, Serverless, IoT, AI, Data and analytics, and from these identify the right services to build a solution",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Marcelo Tokunaga Nakamura",
+         "Iury Oliveira"
+      ]
+   },
+   {
+      "id":"610",
+      "title":"[PT-BR] Arquitetura Hexagonal com .NET Core",
+      "description":"Nessa palestra será abordado conceitos e implementação de uma arquitetura Hexagonal com .NET Core.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Ray Carneiro da Silva"
+      ]
+   },
+   {
+      "id":"611",
+      "title":"[PT-BR] Como integrar .NET com Azure Stream Analytics no Power BI?",
+      "description":"Veja como criar um Dataset com uma estrutura específica no Power BI Services, a fim de receber um POST via API com um formato JSON disparado a partir de uma app em C# (Console e Blazor), o qual mostrarão dados diretamente nos gráficos de um Dashboard em tempo real. Este cenário pode ser aplicado à diversos mercados de IOT, utilizando os recursos do Azure Stream Analytics (ASA).",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Renato Haddad",
+         "Claudenir Andrade"
+      ]
+   },
+   {
+      "id":"612",
+      "title":"[PT-BR] Polly: aplicações .NET resilientes e um melhor tratamento de falhas",
+      "description":"Precisou tratar falhas em suas aplicações .NET e isso resultou em inúmeros blocos try-catch, dificult posteriormente a manutenção e contribuindo para uma menor legibilidade do código? \n\nQue tal implementar sem grandes complicações e malabarismos de codificação o uso de padrões voltados ao tratamento e recuperação de erros como Retry, Timeout, Fallback e Circuit Breaker?\n\nAcompanhe esta apresentação para conhecer mais sobre a biblioteca Polly e como a mesma pode ser uma resposta a essas perguntas, contribuindo assim para a obtenção de aplicações .NET, ASP.NET e Xamarin mais resilientes e com um código mais elegante!",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Renato Jose Groffe",
+         "Thiago Bertuzzi",
+         "Milton Camara"
+      ]
+   },
+   {
+      "id":"613",
+      "title":"[PT-BR] Como avançar na Power Platform com Azure Functions e Logic Apps",
+      "description":"Será utilizado um aplicativo no Power Apps e fluxos no Power Automate, de modo que tenhamos uma aplicação robusta e avançada, lendo dados de uma Azure Function e executando fluxos de acordo com requisições vindas de uma Logic App para criar históricos de problemas em sua API dentro do Common Data Service (Dynamics 365). A ideia é aprimorar os seus conhecimentos de Power Apps e Power Automate, permitindo pensar além de um cenário simples nas organizações.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Renato Romão",
+         "Renato Jose Groffe"
+      ]
+   },
+   {
+      "id":"614",
+      "title":"[PT-BR] Orquestração de Processos Serverless com Azure Durable Functions",
+      "description":"Aprenda a orquestrar processos com Azure Durable Functions, mantendo estado no ambiente serverless das Azure Functions, sem esforço e com muita performance e escalabilidade!",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Robson Rocha de Araújo",
+         "Renato Jose Groffe",
+         "Ewerton Rodrigues Jordão"
+      ]
+   },
+   {
+      "id":"615",
+      "title":"[PT-BR] Performe sua aplicação com .Net Core",
+      "description":"O .Net Core está ficando cada dia melhor, e nós, developers, podemos fazer muito mais com um código bem escrito. Nesta palestra mostraremos diversas formas de otimizar a performance de sua aplicação para que você faça mais gastando menos.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Thamirys Gameiro",
+         "Roberta Arcoverde"
+      ]
+   },
+   {
+      "id":"616",
+      "title":"[PT-BR] Conectando o front-end direto no banco de dados: dicas e truques.",
+      "description":"Aumentar a performance na responsividade do app, melhorando a experiência de usuário, e reduzindo consumo de memória usando uma combinação de gRPC e AsyncEnumerable.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Thiago Lunardi "
+      ]
+   },
+   {
+      "id":"617",
+      "title":"[PT-BR] Docker: dicas e truques para o dia a dia",
+      "description":"A adoção de Docker nos mais variados tipos de projetos e cenários vem crescendo a cada dia, com soluções de mercado consagradas também oferecem hoje suporte a containers. Além disso, as possibilidades com Docker são inúmeras, exigindo um esforço contínuo de aprendizado.  A existência de diversas funcionalidades na linha de comando, bem como a possibilidade de combinação de diferentes tecnologias a partir do uso de containers, conferem uma grande flexibilidade e produtividade no trabalho com Docker. E como podemos nos beneficiar com tudo isto?  Acompanhe esta apresentação e fique por dentro de diversas dicas e truques extremamente úteis no dia a dia com Docker.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Renato Jose Groffe"
+      ]
+   },
+   {
+      "id":"618",
+      "title":"[PT-BR] Docker e ASP.NET Core - Tirando proveito de um novo modelo de hospedagem",
+      "description":"Docker e Orquestração de Containers trazem novas oportunidades para o uso de diversos recursos que são interessantes, como Secrets, Variáveis de Ambiente não globais, Volumes, Rede, Proxy Reverso, são tecnologias que precisamos nos ambientar na hora de migrar nossas aplicações para containers.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Luiz Carlos Faria "
+      ]
+   },
+   {
+      "id":"619",
+      "title":"[PT-BR] Docker no WSL2 para desenvolvedores .NET",
+      "description":"WSL2 chega trazendo novidades ao Linux Subsystem for Linux, e novidades no uso de Docker no Windows. Vamos abordar essas novidades e o que muda para quem está desenvovolvendo com ele.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Luiz Carlos Faria "
+      ]
+   },
+   {
+      "id":"620",
+      "title":"[PT-BR] Continuous Quality Enablement",
+      "description":"Nessa nova era das empresas digitais e negócios mais ágeis é necessário implementar uma nova estratégia de software buscando a qualidade continua. Nós discutiremos o cenário de Continuous Quality Enablement e a sua integração com estratégias de Continual Testing, Continous Integration, , Continous Delivery para promover uma nova uma nova experiência  no desenvolvimento de aplicações digitais.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Ramon Durães"
+      ]
+   },
+   {
+      "id":"621",
+      "title":"[PT-BR] Angular, Build e Deploy automatizado com Azure DevOps",
+      "description":"A ideia dessa talk será demonstrar como automatizar o processo de deploy de uma aplicação Angular, utilizando o Azure DevOps nos  seguintes ambientes: desenvolvimento, homologação e produção.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Thiago da Silva Adriano"
+      ]
+   },
+   {
+      "id":"622",
+      "title":"[PT-BR] Big Data e DevOps - A Evolução de Big Data com Kubernetes ",
+      "description":"Nessa sessão você irá aprender como é possível mover seus workloads de Big Data para o Kubernetes e não somente isso irá aprender a como gerencia-los de forma eficiente e inteligente. ",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Luan Moreno M. Maciel",
+         "Leonardo Souza"
+      ]
+   },
+   {
+      "id":"623",
+      "title":"[PT-BR] Criando ambientes de teste dinâmicos com Helm e Kubernetes",
+      "description":"Todo desenvolvedor sonha com um ambiente completo onde possa testar seu código sem atrapalhar o desenvolvimento de seus colegas, o problema com este sonho é que esta infraestrutura é complexa demais para ser criada e destruída manualmente. É ai que podemos usar o poder do Kubernetes e do Helm para criarmos ambientes de testes individuais totalmente dinâmicos para cada um dos seus commits!",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Lucas Santos"
+      ]
+   },
+   {
+      "id":"624",
+      "title":"[PT-BR] Crie pipeline incríveis de entrega contínua com o Azure DevOps ",
+      "description":"Nesta seção iremos demonstrar como podemos utilizar os Pipelines de Deploy do Azure DevOps e assim iniciar na cultura de DevOps com Continous Integration e Continuos Delivery. Iremos demonstrar como fazer deploys utilizando Azure App Service até chegar no deploy de containers utilizando Kubernetes",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Rafael Cruz"
+      ]
+   },
+   {
+      "id":"625",
+      "title":"[PT-BR] Gestão Ágil de Projetos com Azure DevOps",
+      "description":"DevOps é uma união de pessoas, processos e produtos para habilitar entregas continuas de valores para os usuários finais. Aprenda nesta seção como iniciar a cultura Ágil e criar entregas de valores para seus cliente utilizando o Azure DevOps com ferramenta sua ferramenta de gestão ágil",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Rafael Cruz"
+      ]
+   },
+   {
+      "id":"626",
+      "title":"[PT-BR] Integrando Azure DevOps e Power BI",
+      "description":"Extraia metricas de times de desenvolvimento utilizando a integracao entre o Azure DevOps e o Power BI",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Vinicius Moura"
+      ]
+   },
+   {
+      "id":"627",
+      "title":"[PT-BR] Mobile DevOps demystified",
+      "description":"The mobile world has its own unique set of challenges and these need to be considered also for DevOps. In this session we will discuss what are the key aspects to be considered and what are the most popular tools and platforms to be used.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Nicolas Milcoff"
+      ]
+   },
+   {
+      "id":"628",
+      "title":"[PT-BR] Azure DevOps + App Center: DevOps multi-staging para seu app",
+      "description":"Fazer um release de aplicações Web já é uma tarefa repetitiva e trabalhosa, no mundo de aplicativos móveis isso é pior ainda, porque temos que lidar com plataformas diferentes, lojas diferentes, e até dispositivos diferentes. Definitivamente não queremos perder tempo fazendo tarefas repetitivas quando elas podem ser automatizadas.  Com Azure DevOps + App Center vamos mostrar como fazer a distribuição completa da sua aplicação, desde o build até a loja, passando por releases para beta testers, tudo de maneira otimizada, seguindo e mantendo as melhores práticas de DevOps, e tudo isso nas plataformas iOS e Android.  Veja como você pode começar a automatizar essas tarefas repetitivas e ainda ter um maior controle de quais versões são liberadas para quais usuários.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Mahmoud Ali",
+         "Robson Amorim"
+      ]
+   },
+   {
+      "id":"629",
+      "title":"[PT-BR] O poder do Power Automate na integração com o Azure DevOps",
+      "description":"Nesta sessão iremos abordar as inúmeras possibilidades que o Power Automate traz na integração com o Azure DevOps, desde a automação na criação de team projects até ao envio de notificações automáticas",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes"
+      ]
+   },
+   {
+      "id":"630",
+      "title":"[PT-BR] Segurança em suas imagens com Azure Container Registry e Azure Security Center",
+      "description":"Demonstração de segurança do ACR integrado ao ASC",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Osanam Giordane"
+      ]
+   },
+   {
+      "id":"631",
+      "title":"[PT-BR] Acabando de uma vez por todas com o descontrole do ciclo de desenvolvimento",
+      "description":"Se você já trabalha desenvolvimento, provavelmente já deve ter visto várias maneiras de utilizar e controlar branchs e versões para corrigir um bug ou mesmo para lançar uma nova feature em produção. Isso tem se tornado ainda mais complicado depois que inserimos outros pontos de qualidade e automação para agilizar o processo. É comum que merges catastróficos, reverts e até mesmo um lançamento de feature junto com uma correção vá para produção. Saber trabalhar e controlar todo este cenário de forma correta pode te ajudar a ter boas noites de sono e a deixar o seu trabalho mais efetivo.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Kono "
+      ]
+   },
+   {
+      "id":"632",
+      "title":"[PT-BR] Infrastructure as code azure devops",
+      "description":"Nesta palestra vou mostrar como podemos codificar nossa infraestrutura usando os recursos do Azure DevOps com ferramentas do PowerShell e Terraform dentro do Microsoft Azure com provisionamento de ambientes voltado para IaaS de forma automatizada.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Jefferson Castilho"
+      ]
+   },
+   {
+      "id":"633",
+      "title":"[PT-BR] DevOps as Code",
+      "description":"Em casa de ferreiro, espeto de pau é coisa do passado! Nesta palestra você verá como é possível ter pipelines que criam toda infra \"de DevOps\"de maneira automatizada. Se existe Build as Code, Infra as Code... por que não criar a sua \"infra de DevOps as code\" também? Repositórios, pipelines, build, projetos através de código.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Emmanuel Gomes Brandão",
+         "Wesley Camargo"
+      ]
+   },
+   {
+      "id":"634",
+      "title":"[PT-BR] \"Cheat Sheet\" da Infra as a Code para ITPro/Infraestrutura",
+      "description":"Você é de infraestrutura e precisa aprender a lidar com conceitos de Devops, Repositório, Git, Visual Code, ARM, Powershell/AzCli/Terraform para automatizar a implementação de infraestrutura? Então este bate papo é para você que precisa dar os primeiros passos nesta jornada e não tinha ideia por onde começar.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Eroilton Borges Jr",
+         "Renato Gregio"
+      ]
+   },
+   {
+      "id":"635",
+      "title":"[PT-BR] Azure DevOps e GitHub, qual caminho seguir?",
+      "description":"Atualmente temos duas ferramentas para DevOps, o Azure DevOps e o GitHub, e uma dúvida que surge é, qual dos dois usar? Ainda devo usar o Azure DevOps? Nessa apresentação busco tirar suas dúvidas sobre o tema",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Julio Arruda"
+      ]
+   },
+   {
+      "id":"636",
+      "title":"[PT-BR] Pipelines automatizadas - Dev e Ops atuando em conjunto de forma ágil",
+      "description":"Demonstração de pipeline CI/CD utilizando a publicação de artefatos (aplicação e terraform) e provisionamento do ambiente com a publicação da aplicação. Abordagem de Git/Github, Azure DevOps, Terraform, Ansible e Azure.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Osanam Giordane",
+         "Albert Tanure"
+      ]
+   },
+   {
+      "id":"637",
+      "title":"[PT-BR] Reduza o custo do seu ambiente e seja mais produtivo com Containers!",
+      "description":"Demonstração de provisionamento de aplicação em container para sua utilização no Azure Web Apps, abordando também Azure Container Registry e Azure Container Instances.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Osanam Giordane",
+         "Albert Tanure"
+      ]
+   },
+   {
+      "id":"638",
+      "title":"[PT-BR] Infraestrutura como código com Pulumi",
+      "description":"Já não é novidade que devemos cuidar da nossa infraestrutura da mesma forma que cuidamos do nosso código. Scripts devem ser versionados, testados e implantados continuamente garantindo que tenhamos um ambiente estável e facilmente recuperavel. E se estes scripts pudessem ser escritos na mesma linguagem que sua aplicação? Esta é a propost do Pulumi criado com o objetivo de aproximar a infra das pessoas desenvovedoras tornando este processo ainda mais integrado ao dia-a-dia.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Alexandre Santos Costa"
+      ]
+   },
+   {
+      "id":"639",
+      "title":"[PT-BR] GitHub Actions: descomplicando o build/deployment automatizados de seus projetos",
+      "description":"Concebido com o intuito de simplificar a automação de build/deployment de aplicações, o GitHub Actions é um serviço compatível hoje com as principais plataformas de desenvolvimento e cloud computing do mercado. Acompanhe esta apresentação e saiba como tirar proveito deste serviço nos mais variados projetos de software.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Renato Jose Groffe",
+         "Julio Arruda"
+      ]
+   },
+   {
+      "id":"640",
+      "title":"[PT-BR] Como Provisionar Ambientes Multi-Cloud com Terraform",
+      "description":"Esta sessão descreve como criar soluções de infraestrutura multi-cloud com Terraform usando integrações com Visual Studio Code, Azure Devops,  Kubernetes, eTerraform Registry. ",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Josué Vidal"
+      ]
+   },
+   {
+      "id":"641",
+      "title":"[PT-BR] Implantando APIs em cenários Multicloud",
+      "description":"Esqueça aquela discussão sobre \"Qual nuvem é melhor?\". No mundo real, temos que lidar com vários provedores de cloud e, em alguns cenários, até mesmo combiná-los para atender requisitos de nossos porjetos. Então, vamos ver na prática como implantar uma API no Azure com AKS, no Google Cloud Platform com o GKE e no OpenShift. É isso aí, multicloud na prática com demos completamente do zero para você entender e aplicar no seu dia a dia.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "André Dias"
+      ]
+   },
+   {
+      "id":"642",
+      "title":"[PT-BR] Se DevOps é sobre pessoas, então por que só se fala de ferramentas?",
+      "description":"Apesar de DevOps ser sobre \"pessoas, processos e ferramentas\", na maior parte do tempo o que se vê é pessoas falando apenas de CI/CD, como se isso fosse DevOps. Nesta palestra, vamos lembrar como DevOps é muito mais que automação de build e release - desde as suas origens no Lean Manufacturing, passando por aspectos de gestão de trabalho, quebra de silos e motivação de times.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Igor Abade"
+      ]
+   },
+   {
+      "id":"643",
+      "title":"[PT-BR] A jornada de uma app – De on-premises para Azure com Windows containers!",
+      "description":"Containers é um tópico quente do momento. E muitas empresas estão adotando Kubernetes para suportar suas aplicações rodando na nuvem e on-premises. Nesta sessão vamos mostrar como modernizar uma aplicação existente usando Windows Containers e mover nosso web site de on-premises para a nuvem com Azure Kubernetes Service.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Vinicius Apolinario"
+      ]
+   },
+   {
+      "id":"644",
+      "title":"[PT-BR] Conheça o novo Microsoft Project",
+      "description":"O novo Project Online foi lançado em outubro, esta sessão iremos mostrar em detalhes o novo produto e como ele pode te ajudar a gestão de projetos e tarefas.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Andre Xavier",
+         "Allan Rocha"
+      ]
+   },
+   {
+      "id":"646",
+      "title":"[PT-BR] Automatizando processos com o Power Automate e o Project for the Web",
+      "description":"Após o lançamento do Novo Project, muitas empresas estão necessitando da customização de fluxos e processos que antes eram feitos no SharePoint Designer 2013 ou manualmente via código. Com esta grande demanda, vamos explorar as possibilidades de automatizações de processos e fluxos dentro do Novo Project usando o Power Automate.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Renato Romão"
+      ]
+   },
+   {
+      "id":"647",
+      "title":"[PT-BR] Gerando Relatórios e Avisos Automáticos de seus projetos",
+      "description":"Nesta sessão abordaremos como o Power Automate facilita a geração de relatórios e alertas de seus projetos de maneira fácil e automática, com esses alertas você conseguirá visualizar dados de seu projeto assim que forem disponibilizados e na plataforma que você quiser",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes"
+      ]
+   },
+   {
+      "id":"648",
+      "title":"[PT-BR] Customizando seu ambiente do Project for the Web com o PowerApps Component Framework (PCF)",
+      "description":"Com o Novo Project, todas customizações antes que eram feitas usando JavaScript, Html e Css dentro de páginas de detalhes do projeto, hoje ficaram para trás. A nova ferramenta, permite a customização usando o PowerApps Component Framework (PCF) com desenvolvimento Web e códigos fáceis, permitindo desenvolver vários produtos conforme a sua necessidade.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Renato Romão",
+         "Gustavo Moraes"
+      ]
+   },
+   {
+      "id":"649",
+      "title":"[PT-BR] Criando um relatório de tendências no Project Online com Power Automate, CDS e Power BI",
+      "description":"Muitas empresas que usam o Project Online para apoiar seu processo de gerenciamento de projetos desejam comparar seus projetos para entender sua evolução ao longo de um período de tempo. Nesta sessão, aprenderemos como criar snapshots de portfólio usando o Power Automate, para que os dados possam ser armazenados periodicamente no SharePoint e usados pelo Power BI para criar um relatório de análise de tendências",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Andre Xavier",
+         "Raphael Santos"
+      ]
+   },
+   {
+      "id":"650",
+      "title":"[PT-BR] Power Platform & Gestão de Projetos: criando um aplicativo no PowerApps para obter dados do Project Online",
+      "description":"Power Platform & Gestão de Projetos: criando um aplicativo no PowerApps para obter dados do Project Online",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Andre Xavier",
+         "Raphael Santos"
+      ]
+   },
+   {
+      "id":"651",
+      "title":"[PT-BR] Novidades da gestão de tarefas e projetos e um bate papo entre os 4 MVPs de Project do Brasil",
+      "description":"Novidades da gestão de tarefas e projetos no ecosistema Microsoft. Iremos passar pelo Planner, Project Online, Project para a Web e um bate papo entre os 4 MVPs de Project do Brasil",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Raphael Santos",
+         "Allan Rocha",
+         "Mario Trentim"
+      ]
+   },
+   {
+      "id":"652",
+      "title":"[PT-BR] Dynamics 365 Project Operations",
+      "description":"A Microsoft lançou recentemente uma nova oferta para a Dynamics 365 chamada Project Operations. Esta nova oferta combina a automação de serviços do Project anterior com finanças e operações e se tornou um novo serviço único. Obtenha tudo o que você precisa para administrar seu negócio de serviços. Capacite suas equipes para ganhar mais contratos, otimizar a utilização de recursos, acelerar a entrega de projetos e maximizar a lucratividade com o Dynamics 365 Project Operations. De vendas a faturamento, Project Operations é uma solução completa para gerenciar serviços profissionais.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Allan Rocha",
+         "Tiago Paes"
+      ]
+   },
+   {
+      "id":"653",
+      "title":"[PT-BR] Melhores Práticas para Gerenciar Projetos Sociais",
+      "description":"Nesta palestra, você vai conhecer as metodologias da PM4NGOS.org, incluindo o framework Project Management for Development (PMD Pro), utilizando por Organizações Sem Fins Lucrativos ao redor do mundo. Veremos como essas metodologias podem ser operacionalizadas utilizando ferramentas Microsoft, especialmente a customização do Project for the Web para PMD Pro.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Mario Trentim",
+         "Edson Marinho"
+      ]
+   },
+   {
+      "id":"654",
+      "title":"[PT-BR] Gestão de Projetos Governamentais: Metodologia GP3 no MCTIC",
+      "description":"Nesta palestra, vamos apresentar o framework GP3 desenvolvido pelo Escritório de Projetos do Ministério da Ciência e Tecnologia (MCTIC). Atualmente, o MCTIC está adotando Microsoft Project Online para a gestão dos seus portfólios, programas e projetos em todas as unidades.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Mario Trentim"
+      ]
+   },
+   {
+      "id":"655",
+      "title":"[PT-BR] Gerenciando Projetos com Microsoft Teams",
+      "description":"Nesta palestra, você vai aprender como gerenciar projetos utilizando as equipes e canais do Microsoft Teams. Vamos apresentar as funcionalidades para comunicação e colaboração, incluindo co-autoria em arquivos, mensagens e reuniões e também aplicativos adicionais (SharePoint, Lists, Planner, Project Web, e outros). Veremos como gerenciar pequenos e grandes projetos, combinando metodologias ágeis e tradicionais.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Mario Trentim"
+      ]
+   },
+   {
+      "id":"658",
+      "title":"[PT-BR] Integrando o Project Online com o Azure DevOps",
+      "description":"Muitas organizações utilizam o Azure DevOps para seus projetos de desenvolvimento de software, enquanto ainda utilizam o Project Online como uma plataforma de gerenciamento de projetos, programas e portfólio.\nEnquanto cada uma das plataformas possuem um foco diferente, ainda assim podem existir simbioses e relacionamento entre as duas, uma vez que atividades monitoradas no DevOps podem estar diretamente relacionadas a projetos que são gerenciados no Project Online.\nCom base nesse cenário, essa palestra terá como objetivo a criação de flows no Power Automate que automatizem a comunicação bi-direcional entre o Project Online e o Azure DevOps.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Raphael Santos",
+         "Andre Xavier"
+      ]
+   },
+   {
+      "id":"659",
+      "title":"[PT-BR] Machine Learning para devs com ML.NET",
+      "description":"Vamos explorar como podemos utilizar aprendizagem de máquina, de forma fácil, nas aplicações que desenvolvemos no dia a dia utilizando nossas habilidades em .NET através do ML.NET, um framework open source e cross-platform!",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Letticia Nicoli"
+      ]
+   },
+   {
+      "id":"660",
+      "title":"[PT-BR] AutoML: Automatically generate ML models",
+      "description":"Automated machine learning, also referred to as AutoML, is the process of automating the time consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality. Automated ML is based on a breakthrough from Microsoft Research division. On this session we will walk through demos that show the full potential of this process.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Patricio Cofre"
+      ]
+   },
+   {
+      "id":"662",
+      "title":"[PT-BR] Apresentação de cases com o Microsoft Hololens",
+      "description":"Apresentação e demonstração de cases desenvolvidos para industria, saúde e varejo utilizando os dispositivos imersivos da Microsoft - Hololens-VS2. ",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Bruno Anjos"
+      ]
+   },
+   {
+      "id":"663",
+      "title":"[PT-BR] Ética em Data Science",
+      "description":"Os dados são o tesouro ou a perdição de nossa sociedade? Como usar a ética como diferencial competitivo e ainda colaborar para uma sociedade melhor.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Danielle Monteiro"
+      ]
+   },
+   {
+      "id":"664",
+      "title":"[PT-BR] Modern DataWarehouse using Azure",
+      "description":"Nesta palestra explorarei o Azure Data Factory e os tópicos relacionados a databricks com demonstrações usando o portal Azure sobre como provisionar, configurar e o uso de práticas recomendadas para organizar seu ambiente de dados para uma engenharia de dados. Construindo assim um DataWarehouse moderno para o seu cliente.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Caroline Lavecchia",
+         "Marcelo Adade"
+      ]
+   },
+   {
+      "id":"665",
+      "title":"[PT-BR] Azure Databricks - Estruture projetos de Big Data, IA e ML combinados",
+      "description":"Como utilizar o Databricks para estruturar projetos de Big Data, IA e ML orientados a demandas de projetos corporativos. ",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Rubens Guimarães"
+      ]
+   },
+   {
+      "id":"666",
+      "title":"[PT-BR] Adicione Inteligência de Conversação aos seus Aplicativos usando LUIS",
+      "description":"Com o uso de Inteligência Artificial, iremos aprender a criar aplicativos capazes de entender a linguagem humana. Usando a tecnologia de ensinamento de máquina e interface visual da Microsoft, criaremos modelos personalizados de linguagem que interpretam as metas do usuário e extraem informações importantes de frases de conversação, tudo isso sem nenhuma experiência em Machine Learning.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Bruna Lanzarini"
+      ]
+   },
+   {
+      "id":"667",
+      "title":"[PT-BR] Usando IA para criar memes",
+      "description":"Usei a IA da Azure para fazer um serviço que cria memes baseado em um meme já feito e a foto de uma pessoa! Nessa palestra vou mostrar como cheguei a conclusão de fazer isso e também uns conceitos básicos de IA.\nOlha esse artigo aqui: https://igorhalfeld.com/posts/2020-06-29-azure-brasil-como-foi",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Igor Luiz Halfeld"
+      ]
+   },
+   {
+      "id":"668",
+      "title":"[PT-BR] Adicionando Inteligência Artificial em seus projetos de software",
+      "description":"Nesta sessão, o ex-MVP em IA Diego Nogare, apresentará como você pode adicionar tecnologias de Inteligência Artificial em seus projetos, através de Serviços Cognitivos do Azure, sem se preocupar em construir a solução do zero.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Diego Nogare"
+      ]
+   },
+   {
+      "id":"669",
+      "title":"[EN-US] Affective Computing – bringing humans and machines closer through emotions",
+      "description":"Research have shown that emotions play an integral role in decision making, cognition, perception, learning and more. If we want our computers to be intelligent and be able to interact with us we need to ensure that they are able to recognize, understand and express emotions. This is the basic assumption of the field of Affective Computing. In this talk I will give an overview of Affective computing and how it can be applied in order to make our interaction with machines more suitable to us as humans.\n\nFirst I will give an introduction to the field starting with established findings from the field of psychology on how we best can measure emotions.\n\nThen I will describe how the field of Affective Computing has transformed from its origin in the 90’s until now when it is an established research field. I will highlight some of the technology enablers that has made Affective Computing a hot topic nowadays and give some examples of API and services that we as developers can use as of today.\n\nIn the second part of my talk I will give some examples on application scenarios across various fields (retail, medical, education and social). After that I will be show casing what is in the front line now. I will conclude my presentation with some recommendations on how this affects us as developers going forward.\n",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Håkan Silfvernagel"
+      ]
+   },
+   {
+      "id":"670",
+      "title":"[PT-BR] Alexa + Power Virtual Agents: Automatizando sua casa sem código",
+      "description":"A Microsoft está trabalhando em cada da aprimorar as integrações e automatizações da sua casa e sua empresa com a Power Platform. Com a atualização que será anunciada no 2º Semestre de 2020, teremos a possibilidade de integrar com a Alexa e farei uma demonstração deste potencial.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Renato Romão",
+         "Douglas Romão"
+      ]
+   },
+   {
+      "id":"671",
+      "title":"[PT-BR] Reconhecimento facial em contêineres no seu ambiente on-premises",
+      "description":"Os serviços cognitivos em contêineres permitem aproveitar o poder da Inteligência Artificial onde você precisa, possibilitando executar os serviços em suas instalações locais e na plataforma Azure. \nExecute a detecção facial local ou na nuvem com contêineres para vários cenários, seja em uma loja de varejo ou mesmo em um ambiente de fábrica, em que a segurança de dados e a baixa latência são fundamentais.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Marcelo Paiva",
+         "Wbenay Soares"
+      ]
+   },
+   {
+      "id":"672",
+      "title":"[PT-BR] O que você deve saber sobre Redes Neurais Artificiais antes de começar a desenvolver sistemas com Machine Learning",
+      "description":"Em 1943 Warren McCulloch e Walter Pitts publicaram um artigo onde foi explicado pela primeira vez como funcionaria o raciocínio de uma rede neural artificial, baseada em um modelo matemático. Desde então os estudos na área passaram por altos e baixos, e hoje ganharam popularidade principalmente pela evolução do hardware possibilitando avanços muito significativos. Nesta palestra vamos entender quais são as características de um rede neural, quais dessas são imitadas por uma rede neural artificial, quais são os tipos de redes neurais artificiais existentes, quais problemas podem ser solucionados com cada tipo, e como trabalhar corretamente com elas, analisado outputs métricas.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Letícia Pedroso"
+      ]
+   },
+   {
+      "id":"673",
+      "title":"[PT-BR] Internet das Coisas: Inovação e mercado",
+      "description":"Estamos em 2020 e nunca se inovou tanto com nos últimos 10 anos, inovações bilionárias, Inovações erradas, ou no tempo errado. Afinal de contas, o que é Inovar? Aprenda técnicas de inovação, evite erros e armadilhas da inovação nesta palestra. Saiba por onde começar e o que não fazer. Saia desta palestra com lado esquerdo do cérebro cheio de ideias sobre como aplicar isso em seu dia a dia, em seu produto, em sua empresa.....ou quem sabe em sua futura startup.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Claudenir Andrade",
+         "Vivian Heinrichs"
+      ]
+   },
+   {
+      "id":"674",
+      "title":"[PT-BR] Dispositivos de IoT",
+      "description":"Quando falamos de IoT, muitos pensam em um sensor somente ou as vezes em uma plaquinha das que vemos na Internet, nesta apresentação você vai ver que existe uma gama de tipos de dispositivos e entender como eles funcionam e enviam/recebem dados para nuvem.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Jorge Maia",
+         "Anderson Rodrigues"
+      ]
+   },
+   {
+      "id":"675",
+      "title":"[PT-BR] Criando Aplicações IoT com Dotnet",
+      "description":"O .NET Core pode ser utilizado para criar sistemas IoT. O projeto dotnet/iot é multiplataforma, suporta centenas de sensores, displays e dispositivos que usam GPIO, SPI, I2C, PWM, serial e muito mais. Nessa talk apresento na prática em uma placa de desenvolvimento rodando Linux Embarcado, o dotnet/iot e suas facilidades.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Matheus Castello",
+         "Claudenir Andrade"
+      ]
+   },
+   {
+      "id":"676",
+      "title":"[PT-BR] .NET Standard para Microcontroladores com Meadow F7",
+      "description":"Você sabia que com o Meadow F7 é possível utilizar .NET Standard em um microcontrolador com apenas 216MHz e 16MB RAM? O projeto do Meadow F7 consiste de uma placa de desenvolvimento e ecossistema completo de ferramentas de software, para o desenvolvedor C# se sentir em casa no mundo dos sistemas embarcados e IoT microcontrolados. Nessa talk eu apresento na prática o Meadow F7 e suas funcionalidades.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Matheus Castello",
+         "Claudenir Andrade"
+      ]
+   },
+   {
+      "id":"677",
+      "title":"[PT-BR] IoT Edge - Codificando a Inteligência na Ponta!",
+      "description":"Como funciona o Azure IoT Edge? Esta é uma pergunta que pode lhe ajudar a acelerar um projeto de Internet das Coisas. Nesta seção você verá como criar um device simulado usando o Azure IoT Edge, bem como um módulo para processar na ponta os dados mesmo que não tenha conectividade.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Jorge Maia",
+         "Anderson Rodrigues"
+      ]
+   },
+   {
+      "id":"678",
+      "title":"[PT-BR] Building IoT Cloud Native Solutions with Azure",
+      "description":"Connected sensors, devices, and intelligent operations can transform businesses and enable new growth opportunities with Microsoft Azure Internet of Things (IoT) services. \nDuring this Presentation we are going to provide you  an overview of the recommended architecture and implementation technology choices for how to build Building IoT Cloud Native Solutions with Azure. \n",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Iury Oliveira"
+      ]
+   },
+   {
+      "id":"679",
+      "title":"[PT-BR] As melhores práticas de segurança aplicadas a Internet das Coisas, contribuições do projeto Azure Sphere",
+      "description":"Nesta palestra você irá ver as principais práticas de segurança para projetos de Internet das Coisas, que foram compartilhadas pela Microsoft, e que são os princípios utilizados na criação do Azure Sphere. Desde a sua concepção, o Azure Sphere reune as melhores práticas e tecnologias para garantir um alto nível de confiabilidade, resiliência e disponibilidade das soluções. A palestra pretende apresentar em detalhes os conceitos adotados neste produto para contribuir com a melhoria dos requisitos de segurança das soluções de Internet das Coisas.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Walter Coan"
+      ]
+   },
+   {
+      "id":"680",
+      "title":"[PT-BR] Dados com Time Series Insights",
+      "description":"Nesta sessão você vai conhecer o Time Series Insights, uma solução completa para séries temporais que vai muito além do storage! Serão abordados o Javascript SDK, modelos de uso e bilhetagem.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Jorge Maia",
+         "Rebeca Sousa"
+      ]
+   },
+   {
+      "id":"681",
+      "title":"[PT-BR] Synapse + IoT?",
+      "description":"Já ouviu falar do Azure Synapse? Nesta sessão você vai conhecer este serviço de dados da Microsoft e ver como podemos integrar com projetos de Internet das Coisas.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Armando Lacerda",
+         "Jorge Maia"
+      ]
+   },
+   {
+      "id":"682",
+      "title":"[PT-BR] Digital Twins",
+      "description":"Já ouviu falar em Gêmeos Digitais? Nesta sessão você conhecerá o novo serviço do Azure para IoT chamado Azure Digital Twins.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Rebeca Sousa",
+         "Jorge Maia"
+      ]
+   },
+   {
+      "id":"683",
+      "title":"[PT-BR] IoT na Prática: Casos de Sucesso com Internet das Coisas",
+      "description":"Nesta sessão Vivian Heinrichs e Jorge Maia trazem cenários reais de aplicações com uso de Internet das Coisas",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Vivian Heinrichs",
+         "Jorge Maia"
+      ]
+   },
+   {
+      "id":"684",
+      "title":"[PT-BR] Mundo Maker",
+      "description":"Informações, dicas, links e toda a experiencia compartilhada de quem criou uma placa educacional do zero, que está na mão de milhares de jovens, em centenas de Instituições de Ensino.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Jamil Lopes",
+         "Claudenir Andrade"
+      ]
+   },
+   {
+      "id":"685",
+      "title":"[PT-BR] User Interface usando .NET Core, WinUI, XAML para aplicações IoT Linux é Possível?<br>",
+      "description":"Durante a UnoConf 2020 tivemos o anúncio do suporte à Linux no Uno Platform 3.0. Nessa\ntalk apresento na prática essa novidade, demonstrando uma interface construída com Uno\nPlatform usando .NET Core, WinUI, XAML e dotnet/iot para interagir com sensores e pinos\nde uma placa de desenvolvimento rodando Linux Embarcado.",
+      "track":"IoT",
+      "visible":true,
+      "speakers":[
+         "Matheus Castello",
+         "Claudenir Andrade"
+      ]
+   },
+   {
+      "id":"686",
+      "title":"[PT-BR] Uso de Cloud com transparência para esforços de sustentabilidade",
+      "description":"Nessa sessão, vamos falar sobre como ajudar sua empresa a relatar, compreender e reduzir melhor o impacto ambiental de sua organização, obtendo maior transparência em suas emissões totais de carbono baseadas na nuvem da Microsoft com a Calculadora de Sustentabilidade da Microsoft.\nVamos entender melhor o impacto do uso da nuvem em suas emissões, obtendo insights sobre as emissões de carbono da sua organização relacionadas aos serviços em nuvem da Microsoft com esta solução de transparência de sustentabilidade.\nVamos mostrar como ganhar visibilidade usando um painel de sustentabilidade para entender as emissões de gases do efeito estufa associadas ao Dynamics 365 e ao uso da nuvem Azure, assim como entender a causa raiz das mudanças nas emissões rastreando as emissões reais e evitadas ao longo do tempo, medir o impacto ambiental dos serviços em nuvem da Microsoft em sua emissão de carbono com uma contabilidade de carbono consistente e precisa, e calcular como reduzir ainda mais as emissões movendo aplicativos e serviços adicionais para a nuvem.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Alexandro Prado",
+         "Fabio Hara"
+      ]
+   },
+   {
+      "id":"687",
+      "title":"[PT-BR] Windows Virtual Desktop: Além do docs.microsoft.com",
+      "description":"O Windows Virtual Desktop pode entregar uma experiência rica de trabalho, separando os perfis de usuário e aplicativos do Sistema Operacional.\nNesta sessão você verá como criar essa estrutura modular usando o FsLogix e MSIX, entender o seu funcionamento e as formas de entregá-la ao usuário final.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Carlos Lauff",
+         "Andre Luiz Matos Oliveira"
+      ]
+   },
+   {
+      "id":"688",
+      "title":"[PT-BR] Testando sua InfraEstrutura com Powershell",
+      "description":"Aprenda como testar os componentes da sua infraestrutura de maneira automatizada usando powershell.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Guido Oliveira"
+      ]
+   },
+   {
+      "id":"689",
+      "title":"[PT-BR] Adicione práticas do DevOps ao desenvolvimento de módulos PowerShell",
+      "description":"Você é um desenvolvedor de módulos PowerShell? Sabia que o GitHub e o Visual Studio Code podem ser seu melhores amigo na construção do seu módulo? Nesta sessão, os participantes aprenderão como usar os recursos do GitHub para construir e publicar e implantar módulos PowerShell, a partir da experiência obtida com o desenvolvimento e publicação de módulos OSS PowerShell reais.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Igor Abade"
+      ]
+   },
+   {
+      "id":"690",
+      "title":"[PT-BR] Recuperação de Desastres: Como configurar um site de contingência para os seus servidores usando o Azure Site Recovery (ASR)",
+      "description":"Sessão prática onde iremos discutir como planejar corretamente a estratégia para a implantação de um site de contingência para os seus servidores no Azure. Serão abordadas ferramentas tais como ASR Deployment Planner, ASR, etc.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Igor Humberto ",
+         "Alexandro Prado"
+      ]
+   },
+   {
+      "id":"691",
+      "title":"[PT-BR] Migração de um Workload da AWS para o Azure",
+      "description":"Nesta palestra vou mostrar como podemos estar migrando Workloads da AWS usando o Azure Site Recovery de um passo a passo de um ambiente IaaS.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Jefferson Castilho",
+         "Alexandro Prado"
+      ]
+   },
+   {
+      "id":"692",
+      "title":"[PT-BR] Azure Migrate na Prática",
+      "description":"Aprenda como tirar o melhor proveito do Azure Migrate levando seus workloads locais para o Azure utilziando uma ferramenta nativa, gratuita e extremamente eficaz.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Lucas Almeida Romão",
+         "João Rodrigo Aparecido"
+      ]
+   },
+   {
+      "id":"693",
+      "title":"[PT-BR] A Evolução do Windows Virtual Desktop em meio a Pandemia",
+      "description":"Com a pandemia o uso de ferramentas de trabalho remoto teve um grande salto em diversas empresas que nem imaginavam um dia ter usuários trabalhando de forma remota.Para acompanhar todo esse ritmo a Microsoft liberou diversas mudanças no ambiente de Windows Virtual Dekstop, demonstraremos toda evolução e melhores práticas com casos reais de utilização do WVD.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Rafael Felipe",
+         "Andre Luiz Matos Oliveira",
+         "Diego Moreira Matos"
+      ]
+   },
+   {
+      "id":"694",
+      "title":"[PT-BR] Monitorando Recursos do Azure com Grafana",
+      "description":"Entenda como uma solução OpenSource pode auxiliar no gerenciamento do seu ambiente Azure, criando dashboards incríveis, e tornando o processo de monitoramento do seu ambiente muito mais eficiente e assertivo.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Vinicius Mozart",
+         "Ismael Casagrande "
+      ]
+   },
+   {
+      "id":"695",
+      "title":"[PT-BR] Estratégias de migração e custos para infraestrutura SAP no Azure",
+      "description":"Será abordado as possíveis estratégias de migração e custos de infraestrutura SAP para o Microsoft Azure, fornecendo ferramentas e processos valiosos para os seus cenários SAP de missão crítica.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Eduardo Kieling"
+      ]
+   },
+   {
+      "id":"696",
+      "title":"[PT-BR] Futuro do System Center Suite",
+      "description":"Nessa sessão veremos qual o roadmap da suite System Center e como as novas soluções em Cloud se integram com o pacote System Center.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Marcelo Sincic"
+      ]
+   },
+   {
+      "id":"697",
+      "title":"[PT-BR] Como sobreviver sem infraestrutura tradicional para gerenciar seus dispositivos Windows 10",
+      "description":"Como podemos substituir nossas ferramentas tradicionais de gerenciamento do Windows 10 em um domínio tradicional, por soluções totalmente em nuvem e via software? nesta sessão iremos abordar diversas diferenças em cenários de gerenciamento utilizando o EMS vs o domínio local, iremos explorar desde de a instalação do Windows 10 no dispositivo até a experiencia final do usuário.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Thiago Guirotto de Oliveira",
+         "Alexandro Prado"
+      ]
+   },
+   {
+      "id":"699",
+      "title":"[PT-BR] O verdadeiro segredo da LGPD",
+      "description":"Com base no livro recentemente. A palestra visa nortear aqueles buscam a conformidade da LGPD a entender o que lei exige e mais importante, conhecer quais ações ou soluções práticas devem ser adotadas. ",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Daniel Donda"
+      ]
+   },
+   {
+      "id":"701",
+      "title":"[PT-BR] Aproveitando as novas funcionlidades de Compliance Center - Insider Risk para melhorar a conformidade da sua empresa",
+      "description":"Nesta paletra apresentaremos as 3 novas funcionlidades do Insider Risk disponível no Compliance Center do Microsoft 365. Iremos abordar Communication Compliance, Insider Risk Management e Information Barrier. A palestra está recheada de demo !!",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Marcelo Hunecke",
+         "Marcelo Braz da Costa"
+      ]
+   },
+   {
+      "id":"702",
+      "title":"[PT-BR] Azure Sentinel e Central de Segurança - Juntos, melhor ainda para LGPD",
+      "description":"Demonstração prática de como combinar recursos do Azure Sentinel e Central de Segurança com foco em proteção de dados e IA para prevenção a falhas de segurança em projetos Cloud.",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Rubens Guimarães"
+      ]
+   },
+   {
+      "id":"703",
+      "title":"[PT-BR] Como será no Brasil o impacto da LGPD (Lei Geral de Proteção de Dados)?",
+      "description":"A LGPD entra em vigor em agosto de 2020, entenda o que ela é, o que representa, como impactará no seu negócio, como estar preparado e quais as oportunidades de negócio.",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Jamil Lopes"
+      ]
+   },
+   {
+      "id":"705",
+      "title":"[PT-BR] Developer Experience no Nubank",
+      "description":"Você já ouviu falar sobre Developer Experience? Entenda como provemos uma melhor experiência para as pessoas desenvolvedoras aqui no Nubank e possibilitamos que os times de produtos se concentrem no que é mais importante: liberar novas funcionalidades para nossos clientes, de maneira rápida, consistente e confiável.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Letticia Nicoli"
+      ]
+   },
+   {
+      "id":"706",
+      "title":"[PT-BR] .NET MAUI - O futuro do desenvolvimento de apps no .NET",
+      "description":"No último MSBuild a Microsoft apresentou o .NET MAUI (Multi-platform App UI) e trouxe a proposta de que ele seja a nova forma definitiva para desenvolver aplicativos na plataforma .NET. Mas não se engane, o .NET MAUI não é algo totalmente novo, ele é uma evolução do Xamarin.Forms, focada em resolver problemas na plataforma e permitindo mais flexibilidade e performance.\n\nLendo isso muitas dúvidas devem ter surgido: o que exatamente é o .NET MAUI? Como ele se encaixa no mundo do .NET hoje? E como fica o Xamarin? Xamarin.Forms vai morrer? O que ele traz de novo? É só uma mudança de nome?\n\nNessa palestra vou responder todas essas dúvidas e compartilhar sobre como está o desenvolvimento até o momento e o que ainda está por vir.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Mahmoud Ali",
+         "Robson Amorim"
+      ]
+   },
+   {
+      "id":"707",
+      "title":"[PT-BR] Cada dado no seu quadrado",
+      "description":"Para cada tipo de infromação devemos utiliar a ferramenta correta. Quando falamos de mobile temos diferentes opções de armazenamento para atender diferentes demandas. Nesta palestra irei demonstrar exemplos práticos de onde, como, e quando armazenar informações de maneira peformática e principalmente segura.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Alexandre Santos Costa"
+      ]
+   },
+   {
+      "id":"708",
+      "title":"[PT-BR] Do App à Cloud",
+      "description":"Acompanhe essa jornada e entenda o que é necessário para desenvolver uma aplicação mobile de eventos e uma arquitetura escalável e ágil na Azure para servir esse App.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Juliano Custódio",
+         "Albert Tanure"
+      ]
+   },
+   {
+      "id":"709",
+      "title":"[PT-BR] Controles para Xamarin.Forms",
+      "description":"A maioria dos apps que desenvolvemos possuem algumas características em comum, tais como: exibir textos, botões e listas. Para tal, utilizamos os controles do Xamarin.Forms para desenvolver as telas do nosso app. No entanto, as vezes precisamos fugir um pouco destes controles padrões para obter algo personalizado. E aí, como faz? Nessa talk vamos exemplificar tudo isso, mostrando o uso de controles de terceiros e também ensinar você a criar o seu próprio controle.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Ione Souza Junior",
+         "Thiago Bertuzzi"
+      ]
+   },
+   {
+      "id":"712",
+      "title":"[PT-BR] Como acelerar a criação de seus apps",
+      "description":"Durante a criação de seus apps você já se questionou como poderia ser mais produtivo? Venha conferir algumas dicas de como podemos agilizar a criação de nossos apps.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Ricardo Prestes"
+      ]
+   },
+   {
+      "id":"713",
+      "title":"[PT-BR] Você conhece o Shell?",
+      "description":"Nesta palestra você irá saber mais sobre este controle criado para facilitar a criação de aplicativos Xamarin.Forms. \n Adicionado na versão 4.0 do framework, este controle ganhou muita visibilidade pela comunidade \n e por seu grande potencial terá uma posição chave no MAUI.\n",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Pedro Henrique de Souza Jesus"
+      ]
+   },
+   {
+      "id":"714",
+      "title":"[PT-BR] Skia Sharp, Xamarin.Forms e XAML",
+      "description":"Skia é uma poderosa biblioteca gráfica vetorial 2D, de utilização livre, escrita em C++, compatível com uma variedade de hardwares e sistemas. Faz parte da engine gráfica de vários produtos como por exemplo Google Chrome, Android, Firefox, Mozilla entre outros. Nesta palestra vamos apresentar como utilizar Skia em seus projetos Xamarin.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Josimari Martarelli",
+         "Rafael Sacomani\n"
+      ]
+   },
+   {
+      "id":"715",
+      "title":"[PT-BR] Xamarin && SignalR | Comunicação em tempo real",
+      "description":"Nessa palestra vamos ver como podemos integrar o SignalR com nossas aplicações Xamarin, implementando uma comunicação em tempo real.",
+      "track":"Mobile",
+      "visible":true,
+      "speakers":[
+         "Felipe da Silva Baltazar"
+      ]
+   },
+   {
+      "id":"716",
+      "title":"[PT-BR] OneDrive for Business: do físico para a nuvem",
+      "description":"Nesta palestra vou explicar como abandonar definitivamente o método tradicional de compartilhamento de arquivos no ambiente corporativo.\nAprenda como sincronizar seus dados e a principal vantagem do processo :  trabalhar colaborativamente.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Alessandro Trovato",
+         "Cláudio Damasceno"
+      ]
+   },
+   {
+      "id":"717",
+      "title":"[PT-BR] SharePoint para Gerenciamento de Documentos",
+      "description":"Nessa sessão, vamos aprender na prática como aplicar o SharePoint Online para construção de um repositório de Gerenciamento de Documentos com controle de versão, aprovação e permissão.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Allisson Scalco",
+         "Heber Lopes"
+      ]
+   },
+   {
+      "id":"718",
+      "title":"[PT-BR] Produtividade com o Excel voltado para a Gestão Empresarial",
+      "description":"Você ou seus colaboradores gastam muitas horas no tratamento de dados e preparação de relatórios?\nRecebem XMLs de Notas Fiscais, mas fica fazendo lançamentos manuais no Excel para poder fazer análises e conferência de impostos?\nNesta palestra iremos mostrar importantes recursos do Excel para facilitar seu trabalho de coleta, tratamento de dados e geração de relatórios que facilitarão o seu dia a dia, gerando produtividade e economia para a empresa e facilitando a tomada de decisão.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Aparecido Diniz de Moraes",
+         "Márcio Alves Ribeiro"
+      ]
+   },
+   {
+      "id":"719",
+      "title":"[PT-BR] Como ser mais produtivo com o Microsoft Lists",
+      "description":"Nesta apresentação hands-on você conhecerá como funciona o Microsoft Lists e como tornar você e o seu time cada vez mais produtivos. \n - Criação de Listas\n - Manipulação e Formatação de Listas\n - Integração com Microsoft Teams\n - Automações com Power Automate + Microsoft Lists",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Carlos Daniel de Oliveira",
+         "Rafael Spinelli"
+      ]
+   },
+   {
+      "id":"720",
+      "title":"[PT-BR] Dicas de Power Query no Excel para Melhorar a Produtividade",
+      "description":"O Power Query é uma poderosa ferramenta de ETL disponível nativamente no Excel, desde a versão 2016, que oferece um poder tremendo de automação de tarefas rotineiras sem necessidade de conhecimento de programação por parte do usuário. Porém, criar uma automação de manipulação de dados utilizando cegamente a interface disponibilizada ao usuário, sem seguir atentamente o código que o Power Query gera automaticamente ao gravar cada passo do processo, pode levar a resultados catastróficos quando se aplica a consulta criada anteriormente a um novo conjunto de dados. \nNesta palestra vamos abordar o tipo de cenário onde será útil implementar o Power Query, e em seguida analisar alguns casos onde é necessário manter atenção redobrada para evitar algumas armadilhas que podem surgir. \nUsado com a devida precaução, o Power Query pode proporcionar um grande aumento de produtividade em qualquer empresa ou organização.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Célia Alves",
+         "Gerson Viergutz"
+      ]
+   },
+   {
+      "id":"721",
+      "title":"[PT-BR] Como Agendar Mensagens do Twitter usando Power Automate e Excel",
+      "description":"Muitas empresas usam software de agendamento de mensagens em suas redes sociais para poder dar conta do volume do conteúdo sob um calendário de Marketing. Muitas destas empresas já possuem disponíveis em seus pacotes do Microsoft 365, sem saber disto, uma ferramenta que resolve a necessidade: o Power Automate. Nesta palestra, vamos mostrar a você como o Power Automate pode se conectar com serviços da internet e vamos te ensinar como você pode automatizar publicações no Twitter. Você vai aprender a preparar o conteúdo das publicações em uma ferramenta que você e sua equipe já conhecem: o Excel",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Cristiano Galvão",
+         "Marcos Rieper"
+      ]
+   },
+   {
+      "id":"722",
+      "title":"[PT-BR] Produtividade com Outlook/Planner/GTD",
+      "description":"Outlook dispensa apresentações.\nPlanner te ajuda a gerenciar tarefas com fácil integração com sua equipe.\nGetting Things Done (GTD) é a metodologia reconhecida mundialmente pela sua simplicidade e eficácia. \nA combinação dos três tem feito a diferença para milhares de pessoas no Brasil e no mundo e será o tema dessa palestra.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Jacques Zetune",
+         "Augusto Cordeiro Corrêa Pinto"
+      ]
+   },
+   {
+      "id":"723",
+      "title":"[PT-BR] Como manter pelo tempo desejado no Azure Log Analytics relatórios de e-mails do Office 365",
+      "description":"Atualmente existem diversas normativas no qual requerem o armazenamento de certos dados por um tempo mínimo. No que se refere a Exchange Online, um dos dados principais que nos serve como relatório de análise é o Message Trace, que possui dados importantes dos e-mails como emitente, destinatário, data/hora, assunto etc. Por padrão, esses dados são mantidos por 10 dias no Office 365 para busca total de todos os e-mails, e 90 dias para solicitação de busca específica limitada. \nSe você possui interesse em manter esses dados pelo tempo desejado assim como a realização de queries customizadas para atender relatórios de fluxo de e-mail, essa sessão é feita para você!",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Denis Vilaça Signorelli",
+         "Vinicius Sipoli Reinert"
+      ]
+   },
+   {
+      "id":"724",
+      "title":"[PT-BR] Model-Driven Apps, uma nova solução para aplicativos de negócio com Power Apps e CDS",
+      "description":"Nessa sessão veremos o que são as Model-Driven apps e como podemos desenvolver aplicativos para nosso negócio de forma simples e prática utilizando essa plataforma integrada ao Power Platform.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Douglas Romão"
+      ]
+   },
+   {
+      "id":"725",
+      "title":"[PT-BR] Otimizando seus recursos com o sistema de Telefonia no Teams",
+      "description":"Aprofunde seus conhecimentos seobre integração da rede publica de telefonia no Teams. Saiba como o Phone System está pronto para seus cenários avançados, não importa o tamanho do seu negócio.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Edson Serrano",
+         "Marco Pessoa"
+      ]
+   },
+   {
+      "id":"726",
+      "title":"[PT-BR] Microsoft Teams funcionalidades de coexistência e cenários de migração",
+      "description":"Nessa sessão falaremos sobre as funcionalidades disponíveis em diversos cenários de migração e sobre as melhores práticas para uma migração transparente e segura",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Edson Serrano",
+         "Marco Pessoa"
+      ]
+   },
+   {
+      "id":"727",
+      "title":"[PT-BR] Conhecendo novas funcionalidades para Power Apps e Power Automate",
+      "description":"Nessa sessão, vamos apresentar na prática novas funcionalidades relacionadas a Power Apps e Power Automate.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Eduardo Amaral",
+         "Allisson Scalco"
+      ]
+   },
+   {
+      "id":"728",
+      "title":"[PT-BR] Integrando solução Power Apps com o SharePoint + Visio",
+      "description":"Neste palestra mostrarei como fazer a integração de uma aplicação de vendas de produtos com a visualização dos dados no Power BI, através do Visio",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Eduardo Amaral",
+         "Heber Lopes"
+      ]
+   },
+   {
+      "id":"729",
+      "title":"[PT-BR] Extração de Dados Online no Excel Utilizando o Power Query",
+      "description":"Nessa palestra demonstraremos o potencial do Power Query nativo do Microsoft Excel 365, com o objetivo de extrair dados de páginas da WEB (Web Scraping). Demonstraremos também como lidar quando os dados não estão em Tabela no HTML, e qual o ganho no uso dessa potente ferramenta.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Fábio Gatti",
+         "Rodrigo Aiosa"
+      ]
+   },
+   {
+      "id":"730",
+      "title":"[PT-BR] Resolvendo Problemas Complexos no Excel com o uso de Funções",
+      "description":"Serão apresentadas algumas possíveis soluções para problemas comuns que podem aparecer no Excel, e que aparentam não ter uma solução prática muito simples. Utilizaremos e demonstraremos o uso das novas funções e Matrizes Dinâmicas.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Fábio Gatti",
+         "Fábio Baldini"
+      ]
+   },
+   {
+      "id":"731",
+      "title":"[PT-BR] Migrando para Ambiente Moderno (Modern Workplace) de Office 365",
+      "description":"Os desafios de migrar para um ambiente moderno de Office 365 de forma rápida e segura em meio a uma pandemia",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Fernando Andreazi"
+      ]
+   },
+   {
+      "id":"732",
+      "title":"[PT-BR] Automatizando Documentos Word complexos com o Power Automate",
+      "description":"Um dos maiores problemas das organizações é o fato de gastarem inúmeras horas gerando documentos, sejam eles propostas ou relatórios. Nesta sessão você aprenderá como automatizar documentos complexos, que incluam imagens e tabelas usando o Power Automate",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes",
+         "Douglas Romão"
+      ]
+   },
+   {
+      "id":"733",
+      "title":"[PT-BR] Usando a inteligência da Power Platform(AI Builder) para capturar dados de documentos PDF",
+      "description":"Nesta sessão demonstraremos como usar a inteligencia da Power Platform (AI Builder) para geração de fluxos e processos que capturem dados de documentos PDF de maneira fácil e sem nenhuma linha de código",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes",
+         "Douglas Romão"
+      ]
+   },
+   {
+      "id":"734",
+      "title":"[PT-BR] Power BI e Big Data - Até onde eu consigo ir?",
+      "description":"Nessa sessão iremos demonstrar uso de datasets com alto volume de dados utilizando fontes com bilhoes de linhas mostrando as melhores arquiteturas para esse cenário.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Rafael Mendonça"
+      ]
+   },
+   {
+      "id":"735",
+      "title":"[PT-BR] Além do Drag and Drop - Integrando o R ao Power BI",
+      "description":"Nesta palestra, serão demonstrados exemplos de como o potencial da linguagem R  pode ser explorado para a criação de gráficos interativos no Power BI.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Orlando Gomes"
+      ]
+   },
+   {
+      "id":"736",
+      "title":"[PT-BR] Power BI e Machine Learning",
+      "description":"Como incrementar seus dashboard's em Power BI com análises avançadas utilizando Linguagem R e Python.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Dornel"
+      ]
+   },
+   {
+      "id":"737",
+      "title":"[PT-BR] Melhorando seu ETL com Data Flows no Power BI",
+      "description":"O processo de tratamento de dados, também conhecido como o 'Transform' do ETL, é um dos passos mais importantes para que possamos garantir a qualidade e integridade dos dados, antes que os mesmos sejam trabalhados na camada de visualização. Nesta palestra, vamos conhecer sobre o Data Flows e como este recurso pode permitir a criação de processos de ETL personalizados a serem consumidos por múltiplos relatórios.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Orlando Gomes"
+      ]
+   },
+   {
+      "id":"738",
+      "title":"[PT-BR] Deep Dive: Linguagem M no Power BI",
+      "description":"Um mergulho nas capacidades e potenciais da linguagem M do Power Query no Power BI para tratamento, preparação e enriquecimento de dados e como essa etapa é essencial para todo projeto no Power BI.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Laennder Alves",
+         "Karine Lago"
+      ]
+   },
+   {
+      "id":"739",
+      "title":"[PT-BR] Produtividade total com o Power Query no Power Bi",
+      "description":"Nesta Palestra demonstrarei técnicas de como você pode ser produtivo com o Power Query, com dicas de performance e boas práticas.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Luís Gustavo Nascimento Serra"
+      ]
+   },
+   {
+      "id":"740",
+      "title":"[PT-BR] Dicas e Truques sobre formatação condicional no Power BI",
+      "description":"Veja como aplicar uma formatação condicional em tabelas e matrizes no Power BI Desktop, desde a formatação de texto, cor de fundo, ícones e barras através da ferramenta visual ou via codificação em DAX, extendendo esta funcionalidade para qualquer outro objeto e com produtividade",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Renato Haddad"
+      ]
+   },
+   {
+      "id":"741",
+      "title":"[PT-BR] Power BI e Analysis Services - O Match Perfeito",
+      "description":"Nessa apresentação, vou demonstrar como utilizar uma ferramenta profissional de OLAP, 100% cloud e rodando como PaaS, para entregar um modelo de altíssima performance no Power BI, processando bilhões de linhas em menos de 1 segundo e mostrarei o que é um Self-Service BI de verdade.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Dirceu Resende"
+      ]
+   },
+   {
+      "id":"742",
+      "title":"[PT-BR] Entendendo a principal Função do DAX - CALCULATE",
+      "description":"CALCULATE é a função mais importante do DAX e com ela você pode realizar diversos tipos de cálculos, mas para isso é necessário entender de verdade o seu funcionamento.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Ruy Lacerda"
+      ]
+   },
+   {
+      "id":"743",
+      "title":"[PT-BR] Análise de Sentimento Real Time com Power BI",
+      "description":"Utilizando apps presentes no Office 365, essa DEMO irá construir um formulário (Microsoft Forms) para garantir o input de dados em um Real-time data set do Power BI via Power Automate, com aplicação de serviços cognitivos para analisar sentimentos, que será visualizado em tempo real para público presente.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Fernando Garcia"
+      ]
+   },
+   {
+      "id":"744",
+      "title":"[PT-BR] Power BI consumindo Big Dados",
+      "description":"Nesta sessão você irá entender como usar o Power BI para consumir dados de ambientes de Big Data nas três principais nuvens do mercado: Azure Sinapse Analytics, Amazon Databricks e Google Big Query.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Arthur Luz"
+      ]
+   },
+   {
+      "id":"745",
+      "title":"[PT-BR] Como fazer Streaming no Power BI",
+      "description":"O mundo atual está cada vez mais conectados e esses dados não podem mais esperar por atualizações. O PowerBI, com sua pontecialidade, consegue entregar solucões de dashboard em real-time e near real-time de uma forma facil e simples.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Bartira Lira"
+      ]
+   },
+   {
+      "id":"746",
+      "title":"[PT-BR] PowerBI Embedded: Implementado uma solução de visualização de dados de forma simples",
+      "description":"Nesta sessão discutiremos como funciona o PowerBI Embedded e qual a melhor maneira de configurá-lo e utilizá-lo na sua solução de análise de dados.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Vitor Fava"
+      ]
+   },
+   {
+      "id":"747",
+      "title":"[PT-BR] Deixe sua empresa de acordo com a LGPD levando seus dados para o Azure",
+      "description":"Muitas empresas estão passando por processos de auditoria, certificação ISO 27000, LGDP e até normas do BACEN. Esse processo gera custos, porém eles podem ser reduzidos utilizando serviços ou arquiteturas Paas e Iaas do Azure, principalmente no diz respeitos a dados.",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Dornel"
+      ]
+   },
+   {
+      "id":"748",
+      "title":"[PT-BR] Onde estão as soluções de segurança em Nuvem da Microsoft ?",
+      "description":"Conheça quais as soluções de segurança do Azure. Entenda como Sentinel, Security Center, Azure Firewall e outros podem ajudar a manter uma ambiente mais seguro",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Immaginario"
+      ]
+   },
+   {
+      "id":"750",
+      "title":"[PT-BR] Utilizando o Azure Sentinel para detectar um ataque de força bruta em um MSSQL Server",
+      "description":"Utilizando o Azure Sentinel para detectar um ataque de força bruta em um MSSQL Server Decrição: Nessa palestra iremos demonstrar como podemos fazer uso das tecnologias de análise e detecção do Azure Sentinel para responder a um ataque de força bruta a um Microsoft SQL Server. Também iremos demonstrar a construções de consultas KUSTO que irão nos auxiliar na detecção desses eventos.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Eduardo Kieling",
+         "Clairo Dorneles"
+      ]
+   },
+   {
+      "id":"751",
+      "title":"[PT-BR] MITRE ATT&CK",
+      "description":"MITER ATT & CK (Tactics, Techniques and Common Adversary Knowledge) was published in 2013 as a way to describe and categorize adverse behavior based on observations from around the world. ATT & CK is a structured list of known behaviors of attackers that were collected in tactics and techniques and expressed in a pair of matrices and also through STIX and TAXII. In the session we will see how we can use this powerful tool to test the security of different scenarios (on-premise & cloud) and how using AI we can automate it",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Enrique Gustavo Dutra"
+      ]
+   },
+   {
+      "id":"752",
+      "title":"[PT-BR] Prevenção de vazamento de dados em todas as camadas (CASB, AIP & DLP)",
+      "description":"Com a chegada da nova LGPD, descubra como prevenir o vazamento de dados confidenciais em todo seu ciclo de vida.",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Tiago Vieira Ferreira de Souza",
+         "Fernando Indech"
+      ]
+   },
+   {
+      "id":"753",
+      "title":"[PT-BR] Quer segurança? Desligue AGORA o seu wi-fi!",
+      "description":"Em 21 anos de remendos, redes sem fio permanecem inseguras até hoje. O WPA3 surgiu como a promessa para resolver uma grande parte dos problemas de segurança, mas foi vítima de uma vulnerabilidade grave, mal tendo sido lançado. E agora? O que fazer? como proteger sua rede sem fio? Nessa apresentação , traremos algumas dicas de mundo real para tornar sua rede sem fio mais segura, ou menos insegura, :).",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Alberto Oliveira",
+         "Gustavo Magella"
+      ]
+   },
+   {
+      "id":"754",
+      "title":"[PT-BR] Como montar uma estratégia de segurança para o Microsoft 365",
+      "description":"Aprenda nesta palestra como utilizar as ferramentas nativas do Microsoft 365 para garantir a segurança dos dados da sua empresa.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Wellington Agápto"
+      ]
+   },
+   {
+      "id":"755",
+      "title":"[PT-BR] A importância de um SIEM para a segurança do ambiente corporativo. Conheça o Azure Sentinel",
+      "description":"A importância de um SIEM para a segurança do ambiente corporativo. Conheça o Azure Sentinel",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Immaginario",
+         "Alberto Oliveira"
+      ]
+   },
+   {
+      "id":"756",
+      "title":"[PT-BR] Office 365 Security: Principais erros de clientes e como remediá-los",
+      "description":"O Office 365 é uma plataforma segura por design e oferece uma infinidade de recursos de segurança. Infelizmente, vários clientes cometem erros em sua configuração ou não consideram os riscos ao adotar (ou não adotar) um recurso específico no Office 365; em outros casos, os clientes não estão cientes de todos os recursos disponíveis. Como PFE, trabalhamos diariamente com os clientes, ajudando-os a melhorar sua postura de segurança e corrigir incidentes de segurança. Esta sessão tem como objetivo mostrar os erros mais frequentes que os clientes têm cometido no panorama italiano e fornecer as melhores práticas e recomendações de remediação, a fim de ajudá-lo a proteger a sua empresa e evitar riscos, preservando a melhor experiência do usuário.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Denis Vilaça Signorelli",
+         "Vinicius Sipoli Reinert"
+      ]
+   },
+   {
+      "id":"757",
+      "title":"[PT-BR] Ferramentas de Segurança Microsoft em ambiente on-premisse",
+      "description":"Nessa palestra focamos o uso de ferramentas comuns em VMs e serviços no Azure, mas aplicados em seu Datacenter loal.\nAplicares Azure Arc, Sentinel, Log Analytics, Monitor e Cloud App Security",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Marcelo Sincic"
+      ]
+   },
+   {
+      "id":"758",
+      "title":"[PT-BR] Dismistificando e implementando o Azure Sentinel em minha empresa.",
+      "description":"Nesta palestra iremos demostrar como dismistificar e implementar o Azure Sentinel em ambientes de Cloud, MultiCloud e On-premisses. Entenda como analisar sua infraestrutura e tomar as decisões de segurança com assertividade e rapidez através de Dashboard e automações.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Jorge Gerardo Vera",
+         "André Ruschel"
+      ]
+   },
+   {
+      "id":"759",
+      "title":"[PT-BR] Usando Livestream em Azure Sentinel Hunting",
+      "description":"Nessa talk iremos demonstrar essa nova feature do Azure Sentinel, que nos permite acompanhar quase em tempo real os testes de consultas quando os eventos estão acontecendos.  ",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Eduardo Kieling",
+         "Clairo Dorneles"
+      ]
+   },
+   {
+      "id":"760",
+      "title":"[PT-BR] Deep Dive nos recursos de criptografia de disco e gerenciamento de chaves do Azure",
+      "description":"O objetivo dessa sessão é apresentar os recursos de criptografia disponíveis no Azure com foco no Azure Disk Encryption (ADE) e também o gerenciamento de chaves através do Azure Key Vault.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Daniel Ribeiro",
+         "Renato Gregio"
+      ]
+   },
+   {
+      "id":"761",
+      "title":"[PT-BR] Proteção de identidade usando o Azure Security Center",
+      "description":"Nessa sessão iremos detalhar como podemos proteger e gerenciar nossas identidades utilizando o Azure Security Center",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Gustavo Magella",
+         "Alberto Oliveira"
+      ]
+   },
+   {
+      "id":"763",
+      "title":"[PT-BR] - Como implementar um modelo de segurança \"Zero Trust\"",
+      "description":"Organizações em todo o mundo têm usado os princípios do Zero Trust para melhorar a segurança e minimizar os riscos: verificar explicitamente, implementar acesso com privilégios mínimos e assumir a violação. Aprenda como o cenário de ameaças globais em evolução conduzirão o futuro do Zero Trust. Nesta sessão, Carlos Siqueira demonstrará como a plataforma Microsoft habilita nativamente a implantação de ponta a ponta do Zero Trust hoje e como o Zero Trust está evoluindo para combater as ameaças da próxima geração.",
+      "track":"Segurança da Informação",
+      "visible":true,
+      "speakers":[
+         "Carlos Siqueira"
+      ]
+   },
+   {
+      "id":"764",
+      "title":"[PT-BR] Automatizando meu primeiro processo de negócios com Office 365",
+      "description":"Nessa sessão, o aluno terá a oportunidade de acompanhar um exemplo de automatização de processo organizacional utilizando as ferramentas disponíveis no Office 365, como PowerApps, Microsoft Flow e SharePoint Online.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Heber Lopes",
+         "Allisson Scalco"
+      ]
+   },
+   {
+      "id":"765",
+      "title":"[PT-BR] Criando um chatbot usando Virtual Agents no PowerApps Portals e integrando ao Omnichannel do Dynamics 365",
+      "description":"Esqueça codificações ou dores de cabeça para criar um chatbot. Vamos aprender a criar um chatbot usando o Virtual Agents de forma prática e no modo \"arrasta e solta\", totalmente integrado ao PowerApps Portals. Além disso, o chatbot poderá ser direcionado ao chat humano vinculado ao Omnichannel do Dynamics 365. Complemente o seu conhecimento nesta palestra assistindo também o outro tema \"Implantando o atendimento via WhatsApp no módulo Omnichannel do Dynamics 365\"",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Idevar Junior",
+         "Thiago Cardoso Luiz"
+      ]
+   },
+   {
+      "id":"766",
+      "title":"[PT-BR] Overview da plataforma Dynamics 365 e seus módulos",
+      "description":"Você ainda não conhece a plataforma Dynamics 365? Ou então não conhece os detalhes do que se denomina uma plataforma CRM e/ou ERP? Nesta sessão, você terá um overview completo do Dynamics 365, e o poder das suas integrações à Power Platform.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Idevar Junior",
+         "Heber Lopes"
+      ]
+   },
+   {
+      "id":"767",
+      "title":"[PT-BR] Sua Escola está preparada para o \"novo normal\"?",
+      "description":"Dicas e demonstrações de como digitalizar e adaptar a sua escola para o momento em que vivemos, como utilizar o Microsoft 365 corretamente em sua Escola, para administradores, professores, alunos e responsáveis.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Jamil Lopes"
+      ]
+   },
+   {
+      "id":"768",
+      "title":"[PT-BR] Integração do Excel com o PowerApps e Power Automate",
+      "description":"O MS-Excel é o aplicativo mais utilizado nas empresas e podemos agilizar o trabalho de forma mais eficiente com a utilização dos recursos oferecidos pelo PowerApps e o Flow. Venha conhecer neste workshop como você poderá implementar estes recursos nas suas atividades.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Allisson Scalco",
+         "João Benito Savastano"
+      ]
+   },
+   {
+      "id":"769",
+      "title":"[PT-BR] Crie seu Conector Customizado para o Power Apps e Power Automate",
+      "description":"Nessa sessão abordaremos como criar um custom conector para Power Automate e consumir APIs públicas, Graph API e Azure Functions",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "João Lucindo",
+         "Beatriz Lourenço"
+      ]
+   },
+   {
+      "id":"770",
+      "title":"[PT-BR] Mantendo seu ambiente Office atualizado em cenários de trabalho remoto.",
+      "description":"Os participantes terão uma visão completa do processo de atualização do Microsoft 365 Apps (antigo Office ProPlus) para cenários de trabalho remoto. Serão apresentados casos reais, melhores práticas e funcionalidades do Microsoft Endpoint Configuration Manager (antigo SCCM) para esse cenário. Vamos falar de Delivery Optimization; Dynamic, lean, and universal Office packages e muito mais.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Marcelo Hunecke",
+         "Marcelo Lagden"
+      ]
+   },
+   {
+      "id":"771",
+      "title":"[PT-BR] Microsoft Teams | EXTRAINDO o máximo das suas REUNIÕES",
+      "description":"O Microsoft Teams permite que você organize e participe de reuniões e lives com a máxima segurança em um ambiente de alta performance. Aprenda a configurar os seus invites para que os seus convidados entrem como participantes e descubra quando usar o recurso Live ao invés da reunião tradicional.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Marco Aurélio Candido",
+         "Pedro Antonio Galvão Junior"
+      ]
+   },
+   {
+      "id":"772",
+      "title":"[PT-BR] OneNote: De 0 a 100",
+      "description":"",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Marco Aurélio Candido",
+         "Cláudio Damasceno"
+      ]
+   },
+   {
+      "id":"773",
+      "title":"[PT-BR] Pesquisa Operacional no Excel com Solver e Tomada de Decisão",
+      "description":"Serão demonstrados cases reais e práticas aplicadas de Pesquisa Operacional no MS-Excel, para solução de problemas complexos e auxiliar na tomada de decisão várias técnicas de Pesquisa Operacional no MS Excel com exemplos práticos com cases reais.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Renan Luís Foresti",
+         "Fábio Baldini"
+      ]
+   },
+   {
+      "id":"774",
+      "title":"[PT-BR] Criando um Bot com ZERO de código usando o Power Virtual Agents",
+      "description":"O Power Virtual Agents é uma incrível ferramenta lançada pela Microsoft para agregar na Power Platform, e juntamente com ela vieram possibilidades de criar chatbots avançados com ZERO de código, implementando na sua empresa e permitindo uma experiência melhor para o seu cliente e para a automatização de atividades manuais. Nesta sessão, farei a exibição de casos reais de Power Virtual Agents e mostrarei a criação na prática de chatbots poderosos sem linhas de código.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Renato Romão",
+         "Raphael Santos"
+      ]
+   },
+   {
+      "id":"775",
+      "title":"[PT-BR] Power Platform: Implementando soluções robustas utilizando Low-Code Platforms",
+      "description":"Nesta sessão vamos ver algumas estratégias e ferramentas da Power Platform, demonstrando-as no desenvolvimento de soluções para problemas comuns. Veremos algumas funcionalidades e implementações usando a estratégia “Low-Code” e extensões dessas ferramentas usando técnica de desenvolvimento profissional",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Victor Dantas",
+         "Renato Romão"
+      ]
+   },
+   {
+      "id":"776",
+      "title":"[PT-BR] Novas Funções e Funcionalidades do Excel",
+      "description":"Casos de aplicação das novas funções do Excel que aumentaram a produtividade simplificando cálculos que antes só poderiam ser realizados com matriciais complexas, melhoria de performance de cálculo de funções agregadoras e novas funcionalidades, como o acesso à datasets distribuídos da organização e ideias de análises.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Laennder Alves",
+         "Karine Lago"
+      ]
+   },
+   {
+      "id":"777",
+      "title":"[PT-BR] [Deploy falhou, e agora?] Ferramentas e técnicas para resolução de problemas com Office 365",
+      "description":"Nesta sessão vamos apresentar algumas técnicas e ferramentas que ajudam a realizar o diagnóstico e resolução de problema para SharePoint, OneDrive for Business, Power Apps, Power Automate e outros componentes da família O365",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Nicolas Curti",
+         "Fabian Gehrke"
+      ]
+   },
+   {
+      "id":"778",
+      "title":"[PT-BR] Excel + TypeScript",
+      "description":"Nesta palestra, serão mostradas as 3 formas de se trabalhar com Excel com TypeScript, que vão dos níveis de usuário a desenvolvedor.\n-Office Scripts\n-ScriptLab\n-Office Addins",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Felipe Gualberto",
+         "Sergio Coelho"
+      ]
+   },
+   {
+      "id":"779",
+      "title":"[PT-BR] Office 365 no suporte da Gestão na Industria 4.0",
+      "description":"Como o Office 365 dará suporte a Decisão da Gestão Empresarial no mundo da Industria 4.0",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Eder Cassettari",
+         "Agnaldo dos Santos"
+      ]
+   },
+   {
+      "id":"780",
+      "title":"[PT-BR] Excel no suporte à Análise de Decisão Multicritério",
+      "description":"Como o MS Excel suporta decisões de alta complexidade, com múltiplos critérios de forma rápida, eficiente e elegante utilizando técnicas da Ciência de Tomada de Decisão com entendimento acessível à todos, fazendo a diferença em seu dia-a-dia",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Eder Cassettari",
+         "Fábio Baldini"
+      ]
+   },
+   {
+      "id":"781",
+      "title":"[PT-BR] Excel, Estatística e Data Science: Combinação Explosiva para o Sucesso",
+      "description":"Como o MS Excel dá suporte na utilização nos dois pilares principais do Data Science: Estatística e Tecnologia ao alcance de todos.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Eder Cassettari",
+         "João Benito Savastano"
+      ]
+   },
+   {
+      "id":"782",
+      "title":"[PT-BR] Tabela Dinâmica e DAX – Melhorando o desempenho de Planilhas",
+      "description":"Nesta sessão você verá como utilizar o PowerPivot para aumentar a capacidade de cálculo das suas Tabelas Dinâmicas. Verá como as funções DAX podem auxiliar na construção de planilhas e Dashboards.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Darlan Machado",
+         "Rodrigo Aiosa"
+      ]
+   },
+   {
+      "id":"783",
+      "title":"[PT-BR] Como os Aplicativos no Teams vão ajudar a sua empresa a ter uma comunicação mais eficiente",
+      "description":"Conheça os principais modelos de aplicativos para Teams, veja qual melhor se encaixa em suas necessidades de negócio e aprenda como criá-los e utilizá-los da forma mais rápida possível",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Fabian Gehrke",
+         "Thaís Almeida"
+      ]
+   },
+   {
+      "id":"784",
+      "title":"[PT-BR] Implantação de um Servidor de arquivos 100% em Nuvem integrado ao AD",
+      "description":"Nesta palestra vamos mostrar como implementar um Servidor de arquivos em Nuvem com o Azure Files e garantindo a mesma experiência de um servidor de arquivos tradicional, do famoso “\\\\”, permissões NTFS, é o melhor utilizando a mesma autenticação baseada em identidade do AD.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Guilherme Maia",
+         "Rafael Bernardes"
+      ]
+   },
+   {
+      "id":"785",
+      "title":"[PT-BR] Migração do ASP.NET Core 3.1.x para o novo ASP.NET Core 5.0",
+      "description":"A versão final do novo ASP.NET Core 5.0 foi liberado pela Microsoft no dia 10 de novembro de 2020, sendo parte do .NET Core 5.0 que representa o primeiro passo da Microsoft na unificação da plataforma .NET. Veja quais devem ser as suas principais preocupações na migração de seus projetos desenvolvidos com o ASP.NET Core 3.1.x para o ASP.NET Core 5.0, incluindo: atualização de arquivos do projeto, do Blazor WebAssembly, no modelo de binding do ASP.NET Core MVC e do Razor Pages, incluindo o suporte ao novo recurso de record do C# 9, dentre outros tópicos. Veja também dicas para atualizar o seu código do C# 8 para o C# 9, aproveitando os novos recursos da linguagem de programação para simplificar a codificação.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Rogério Moraes de Carvalho"
+      ]
+   },
+   {
+      "id":"786",
+      "title":"[PT-BR] Estender a tua identidade para a Nuvem",
+      "description":"• Estender a sua identidade Windows Server Active Directory ( AD ) para a Nuvem, na nuvem é um tópico importante a considerar de como planear a migração ou implementação de aplicações da Nuvem \nFuncionalidades explicadas:\n• Muitas aplicações requerem Active Directory para autenticação e gestão de identidade\n• Quando se migra aplicações para a nuvem, tendo uma Active Directory localmente acessível, é um fator importante para garantir que a autenticação é rápida e eficiente\nObjetivos da sessão:\n• Como implementar \n• Quais são as arquiteturas \n• Quais as melhores práticas \n",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Nuno Árias Silva"
+      ]
+   },
+   {
+      "id":"788",
+      "title":"[PT-BR] Novidades do mundo Microsoft para o Mercado de Pequenas e Médias empresas",
+      "description":"Conheça o Windows Server Essentials 2016 e 2019 e o Microsoft 365 Business Premium\n",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Daniel Santos",
+         "Johnson Souza"
+      ]
+   },
+   {
+      "id":"789",
+      "title":"[PT-BR] Criando laboratório de máquinas virtuais na nuvem Microsoft",
+      "description":"Configure e forneça com facilidade acesso sob demanda às VMs (máquinas virtuais) pré-configuradas para dar suporte aos seus cenários. Dê uma aula, treine profissionais, e faça um laboratório prático, além de muitas outras coisas. Basta definir suas necessidades e o serviço implementará o laboratório para o seu público-alvo. Os usuários acessam todas as suas VMs de laboratório de um único lugar.\n",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Johnson de Souza Cruz",
+         "Nathan Pinotti"
+      ]
+   },
+   {
+      "id":"790",
+      "title":"[PT-BR] Cloud Adoption Framework (CAF) - Visão pratica do planejamento de arquitetura para nuvem",
+      "description":"A jornada de adoção da nuvem pode desbloquear muitos benefícios comerciais, técnicos e organizacionais. Seja qual for o seu objetivo, se sua jornada envolver a nuvem, há algumas decisões iniciais que cada equipe envolvida deve entender. Esses cenários comuns fornecem um roteiro por meio do Microsoft Cloud Adoption Framework para Azure. Eles podem ajudá-lo a balancear a velocidade, a inovação e o controle usando uma abordagem ágil para começar com uma solução minimamente viável. \n",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Eroilton Borges Jr"
+      ]
+   },
+   {
+      "id":"791",
+      "title":"[PT-BR] Gerenciamento do Windows Server reimaginado com o Windows Admin Center",
+      "description":"O Windows Admin Center (anteriormente Projeto “Honolulu”) representa uma nova era no gerenciamento remoto de Windows Server e PCs com Windows. Ele teve uma recepção extremamente positiva e rápida adoção da comunidade de profissionais de TI. Venha aprender como o Windows Admin Center foi projetado para você, com sua contribuição, para atender às suas necessidades de gerenciamento gráfico. Por meio de histórias de clientes e investimentos de parceiros, mostramos como o Windows Admin Center continua a crescer em funcionalidade e valor, e como essa experiência e ecossistema reinventados o beneficiarão.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Gabriel Luiz Cunha de Oliveira",
+         "Rafael Bernardes"
+      ]
+   },
+   {
+      "id":"792",
+      "title":"[PT-BR] Gestão de update de imagens usando SIG",
+      "description":"Utilização do Windows Virtual Desktop com hostpool padrão recebendo essas atualizações vindas do Azure Shared Image Gallery.\n",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Michel Jatobá",
+         "Carlos Oliveira"
+      ]
+   },
+   {
+      "id":"795",
+      "title":"[PT-BR] Como proteger Aplicações Web com Web Application Firewall (WAF) no Azure",
+      "description":"Nesta palestra vamos mostrar como proteger Aplicações Web com a implantação do Web Application Firewall (WAF) no Azure, em cenários reais, simulando ataques em tempo real e mostrar como monitorar todos os ataques utilizando o Azure Sentinel",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Gilles Villeneuve Alfredo",
+         "Guilherme Maia"
+      ]
+   },
+   {
+      "id":"796",
+      "title":"[PT-BR] Governança: a chave do sucesso no gerenciamento do ambiente no Azure",
+      "description":"Se você não está convencido que a sua organização precisa de uma governança sólida para garantir o sucesso no gerenciamento do ambiente no Azure, essa sessão vai mudar o seu mindset. Aprenda como evitar riscos desnecessários que um ambiente sem governança pode proporcionar.",
+      "track":"IT Pro | Infraestrutura",
+      "visible":true,
+      "speakers":[
+         "Daniel Ribeiro",
+         "Victor Valadares"
+      ]
+   },
+   {
+      "id":"797",
+      "title":"[PT-BR] A importância do DAX no Desenvolvimento de um Dashboard Contábil",
+      "description":"Iremos mostrar a Importância da Linguagem DAX no desenvolvimento de um Projeto Contábil,  Área com inúmeros relatórios específicos, com diversos subtotais, (DRE, Fluxo de Caixa Indireto, Índices Contábeis). Tudo isto só seria possível, com muita Modelagem e Linguagem DAX.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Claudio Diaz"
+      ]
+   },
+   {
+      "id":"798",
+      "title":"[PT-BR] Encante seu cliente com visuais exclusivos no Power BI",
+      "description":"Você sabe construir um visual personalizado para o seu cliente no Power Bi?, E criar interação entre imagens, vídeos e animações, alguns truques e técnicas para encantar a todos com seu relatório!",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Ediney Siqueira"
+      ]
+   },
+   {
+      "id":"799",
+      "title":"[PT-BR] Simplificando a documentação de projetos Power BI",
+      "description":"Com certeza a documentação é a parte mais chata de qualquer projeto de BI, no entanto é uma das mais importantes. Nesse bate papo mostrarei algumas ferramentas e práticas que aplico no dia a dia e que ajudarão a simplificar essa etapa.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Deivdson Oliveira"
+      ]
+   },
+   {
+      "id":"800",
+      "title":"[PT-BR] Transformação Digital no RH da Petrobras: people analytics e cultura data driven",
+      "description":"Como o uso do Power BI alavancou a jornada de Transformação Digital no RH da Petrobras, possibilitando aplicação intensiva de People analytics e disseminação de uma cultura data driven",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Paulo Victor de Castro MV Mariath",
+         "Danilo Garbazza"
+      ]
+   },
+   {
+      "id":"802",
+      "title":"[PT-BR] Do Azure DataFactory ao Power BI",
+      "description":"Conhecer de forma simples como automatizar a extração de dados existentes na internet utilizando o Azure DataFactory, importando sem codificação nenhuma para o banco de dados Azure SQL. Aprender como criar o recurso DataFactory no portal Azure, criar as conexões das fontes de origem e de destino e criar o pipeline para execução do processo de importação e o uso de Dataflows e o consumo desses dados no Power BI",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Fábio Menezes"
+      ]
+   },
+   {
+      "id":"803",
+      "title":"[PT-BR] WTF IS GPT-3? Demos, cases e possibilidades",
+      "description":"A OpenAI lançou em junho seu primeiro produto comercial até o momento: uma API (https://openai.com/blog/openai-api/), atualmente em versão de testes, para que desenvolvedores possam acessar tecnologias avançadas para a construção de novas aplicações e serviços. Uma das grandes novidades, e que tem gerado atenção da mídia, é a presença de um poderoso modelo de linguagem de uso geral, o GPT-3. Nesta palestra imersiva entenderemos melhor o que são tais modelos autoregressivos, voltados para processamento em linguagem natural, bem como exploraremos casos de uso apresentando demos variadas disponibilizadas pela comunidade, vislumbrando as possibilidades futuras de tais tecnologias.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "José Ahirton Lopes",
+         "Mikaeri Candido"
+      ]
+   },
+   {
+      "id":"804",
+      "title":"[PT-BR] Visão computacional com javascript!",
+      "description":"Com certeza você já teve uma idea pra um projeto de visão computacional mas que não deu continuidade a ele pois esbarrou em coisas como \"Tem que saber python pra fazer isso\", nessa talk veremos que isso não é uma verdade e que podemos construir aplicações robustas de visão computacional com as mesmas ferramentas que a comunidade python usa, porém em javascript! Além disso veremos que nem todos os problemas de imagem precisam ser solucionadas com deep learning, já que muitas vezes não temos tempo e/ou recurso para isso para criar modelos robustos e poderosos, mas que são problemas totalmente solucionáveis com visão computacional clássica.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Italo José"
+      ]
+   },
+   {
+      "id":"805",
+      "title":"[ES-LATAM] Cllocando em simulação suas APIS com C# e Xamarin",
+      "description":"Nesta sessão, promoveremos o uso de servidores &#39;simulados&#39; para nossas APIs por meio do uso de C # e .NET para melhorar a qualidade, o teste, a estrutura e a resposta de nosso código em aplicativos clientes e aplicativos móveis.\n\nAinda não tem a API pronta? O servidor travou? Não há problema! Abordamos isso como parte desta sessão e recomendações para melhorar a resiliência de seu aplicativo móvel.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Esteban Solano Granados"
+      ]
+   },
+   {
+      "id":"806",
+      "title":"[ES-LATAM] Planejando um Dashboard de Alto Impacto",
+      "description":"Mostraremos o passo a passo que deve ser feito antes de ir para o Excel ou Power BI, otimizando assim tempo, recursos e chegando à construção de um relatório que permite que as decisões sejam tomadas em tempo hábil.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Julio César Rendón Orozco"
+      ]
+   },
+   {
+      "id":"807",
+      "title":"[ES-LATAM] XMLA Endpoints com Power BI",
+      "description":"Nesta sessão, você aprenderá como implantar modelos semânticos usando Power BI Premium e XMLA Endpoint",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Raul Martin Sarachaga Diaz"
+      ]
+   },
+   {
+      "id":"808",
+      "title":"[ES-LATAM] Desenvolvendo Aplicações SOLID",
+      "description":"Nesta palestra, mostraremos como podemos desenvolver aplicativos mais confiáveis, fáceis de modificar e testáveis ​​usando conceitos SOLID. Com base em exemplos simples, veremos quais benefícios o SOLID nos oferece e como nos ajuda a fazer um código melhor.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Charlin Agramonte"
+      ]
+   },
+   {
+      "id":"809",
+      "title":"[ES-LATAM] AI Power - Cognitives Services e PowerPlatform",
+      "description":"Obtenha dados usando serviços cognitivos, armazenados com power, automatize e visualize com power bi",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Alex Rostán"
+      ]
+   },
+   {
+      "id":"810",
+      "title":"[ES-LATAM] Introdução à modelagem corporativa com  Power BI XMLA Endpoints",
+      "description":"Como implementar novos modelos com endpoints XMLA no Power BI, usando Visual Studio, SSMS, Tabular Editor e muito mais.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Gaston Cruz"
+      ]
+   },
+   {
+      "id":"811",
+      "title":"[ES-LATAM] Programação Funcional  para Programadores JavaScript",
+      "description":"Há vários anos a programação funcional vem ganhando espaço em várias linguagens e o JavaScript é um de seus grandes expoentes. Nesta palestra vamos abordar alguns conceitos de programação funcional, por que ela é importante, que valor ela agrega ao nosso software e qual é a maneira correta de entendê-la e obter o máximo dela.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Germán Küber"
+      ]
+   },
+   {
+      "id":"812",
+      "title":"[ES-LATAM] Windows Virtual Desktop + Microsoft Azure + Microsoft 365",
+      "description":"Nesta sessão, aprenderemos sobre o Windows Virtual Desktop no Microsoft Azure e como seus componentes são integrados em aspectos de produtividade, segurança e comunicações inteligentes que o Microsoft 365 oferece",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Daniel Vargas"
+      ]
+   },
+   {
+      "id":"813",
+      "title":"[ES-LATAM] Como implementar Microsoft Dynamics 365 Marketing sem morrer tentando",
+      "description":"Nesta palestra discutiremos os fundamentos do programa, para que tipo de empresa ele se destina e o que deve ser levado em consideração antes de usá-lo.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Alberto Carlos Avendaño"
+      ]
+   },
+   {
+      "id":"814",
+      "title":"[ES-LATAM] Construindo aplicações para Microsoft Teams",
+      "description":"Nesta sessão, você aprenderá como criar aplicativos para Microsoft Teams, políticas e restrições.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Juan Camilo Martinez Velez"
+      ]
+   },
+   {
+      "id":"815",
+      "title":"[ES-LATAM] Computação en Azure, diferentes sabores para cada necesidade",
+      "description":"Faremos um tour pelas diferentes opções de computação disponíveis no Microsoft Azure, de IaaS a FaaS e tudo mais.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Guillermo Javier Bellmann"
+      ]
+   },
+   {
+      "id":"816",
+      "title":"[ES-LATAM] Learn Machine para sistemas autônomos industriais",
+      "description":"O ensino de máquina é uma abordagem nova e complementar ao aprendizado de máquina que pode ser usada por quem não tem experiência em IA. Com o ensino de máquina, um problema complexo é dividido em habilidades individuais e fornece à IA dicas importantes sobre como aprender mais rápido, concentrando-se na extração conhecimento de especialistas, e não apenas de dados.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Patricio Cofre"
+      ]
+   },
+   {
+      "id":"817",
+      "title":"[ES-LATAM] Aumete sua Produtividade con Visual Studio",
+      "description":"Enquanto o aprendizado por reforço tradicional é uma abordagem demorada com muitas tentativas e erros, o ensino por máquina acelera e melhora o processo de treinamento e até permite que os engenheiros reutilizem as etapas individuais.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Fernando Sonego"
+      ]
+   },
+   {
+      "id":"818",
+      "title":"[ES-LATAM] Liçoes aprendidas: Rodando Windows workloads no OpenStack",
+      "description":"Como as empresas não podem se dar ao luxo de colocar equipamentos críticos off-line ou arriscar danificar um sistema enquanto a IA aprende, o processo de Aprendizado por Reforço ocorre em ambientes simulados seguros e econômicos, que podem replicar milhões de diferentes cenários do mundo real, incluindo situações extremas como uma falha de sensor, para que a IA possa aprender como se adaptar. O ensino da máquina também torna mais fácil entender e auditar o comportamento do sistema de controle autônomo, uma vez que ele foi implantado, o que é crucial para aplicações críticas de segurança.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Miklos Cari"
+      ]
+   },
+   {
+      "id":"819",
+      "title":"[ES-LATAM] Microsoft Dynamics 365 Finance and Operations,, considerações técnicas. para Cloud e LBD",
+      "description":"Nesta sessão serão explicadas as vantagens de Cloud e LBD, bem como considerações em caso de uso de BI (com Power BI), conectividade com Express Router",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Juan Rafael"
+      ]
+   },
+   {
+      "id":"821",
+      "title":"[PT-BR] Azure Databricks - Plataforma Unificada para Data Engineering &amp; Data Science<br>",
+      "description":"Nesta sessão você aprenderá sobre como utilizar o Azure Databricks para criação de pipelines de dados. Você verá também sobre como engenheiros e cientistas conseguem trabalhar em conjunto em uma plataforma unificada no desenvolvimento de projetos de advanced analytics.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Arthur Luz",
+         "Caio Amante de Souza"
+      ]
+   },
+   {
+      "id":"822",
+      "title":"[PT-BR] Modern Data Warehouse [MDW] no Microsoft Azure",
+      "description":"Nesta palestra explorarei o Azure Data Factory e os tópicos relacionados a databricks com demonstrações usando o portal Azure sobre como provisionar, configurar e o uso de práticas recomendadas para organizar seu ambiente de dados para uma engenharia de dados. Construindo assim um DataWarehouse moderno para o seu cliente.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Caroline Lavecchia",
+         "Caio Amante de Souza"
+      ]
+   },
+   {
+      "id":"823",
+      "title":"[PT-BR] MongoDB, Neo4J, Cassandra e Redis no Azure: Os NoSQL na Nuvem",
+      "description":"Nesta sessão conheceremos os serviços do Azure para bancos de dados NoSQL, analisando suas vantagens, desvantagens e seus custos.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Danielle Monteiro",
+         "Orlando Gomes"
+      ]
+   },
+   {
+      "id":"824",
+      "title":"[PT-BR] Automatização de Tarefas Repetitivas com Python SDK no Azure",
+      "description":"Tarefas repetitivas podem comprometer muito tempo do nosso dia a dia, este tempo poderia ser utilizado onde realmente há a necessidade de sermos criativos, não é? Nesta palestra vou demonstrar como automatizar esses processos repetitivos, ou seja, aqueles que são resolvidos sempre da mesma forma. Vamos fazer uso do Python SDK no Azure e algumas bibliotecas específicas para desenvolvimento de um projeto real.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Fernando Cruz",
+         "Orlando Gomes"
+      ]
+   },
+   {
+      "id":"825",
+      "title":"[PT-BR] Big Data Next Generation - A Evolução de Big Data com Kubernetes [AKS]",
+      "description":"Nessa sessão você irá conhecer a nova geração de Big Data, quais são as ferramentas mais utilizadas do mercado e entender como o Azure pode te ajudar a realizar a implementação dessa infrastrutura em alguns minutos. Iremos atacar os pontos mais relevantes para que você possa entender o que irá acontecer no mercado de Big Data e Data Engineering nos próximos anos, pronto para navegar nesse novo horizonte e se impressionar com o que vem para o Brasil ?",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Luan Moreno M. Maciel",
+         "Arthur Luz"
+      ]
+   },
+   {
+      "id":"826",
+      "title":"[PT-BR] A Evolução da Análise de Dados de Ralph Kimball a Roger Mougalas",
+      "description":"O objetivo da apresentação é fazer uma abordagem cronológica da Análise de Dados a partir das ideias de Ralph Kimball (Data Warehouse) até Roger Mougalas (Big Data). Que problemas cada uma dessas estruturas solucionavam, o que mudou ao longo do tempo e qual o futuros dessas tecnologias.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Luis Renato de Souza",
+         "Caio Amante de Souza"
+      ]
+   },
+   {
+      "id":"827",
+      "title":"[PT-BR] Data Pipeline em Real-Time com Apache Kafka & Kubernetes [AKS]",
+      "description":"Nessa sessão, vamos conversar sobre 2 grandes tecnologias:\n- Azure Kubernetes Services como nosso infraestrutura ~ O que é k8s? como funciona? Por que usar para Big Data?\n- Kafka como nossa engine de streaming de dados ~ Visão geral sobre Kakfa, kafka realmente funciona no K8s?",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Matheus Oliveira",
+         "Luan Moreno M. Maciel"
+      ]
+   },
+   {
+      "id":"828",
+      "title":"[PT-BR] Migração de Dados com Azure Data Factory [ADF]",
+      "description":"O Azure Data Factory se constitui como uma poderosa ferramenta para a criação de tarefas para migração e transformação de dados entre diferentes destinos, nesta palestra serão demonstrados exemplos de como trabalhar com estas tarefas por meio do processo de ETL na Cloud.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Orlando Gomes",
+         "Rubens Guimarães"
+      ]
+   },
+   {
+      "id":"829",
+      "title":"[ES-LATAM] Real-Time Anomaly Detection using Azure: A Real-World Case for Stock Markets Surveillance",
+      "description":"The Stock Exchange is constantly being subject of abusive, manipulative, or illegal trading practices. To deal with this, surveillance teams are built, in order to prevent and investigate cases. Market surveillance helps to ensure orderly markets, where buyers and sellers are willing to participate because they feel confident in the fairness and accuracy of transactions. Using Azure real-time analytics and AI tools, it is now possible to use market transaction historic data (structured), hot stream data, and other relevant facts (unstructured), ingested via Azure Event Hubs, passed through Azure Stream Analytics, connected with ML (anomaly detection), to finally be exposed in Power BI as dashboards and alerts.",
+      "track":"Espanhol",
+      "visible":true,
+      "speakers":[
+         "Patricio Cofre",
+         "Luan Moreno M. Maciel"
+      ]
+   },
+   {
+      "id":"830",
+      "title":"[PT-BR] Big Data, NoSQL e Analytics com MongoDB, Power BI e SQL Big Data Clusters",
+      "description":"Nessa sessão vamos entender a arquitetura do Big Data Clusters, o poder do MongoDB e a robustez do Power BI. E juntos vamos criar um ambiente para processamento de dados com Spark em Near-real-time consumindo do HDFS, MongoDB e simulando um pipeline com apresentação no Power BI.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Rafael Mendonça",
+         "Arthur Luz"
+      ]
+   },
+   {
+      "id":"831",
+      "title":"[PT-BR] Como Podemos Ingerir Dados de IoT e Trazer Inteligência para um Negócio?",
+      "description":"Estudos apontam que até 2025 estaremos falando de dados na escala de Zettabytes, isso mesmo Zetta, sendo boa parte desses dados vindo de dispositivos IoT como sensores, relógios, geladeiras, televisões, carros, tudo está conectado nesta nova era.\nComo ingerir tanta informação e extrair inteligência para o seu negócio? \nNesta sessão vamos falar sobre soluções que respondem esta pergunta.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Reginaldo da Cruz Silva",
+         "Caio Amante de Souza"
+      ]
+   },
+   {
+      "id":"832",
+      "title":"[PT-BR] SQL Server e PolyBase - SQL Server + Apache Hadoop",
+      "description":"Nessa sessão vamos demonstrar como trabalhar com diversas fontes de dados a partir do seu SQL Server usando linguagem SQL.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Dornel",
+         "Luan Moreno M. Maciel"
+      ]
+   },
+   {
+      "id":"833",
+      "title":"[PT-BR] Azure Databricks - Estruturação de Projetos de Big Data, IA e ML",
+      "description":"Como utilizar o Databricks para estruturar projetos de Big Data, IA e ML orientados a demandas de projetos corporativos.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Rubens Guimarães",
+         "Arthur Luz"
+      ]
+   },
+   {
+      "id":"834",
+      "title":"[PT-BR] Construindo um Data Warehouse Moderno com Azure Synapse Analytics",
+      "description":"Nessa sessão você irá aprender a mais nova e promissora ferramenta da Microsoft para construção de um Data Warehouse Moderno fim a fim. O Azure Synapse Analytics é a mais nova proposta da Microsoft para competir com o BigQuery e indo mais além para construção fim a fim de pipeline de dados. Embarque nessa sessão para aprender a como reduzir o tempo de criação e melhorar seus pipelines de forma exponencial.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Sidney Oliveira",
+         "Luan Moreno M. Maciel"
+      ]
+   },
+   {
+      "id":"835",
+      "title":"[PT-BR] Event Based Automation using Azure Functions",
+      "description":"Nesta palestra vamos aprender como usar Azure Functions podem ser usadas para automação baseada em eventos no Azure.",
+      "track":"Big Data",
+      "visible":true,
+      "speakers":[
+         "Thiago Custódio",
+         "Orlando Gomes"
+      ]
+   },
+   {
+      "id":"837",
+      "title":"[PT-BR] WSL2: Usufrua dos benefícios do Windows Subsystem for Linux",
+      "description":"Nessa sessão abordaremos as principais vantagens do Windows Subsystem for Linux. Será demonstrado como habilitar, configurar e extrair os melhores benefícios do WSL2 no Windows Terminal, Docker, VS Code e Visual Studio 2019. Para finalizar, demonstraremos como executar aplicações Linux GUI no Windows. WSL2: Enjoy the benefits of Windows Subsystem for Linux In this session it will be discussed the main advantages of Windows Subsystem for Linux.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Luis Demetrio"
+      ]
+   },
+   {
+      "id":"860",
+      "title":"[PT-BR] Criando guias no Microsoft Teams com o SharePoint Framework (SPFx)",
+      "description":"Vamos aprender a criar um formulário para o Microsoft Teams utilizando o SharePoint Framework. Descubra nessa sessão todo o potencial dessa abordagem.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Saulo Oliveira",
+         "Heber Lopes"
+      ]
+   },
+   {
+      "id":"861",
+      "title":"Como Migrar seu conteúdo para o Microsoft 365 & SharePoint Online",
+      "description":"Mudando para o Microsoft 365? \nHá várias ferramentas e métodos que podem ser usados; o que é melhor para você e sua organização depende de vários fatores:\nQual é o tamanho e a quantidade de conteúdo que você precisa mover? \nOnde residem seus dados no momento?\nDedicar o tempo para planejar sua migração, incluindo pegar um inventário e uma avaliação de seus dados, é fundamental para uma migração bem-sucedida.\n \nArtigo de referencia que sera usado: https://docs.microsoft.com/pt-br/sharepointmigration/migrate-to-sharepoint-online\n",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Fabiano Mira"
+      ]
+   },
+   {
+      "id":"862",
+      "title":"[PT-BR] Novidades do C# 9",
+      "description":"Vamos conhecer e entender um pouco mais o que vem aí para a versão 9 da linguagem de programação que melhor evolui e cada vez atende mais demandas: \n- Porque records é importante para a linguagem?\n- O que há de novo para deixar a linguagem mais expressiva e mais simples\n- melhorias de performance?\n- Novidades polêmicas\n- O que vem depois da versão 9",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Antonio Maniero"
+      ]
+   },
+   {
+      "id":"863",
+      "title":"[PT-BR] Como automatizar os testes da sua aplicação?",
+      "description":"Você ainda não escreve testes automatizados pra suas aplicações? Não sabe como fazer? Por onde começar? Por que fazer? Ou não consegue perceber o seu valor? Se a resposta for sim para qualquer uma destas perguntas, você deveria ver essa palestra. Nosso objetivo é conseguir demonstrar o fluxo de desenvolvimento com testes e, com isso, desmistificar o senso  comum de que testes atrasam o desenvolvimento. Construindo o conhecimento passo a passo, desde testes simples de unidade até testes mais complexos de integração e aceitação, a fim de que vocês consigam escrever testes automatizados hoje no seu projeto, deixando assim de descobrir bugs apenas em produção.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Mahmoud Ali",
+         "Lucas Teles"
+      ]
+   },
+   {
+      "id":"864",
+      "title":"[PT-BR] Microserviços com gRPC no ASP.NET Core",
+      "description":"Google gRPC com ASP.NET Core como forma de oferecer microsserviços de uma forma inteligente e eficiente com modelos de comunicação extremamente robustos, tirando o máximo de proveito do HTTP2 e ASP.NET Core.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Luiz Carlos Faria"
+      ]
+   },
+   {
+      "id":"865",
+      "title":"[PT-BR] Dicas preciosas de performance para aplicações .NET",
+      "description":"Os detalhes fazem a diferença, vamos discutir sobre alguns pontos que podem fazer a sua aplicação ficar muito mais rápida!",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Vinicius Mussak"
+      ]
+   },
+   {
+      "id":"866",
+      "title":"[PT-BR] Utilizando CRON em Go para automatizar processos manuais",
+      "description":"Escrevi um bot que, rodando diariamente, procura por promoções nos sites Riachuelo, Renner, Hering e sempre que as encontra envia os dados no Telegram já com o link para a compra. O bot foi feito em Golang e nesta apresentação demonstrarei o processo de implementação do mesmo e como algumas automações podem auxiliar no nosso dia a dia. Serão abordados conceitos da linguagem Go também!",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Igor Halfeld"
+      ]
+   },
+   {
+      "id":"867",
+      "title":"[PT-BR] Automatizando os testes da sua aplicação hoje",
+      "description":"Você ainda não escreve testes automatizados pra suas aplicações? Não sabe como fazer? Por onde começar? Por que fazer? Ou não consegue perceber o seu valor? Se a resposta for sim para qualquer uma destas perguntas, você deveria ver essa palestra. Nosso objetivo é conseguir demonstrar o fluxo de desenvolvimento com testes e, com isso, desmistificar o senso  comum de que testes atrasam o desenvolvimento. Construindo o conhecimento passo a passo, desde testes simples de unidade até testes mais complexos de integração e aceitação, a fim de que vocês consigam escrever testes automatizados hoje no seu projeto, deixando assim de descobrir bugs apenas em produção.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Mahmoud Ali",
+         "Lucas Teles"
+      ]
+   },
+   {
+      "id":"868",
+      "title":"[EN-US] Overview of Project for the web",
+      "description":"Nesta sessão mostraremos uma visão geral do Projeto para a web. Project for the web é a oferta mais recente da Microsoft para trabalho baseado em nuvem e gerenciamento de projetos. O Project for the web fornece recursos de gerenciamento de trabalho simples e poderosos.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Heather Heide"
+      ]
+   },
+   {
+      "id":"869",
+      "title":"[EN-US] Managing Change in Microsoft 365",
+      "description":"Nesta sessão, Brian mostrará como usar o Planner como o hub de todas as informações de gerenciamento no Microsoft 365. Ele trará informações do Message Center, Roadmap e problemas no Microsoft 365.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Brian Smith"
+      ]
+   },
+   {
+      "id":"870",
+      "title":"[PT-BR] PowerPoint - Não é só o conteúdo que importa",
+      "description":"Você já imaginou o que pode ganhar por se preocupar com a comunicação estética da sua apresentação? O objetivo do workshop é conscientizar o público sobre as inúmeras possibilidades que um apresentador tem para se criar apresentações verdadeiramente impactantes, com técnicas atuais e inovadoras.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Leonardo Bonetto"
+      ]
+   },
+   {
+      "id":"871",
+      "title":"[PT-BR] Storytelling: por que você precisa dela quando trabalha com o PowerPoint",
+      "description":"Reuniões e comitês são muito rotineiros entre os executivos de boa parte das empresas. Agora, o que você pode fazer para tornar esses momentos mais prazerosos?",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Leonardo Bonetto"
+      ]
+   },
+   {
+      "id":"872",
+      "title":"[PT-BR] Transformação Digital na Prática",
+      "description":"Entenda como as maiores empresas do mundo estão acelerando o processo de transformação das suas arquiteturas para atender as novas demandas de mercado e relação com colaboradores, clientes e parceiros. Estrutura de dados, segurança, colaboração e modernização das aplicações, como esses workloads estão sendo repensados nesse novo momento da economia.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Rodrigo Dias"
+      ]
+   },
+   {
+      "id":"873",
+      "title":"[PT-BR] Transformação Digital na Prática - Leis de Privacidade dos Dados e Datacenter Migration",
+      "description":"Do ponto de vista técnico, os Profissionais de Tecnologia estão preparados para muito além do que é possível realizar com novas soluções e plataformas. O objetivo desta sessão é falar sobre como os Profissionais de TI podem ir mais além quando avançam para os processos de negócios e geram impacto transformacional.",
+      "track":"LGPD",
+      "visible":true,
+      "speakers":[
+         "Rogerio Amancio"
+      ]
+   },
+   {
+      "id":"874",
+      "title":"[PT-BR] Gerenciamento inteligente de custos do Azure",
+      "description":"Você está aproveitando ao máximo seu investimento no Azure? Como otimizar seus custos do Azure, e ter uma previsibilidade do consumo do cliente sem passar por sustos? Participe dessa sessão para entender a maneira certa e errada relacionada a restrições de budget, buscar custos escaláveis, pagar pelo consumo, recursos no tamanho certo e monitorar seus gastos.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Alvaro Rezende"
+      ]
+   },
+   {
+      "id":"875",
+      "title":"[PT-BR] Case RDStation: Construindo DataLakes com Apache Hadoop em cloud agnóstica",
+      "description":"Nem sempre é de interesse das empresas prender suas soluções de bigdata em serviços de cloud. Algumas empresa preferem ter autonomia tecnológica e construir sua solução própria solução de data Lake de forma agnóstica as clouds que utilizam. O objetivo dessa palestra é presentar por que algumas empresas fazem isso, quais os benefícios e desafios a serem enfrentados quando optamos por construir nosso data Lake usando Apache Hadoop. E nada mais interessante do que ter todas essas informações com base em um case real.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Alessandro Binhara"
+      ]
+   },
+   {
+      "id":"876",
+      "title":"[PT-BR] Conhecendo a arquitetura do Microsoft Teams (para Administradores de IT)",
+      "description":"Nessa sessão abordaremos a engenharia que está por traz do Microsoft Teams quando criamos uma equipe, canal, compartilhamos arquivos no privado ou em equipe. Todas as ligações com SharePoint, Exchange, Grupos do Office 365, OneDrive, etc...",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Marcelo Strippoli"
+      ]
+   },
+   {
+      "id":"877",
+      "title":"[PT-BR] Transforme a sua App Service para a escala Global",
+      "description":"Nos dias de hoje quando desenhamos uma aplicação para a web temos de pensar que a mesma terá de responder pedidos de todo o mundo. Global é o novo padrão! Isto implica criar uma infra-estrutura que esteja globalmente distribuída com presença onde a maioria dos nossos clientes estão. Enquanto Azure Architect este é um desafio muito interessante, mas criar aplicações globais não é linear e envolve muitas peças que têm de funcionar juntas. É um desafio técnico, mas também legal, pois certos países requerem que certos dados residam dentro de fronteiras.\nNesta sessão, vamos verificar como o Azure App Service nos pode ajudar a alcançar este objetivo de distribuir globalmente a aplicação e como outros serviços relacionados, como: Azure Front Door, Traffic Manager, Azure Storage, Azure CDN, Azure Functions, Cognitive Search, Azure Redis Cache, Cosmos DB e outros serviços de mensagens podem ajudá-lo a criar uma aplicação à escala global. Espere uma sessão com uma forte componente de demonstração, baseada na experiência real na implementação destes serviços em vários clientes.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Tiago Costa"
+      ]
+   },
+   {
+      "id":"878",
+      "title":"[PT-BR] Entenda o caso de sucesso da GlobalConnect usando a inovadora metodologia Half Double e o Microsoft Project for The Web",
+      "description":"Saiba como a GlobalConnect reduziu as horas gastas em gerenciamento de projetos em 84% com o Microsoft Project para a web, a Power Platform e a metodologia Half Double for Portfolio.",
+      "track":"Gerenciamento de Projetos",
+      "visible":true,
+      "speakers":[
+         "Allan Rocha"
+      ]
+   },
+   {
+      "id":"879",
+      "title":"[PT-BR] Monitorar o desempenho do gateway de dados local",
+      "description":"Aprenda monitorar o desempenho do gateway de dados local, utilizando um arquivo de modelo de PBI  para visualizar os resultados. Fornecendo insights sobre o uso do gateway e solucionando problemas em consultas com performance lenta.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Rafael Gobbi"
+      ]
+   },
+   {
+      "id":"880",
+      "title":"[PT-BR] Power Query: Criando funções personalizadas para aprimorar o seu ETL",
+      "description":"O Power Query é uma ferramenta fantástica capaz de automatizar rotinas, com simples cliques através da interface do usuário. Porém, a depender de como seus dados de origem se encontram, é necessário utilizar a linguagem M para fazer uma transformação mais complexa.",
+      "track":"Power BI",
+      "visible":true,
+      "speakers":[
+         "Renato Lira"
+      ]
+   },
+   {
+      "id":"881",
+      "title":"[PT-BR] Azure Synapse Analytics, lesson learned from Microsoft Support, do’s and don’ts",
+      "description":"Ao longo dessa palestra vamos abordar pontos importantes do uso dos SQL Pools de forma eficiente evitando erros comuns que podem ocasionar diversos problemas.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Freddie Santos"
+      ]
+   },
+   {
+      "id":"882",
+      "title":"[PT-BR] Transformação Digital utilizando Power Platform",
+      "description":"Nesta palestra, vamos apresentar a transformação digital em processos de negócios da Bureau Veritas no Brasil, Europa e América do Norte. Utilizando soluções Power Platform (PowerApps, Power Automate e Power BI), diferentes áreas de negócios obtiveram ganhos de eficiência em processos jurídicos, recursos humanos, gestão de documentos, gestão de projetos, entre outros.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Mario Trentim"
+      ]
+   },
+   {
+      "id":"883",
+      "title":"[PT-BR] Indo além do Enterprise: fazendo aplicativos para usuários finais com Xamarin.Forms",
+      "description":"Será que é possível fazer aplicativos abertos para o público geral, dignos de 5 estrelas nas lojas e concorrendo com aplicativos nativos com Xamarin.Forms?É comum ver pessoas afirmando que aplicativos feitos em Xamarin.Forms são voltados para empresas e aplicações Line of Business (LOB), mas isso não é verdade. É possível, sim, fazer um aplicativo para a loja, acessível para todas as pessoas\u00A0 utilizando Xamarin.Forms!Vou compartilhar sobre que exercícios fizemos para chegar na decisão de qual era o melhor framework para os cenários dos nossos projetos, quais ferramentas utilizamos para otimizar nosso fluxo de desenvolvimento, além de mostrar boas práticas em aplicativos Mobile e aprendizados que adquiri com os aplicativos que desenvolvi em Xamarin.Forms para usuários finais. Com isso você terá mais ferramentas para que também consiga desenvolver seu próximo aplicativo utilizando uma tecnologia cross-platform que é capaz de entregar uma experiência de aplicativo nativo.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Mahmoud Ali",
+         "Victor Cavalcante"
+      ]
+   },
+   {
+      "id":"884",
+      "title":"[PT-BR] Como a IA (Inteligencia Artificial), esta mudando o vida das pessoas e das empresas.",
+      "description":"Como a IA (Inteligencia Artificial), esta mudando empresas como FORD, Hospital Albert Einstein, Alibaba, Amazon, Facebook e muitas outras empresas. Veja como as gigantes estão se preparando para 2023 e pegue uma carona.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Jamil Lopes"
+      ]
+   },
+   {
+      "id":"885",
+      "title":"[PT-BR] Trazendo seus relatórios do Power BI para dentro de documentos Word e PowerPoint",
+      "description":"Nesta sessão demonstraremos um caso real de um cliente que possui inúmeros gráficos de seus projetos no Power BI e possuía necessidade de gerar um relatório mensal de seus projetos, isso foi alcançado utilizando .Net",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Gustavo Moraes",
+         "Raphael Santos"
+      ]
+   },
+   {
+      "id":"886",
+      "title":"[PT-BR] Como Sobreviver ao RAGNARÖK",
+      "description":"Você chega no trabalho e descobre que o único storage da empresa teve um problema crítico e desconectou-se do ambiente, derrubando todos os seus servidores de Banco de Dados! Todas as suas intâncias estão offline e a chance de bancos corrompidos é mais que real, é certa!\n\nO que fazer?\n\nNesta palestra, Fábio Cotrim e Diego Andrade vão apresentar todas as ações tomadas para recuperar um ambiente crítico que, por falta de investimento, não possui alta disponibilidade.\n\nDicas de como proceder, como manter a calma, como efetuar a comunicação com os departamentos afetados, etc.\n\nE, como sempre, tudo isso com muito bom humor, porque o momento do infarto fulminante já passou.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Fabio Cotrim"
+      ]
+   },
+   {
+      "id":"887",
+      "title":"[PT-BR] Fruki migra seu datacenter on premises para o Azure sem impactar a operação",
+      "description":"O principal desafio do projeto foi desenhar uma solução em Cloud que atendesse as expectativas de escalabilidade e segurança exigidas pelo negócio. A infraestrutura de TI do cliente era totalmente on premise e defasada, sendo que já não suportava mais o crescimento na velocidade exigida pelo negócio. Com novos produtos e novas linhas de negócio chegando o ambiente de TI tornou-se rapidamente muito complexo e difícil de ser administrado. Nesta palestra, abordaremos todo o processo de migração para o Microsoft Azure.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Eduardo Kieling"
+      ]
+   },
+   {
+      "id":"888",
+      "title":"[PT-BR] DR com Microsoft Azure - Case Financeira",
+      "description":"Uma empresa financeira do estado do Rio Grande do Sul, que teve seu ambiente de DR afetado por um incêndio e optou pela nuvem da Microsoft para recriar seu DR. Mostraremos todos desafios técnicos e gerenciais e de simulação, além de práticas adotadas para o melhor resultado.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Diego Matos",
+         "Rafael Felipe"
+      ]
+   },
+   {
+      "id":"889",
+      "title":"[PT-BR] Hololens implementado na industria de óleo e gás",
+      "description":"Implementação de projetos imersivos com o Microsoft Hololens em industrias de óleo e gás. Considerações de arquitetura, usabilidade, otimizações e uso do hardware em áreas classificadas.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Bruno dos Anjos"
+      ]
+   },
+   {
+      "id":"890",
+      "title":"[PT-BR] Do Cognito para o IdentityServer4. Os desafios na implantação do IdentityServer4 em uma das maiores seguradoras do Brasil.",
+      "description":"Quando falamos de ambientes extremamentes complexos e com uma vasta pluralidade de tecnologias. Implantar um Single Sign On em um ambiente dominado por java e node se torna um desafio complexo. Nessa palestra irei abordar quais foram nossos desafios de implantar não apenas um, mas dois servidores com IdentityServer4.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Bruno Brito",
+         "Eduardo Pires"
+      ]
+   },
+   {
+      "id":"891",
+      "title":"[PT-BR] Implantando uma Arquitetura de Microsserviços com Alta Disponibilidade no Azure",
+      "description":"Nesta palestras vamos ver como combinar Azure Front Door, Application Gateway, API Management, Application Gateway Ingress Controller, Web Application Firewall, Azure Kubernetes Services, Azure Container Registry e CosmosDB em um cenário multi region para prover um arquitetura de microsserviços com alta disponibilidade para suportar um e-commerce B2B global",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "André Dias"
+      ]
+   },
+   {
+      "id":"892",
+      "title":"[PT-BR] Implementando a cultura de Self-Service de núvem pública em um banco Holandês.",
+      "description":"Quando eu entrei na Knab há 2 anos atrás nós tínhamos uma área de desenvolvimento totalmente separada da área de operações. A empresa tinha 5 ferramentas diferentes de CI e várias maneiras de se fazer a mesma coisa.\nProblemas em produção sempre eram caóticos e todo o gerenciamento de permissões estava longe de ser o ideal em um ambiente financeiro. \nO desafio era claro: como quebrar a barreira entre as duas áreas e dar autonomia aos times de desenvolvimento sem abrir mão de controle de custos, segurança e compliance?\nVenha conhecer como respondemos a essa pergunta transformando primeiro a cultura da empresa e automatizando de ponta a ponta com o conceito de self-service de núvem para os times.",
+      "track":"Casos de Sucesso",
+      "visible":true,
+      "speakers":[
+         "Andre Carlucci"
+      ]
+   },
+   {
+      "id":"893",
+      "title":"[PT-BR] Azure Cognitive Services na Balança",
+      "description":"Os Serviços Cognitivos do Azure estão no centro de muitos produtos e serviços essenciais da Microsoft para cargas de trabalho internas e externas. Nesta conversa, Miguel descreve a infraestrutura de hardware e software que oferece suporte aos serviços de IA em escala global. As cargas de trabalho dos Serviços Cognitivos do Azure são extremamente diversas: os serviços exigem muitos tipos diferentes de modelos, na prática. Essa diversidade tem implicações em todas as camadas da pilha do sistema. Além disso, os requisitos computacionais também são intensos, aproveitando GPUs e CPUs para inferência em tempo real. Lidar com esses e outros desafios emergentes continua a exigir diversos esforços que abrangem algoritmos, software e design de hardware. Miguel também abordará alguns dos desafios, incluindo privacidade de dados, personalização profunda e correção de preconceito, e discutirá soluções criadas para enfrentar esses desafios.",
+      "track":"IA | Machine Learning | Computação Cognitiva | ChatBots",
+      "visible":true,
+      "speakers":[
+         "Miguel Ferreira"
+      ]
+   },
+   {
+      "id":"894",
+      "title":"[PT-BR] Acessibilidade no Microsoft 365",
+      "description":"Consciência sobre acessibilidade e qual é o impacto desse tema em nossos negócios. Conheça algumas funcionalidades chave de acessibilidade do Microsoft 365 e como trabalhar a adoção em sua empresa.",
+      "track":"Office & Produtividade",
+      "visible":true,
+      "speakers":[
+         "Thayna Carvalho Silva"
+      ]
+   },
+   {
+      "id":"895",
+      "title":"[PT-BR] Modelos de dados de documentos complexos com RavenDB: vamos criar um jogo!",
+      "description":"Um dos pontos fortes do RavenDB é sua capacidade de modelar dados não triviais.\nNesta sessão, Oren Eini discutirá alguns desafios não triviais da modelagem de dados e como abordá-los.\nVamos examinar a modelagem de um Role Playing Game, com toda a complexidade atendida. Discuta como o Entity Component System pode ser tratado usando a modelagem de documentos.\nVeremos como trabalhar com dados de série temporal e como trabalhar com dados que mudam ao longo do tempo.\nCompare e contraste o tipo de modelos que você constrói com modelos relacionais e de documento.",
+      "track":"Banco de Dados",
+      "visible":true,
+      "speakers":[
+         "Oren Eini"
+      ]
+   },
+   {
+      "id":"896",
+      "title":"[PT-BR] Como tirar insights de dados sem código com Azure ML",
+      "description":"Nesta palestra vou demonstrar como tirar insights de um dataset sem utilizar código através do Azure Machine Learning. Após a criação do modelo de ML vamos consumir o mesmo no Power BI para gerar dashboards.",
+      "track":"IA | Machine Learning | Computação Cognitiva |ChatBots",
+      "visible":true,
+      "speakers":[
+         "Fabiano Jamati"
+      ]
+   },
+   {
+      "id":"897",
+      "title":"[EN-US] Habilitar DevSecOps com Azure e GitHub",
+      "description":"DevSecOps busca mudar a segurança para a esquerda e apresenta vários cenários, processos e ferramentas necessários para ter uma ampla cobertura de segurança. Esta sessão incluirá demonstrações práticas usando GitHub e Azure DevOps que incorporam práticas seguras em todo o processo de CI / CD sem afetar a produtividade do desenvolvedor. A sessão também destacará alguns dos recursos específicos do Azure que você pode aproveitar ao mudar a segurança para a esquerda!",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Alice Gibbons",
+         "Kendall Roden"
+      ]
+   },
+   {
+      "id":"898",
+      "title":"[EN-US] Como proteger APIs com gerenciamento de API do Azure",
+      "description":"Nesta sessão, você verá como proteger APIs com o gerenciamento de API do Azure de uma maneira prática que ajudará muito em seus projetos.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Mike Budzynski"
+      ]
+   },
+   {
+      "id":"899",
+      "title":"[EN-US] Funções Portavéis do Azure",
+      "description":"Serverless tem servidores, mas os benefícios de construir aplicativos sem servidor é que os servidores e outras infraestruturas são abstraídos e totalmente gerenciados por um provedor de nuvem. Os blocos de construção da arquitetura sem servidor, funções como serviço (FaaS), são executados em ambientes de execução, mas os desenvolvedores podem enviar código, executar gatilhos e confiar que os aplicativos são dimensionados conforme necessário.\n No entanto, às vezes precisamos de todos os benefícios tradicionais dos aplicativos sem servidor com um requisito adicional: portabilidade. Queremos microsserviços desacoplados, escalonáveis e orientados a eventos, mas estamos dispostos a assumir um pouco mais do trabalho de operações para tornar as implantações agnósticas. Vamos discutir o uso do tempo de execução de código aberto do Azure Functions para armazenar aplicativos de função em contêineres e executá-los em qualquer lugar. Então, também usando o projeto de código aberto, KEDA, esses aplicativos podem ser escalonados com base na carga de trabalho do evento, como fariam em um ambiente de nuvem totalmente gerenciado.",
+      "track":"Azure | Blockchain",
+      "visible":true,
+      "speakers":[
+         "Linda Nichols"
+      ]
+   },
+   {
+      "id":"900",
+      "title":"[EN-US] Práticas recomendadas do Kubernetes",
+      "description":"Os aplicativos orquestrados pelo Kubernetes em execução em contêineres exigem novas abordagens e padrões para o gerenciamento de aplicativos. Esta sessão vai mergulhar nas práticas recomendadas do Kubernetes para gerenciar microsserviços e o que considerar para eficácia ideal. Durante esta palestra, você aprenderá:\n- Padrões de implantação de produção\n- Como abordar implantações de vários clusters\n- Gerenciamento de configuração para aplicativos implantados no Kubernetes\n- Abordagens eficazes para gerenciamento de recursos no Kubernetes\n- Solução de problemas comuns do Kubernetes\nEsta palestra incluirá uma demonstração de ferramentas de código aberto que podem ajudá-lo a resolver esses novos desafios. Participe para obter informações que o ajudarão a operar implantações do Kubernetes no desenvolvimento e na produção em qualquer escala.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "David Strebel"
+      ]
+   },
+   {
+      "id":"901",
+      "title":"[PT-BR] Dapr para desenvolvedores Java",
+      "description":"Dapr é um tempo de execução portátil orientado a eventos para construir microsserviços em nuvem e borda. Nesta sessão, você verá como o Dapr ajuda a evitar o aprisionamento do fornecedor e acelerar o desenvolvimento de aplicativos nativos em nuvem em Java. Dapr fornece consistência e portabilidade para blocos de construção comuns, como pub-sub, ligações, invocação de método, armazenamento de estado, armazenamento de segredo e atores.",
+      "track":"DevOps | Containers",
+      "visible":true,
+      "speakers":[
+         "Artur Souza"
+      ]
+   },
+   {
+      "id":"902",
+      "title":"[PT-BR] Microservices com Spring Cloud",
+      "description":"Hoje em dia, muitas empresas estão saindo do monólito e adotando a arquitetura de microsserviços. Com Java, é possível trabalhar com esse tipo de arquitetura utilizando os projetos Spring Cloud. Neste palestra, você poderá saber mais sobre o tema Microservices com Spring Cloud, incluindo definição de microsserviços, benefícios, tipos de comunicação e quais os principais projetos Spring Cloud que podem ser utilizados para compor essa arquitetura.",
+      "track":"Desenvolvimento de Software",
+      "visible":true,
+      "speakers":[
+         "Michelli Brito"
+      ]
+   }
+]
