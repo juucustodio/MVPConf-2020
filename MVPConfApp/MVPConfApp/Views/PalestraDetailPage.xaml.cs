@@ -4,12 +4,12 @@ using Xamarin.Forms;
 
 namespace MVPConfApp.Views
 {
-    public partial class ItemDetailPage : ContentPage
+    public partial class PalestraDetailPage : ContentPage
     {
-        public ItemDetailPage()
+        public PalestraDetailPage()
         {
             InitializeComponent();
-            BindingContext = new ItemDetailViewModel();
+            BindingContext = new PalestraDetailViewModel();
         }
     }
 }

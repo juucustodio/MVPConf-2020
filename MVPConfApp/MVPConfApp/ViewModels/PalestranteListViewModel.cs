@@ -1,31 +1,35 @@
 ﻿using MVPConfApp.Models;
 using MVPConfApp.Views;
+using MVPConfApp.Services;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MVPConfApp.ViewModels
 {
-    public class ItemsViewModel : BaseViewModel
+    public class PalestranteListViewModel : BaseViewModel
     {
         private Item _selectedItem;
 
-        public ObservableCollection<Item> Items { get; }
+        public ObservableCollection<Palestrante> Items { get; }
         public Command LoadItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
-        public ItemsViewModel()
-        {
-            Title = "Browse";
-            Items = new ObservableCollection<Item>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+        private readonly RestClient _restClient;
 
+        public PalestranteListViewModel()
+        {
+            Title = "Palestrantes";
+            Items = new ObservableCollection<Palestrante>();
+            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            _restClient = new RestClient();
             ItemTapped = new Command<Item>(OnItemSelected);
 
-            AddItemCommand = new Command(OnAddItem);
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -35,7 +39,7 @@ namespace MVPConfApp.ViewModels
             try
             {
                 Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
+                var items = await _restClient.GetList<Palestrante>("9ecb1fb9-723f-4c77-a9eb-791f1d7d9162");
                 foreach (var item in items)
                 {
                     Items.Add(item);
@@ -67,18 +71,13 @@ namespace MVPConfApp.ViewModels
             }
         }
 
-        private async void OnAddItem(object obj)
-        {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
-        }
-
         async void OnItemSelected(Item item)
         {
             if (item == null)
                 return;
 
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
+            //await Shell.Current.GoToAsync($"{nameof(PalestraDetailPage)}?{nameof(PalestraDetailViewModel.ItemId)}={item.Id}");
         }
     }
 }

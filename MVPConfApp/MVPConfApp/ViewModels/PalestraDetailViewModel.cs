@@ -7,7 +7,7 @@ using Xamarin.Forms;
 namespace MVPConfApp.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public class ItemDetailViewModel : BaseViewModel
+    public class PalestraDetailViewModel : BaseViewModel
     {
         private string itemId;
         private string text;

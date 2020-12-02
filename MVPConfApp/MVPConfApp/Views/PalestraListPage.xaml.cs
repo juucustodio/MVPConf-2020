@@ -12,15 +12,15 @@ using Xamarin.Forms.Xaml;
 
 namespace MVPConfApp.Views
 {
-    public partial class ItemsPage : ContentPage
+    public partial class PalestraListPage : ContentPage
     {
-        ItemsViewModel _viewModel;
+        PalestraListViewModel _viewModel;
 
-        public ItemsPage()
+        public PalestraListPage()
         {
             InitializeComponent();
 
-            BindingContext = _viewModel = new ItemsViewModel();
+            BindingContext = _viewModel = new PalestraListViewModel();
         }
 
         protected override void OnAppearing()
