@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T00:16:44.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="9Ksn5cxXiIhgQ2d_-Twc" version="13.10.0" type="github"><diagram id="QueqKoRBgJmzvUffUsB9" name="Page-1">7VdLj6MwDP41HKl4tLRznL72oV1pVrPSnFMIYDUQFNJC59evA6FASzXDqqOdw7YH4LMdB9ufHQx3lZRfBMninzygzHCsoDTcteE45tS18KKQU43Ys7lTI5GAQGMt8AyvVIPaMDpAQPOeouScScj6oM/TlPqyhxEheNFXCznre81IRK+AZ5+wa/QFAhnX6GJmtfhXClHceLYtLUlIo6yBPCYBLzqQuzHcleBc1ndJuaJMRa+JS223vSE9b0zQVL7HgGblC99uXt1f8+/xaTFfn9g3U69yJOygX1hvVp6aCPCDZJDS1TnAluEuQ57KFWdcVDou/rfK6zISJADaylKeUqUOjA2p51LwPb1QDkge00A7OlIhAdPxg+woe+I5SOApynZcSp50FB4ZREogeYYo0U8+7oXi2stYJgyfbb13XWi20zzr91UuSZ7VLxpCqfaxzDioVTZHXCzXi2A2M2WQlJGq/Akp8unkkFe+dExxY7S8mSz7XAJIHsoTKsUJVRoDz9U2mjimp8uoaKtwvqihuFOADUZ03UfnpdvSwBtdHSMqxXm7UgQ/pME5c0UMkj5nxFfSAoPUz8JdgtSQTQfJvY6R7dnXQTor3j1K7kCUPCbVq+M+vEjdPWFzwcInWFONEH218gYM4NhAZu231e7IbqhLkIyOskCW72kAaSPeid56BUhFpTErIlvHbWEHvKLTaZQVTQiwURZZzCV/t8V1QG6ZXhACS1v2q36w4XW7o4Zy5A2kEQKz9um3am1r07nFLo5sClk1Y2IIAooNcNnn5F1IZ1uTWY920wHaNViXdvbio2g3/YTN6cHrd/B/35xmb0epGWuQVOeibkyGB+2b85kpwZL4+6jKQOcUEFY/VKmcPTZTd3AE6/2sYynVwe9RBcLZ+kHqTgCPfiFgbsXER4/ISCIJXhSe47Ug0o8hPJlH27TMhZWVCKpK3CbgC46tIKUVbNrOYpIh6e6R/Af7giTmfCD/1hBLrI/KvzdiOH2myeSRRJVausvVBT8HfAFZVWej3AoswlEWR8hhN3KI5j6eXQ9s5KA0ZtjjKdlTkRuz9f/B9Hecm19y7t2DaT6ecvjYfrtVss4nsLv5Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-02T23:54:32.823Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="O68Zg0Zg8M-WEP6blTzn" version="13.10.6" type="github">
+  <diagram id="QueqKoRBgJmzvUffUsB9" name="Page-1">
+    <mxGraphModel dx="576" dy="1967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="1631" y="-60" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="30" width="161" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-3" value="&lt;h1&gt;Palestrante&lt;/h1&gt;&lt;div&gt;- id&lt;/div&gt;&lt;div&gt;- title&lt;/div&gt;&lt;div&gt;- linkedin&lt;br&gt;- twitter&lt;/div&gt;&lt;div&gt;- site&lt;/div&gt;&lt;div&gt;- biography&lt;/div&gt;&lt;div&gt;- email&lt;/div&gt;&lt;div&gt;- photo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1610.5" y="40" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="30" width="161" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/watchify-v1-0-80px/80/microphone-80px-128.png" parent="1" vertex="1">
+          <mxGeometry x="1991.5" y="-70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="epxWoFEz3Q7Jhy87DylI-6" value="&lt;h1&gt;Palestra&lt;/h1&gt;&lt;div&gt;- id&lt;/div&gt;&lt;div&gt;- title&lt;/div&gt;&lt;div&gt;-&amp;nbsp;description&lt;/div&gt;&lt;div&gt;- track&lt;/div&gt;&lt;div&gt;- visible&lt;/div&gt;&lt;div&gt;- scheduler&lt;/div&gt;&lt;div&gt;- [speakers]&lt;/div&gt;&lt;div&gt;- ID Palestrante*****&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1971.5" y="40" width="140" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
