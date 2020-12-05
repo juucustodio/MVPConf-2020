@@ -45,7 +45,7 @@ namespace MVPConfApp.ViewModels
             {
                 var item = await DataStore.GetItemAsync(itemId);
                 Id = item.Id;
-                Text = item.Text;
+                Title = item.Title;
                 Description = item.Description;
             }
             catch (Exception)

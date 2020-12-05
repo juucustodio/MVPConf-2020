@@ -32,7 +32,7 @@
     <TabBar>
         <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
         <ShellContent Title="Palestras" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:PalestraListPage}" />
-        <ShellContent Title="Palestrantes" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:PalestranteListPage}" />
+        <ShellContent Title="Palestrantes" Icon="icon_palestrante.png" ContentTemplate="{DataTemplate local:PalestranteListPage}" />
     </TabBar>
 
     <!--

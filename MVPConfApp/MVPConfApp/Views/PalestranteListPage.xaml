@@ -21,18 +21,27 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Padding="10" x:DataType="model:Palestrante">
-                        <ffimageloading:CachedImage VerticalOptions="Center" HeightRequest="64"
+                        <StackLayout Orientation="Horizontal">
+                            <ffimageloading:CachedImage VerticalOptions="Center" HeightRequest="80" WidthRequest="80"
                             Source="{Binding Photo}"
-                            CacheDuration="7" >
-                        </ffimageloading:CachedImage>
-                        <Label Text="{Binding Title}" 
+                            CacheDuration="7" LoadingPlaceholder="Loading.png" RetryCount="3">
+                            </ffimageloading:CachedImage>
+
+                            <StackLayout>
+                                <Label Text="{Binding Title}" 
                             LineBreakMode="NoWrap" 
                             Style="{DynamicResource ListItemTextStyle}" 
                             FontSize="16" />
-                        <Label Text="{Binding Biography}" 
-                            LineBreakMode="NoWrap"
+                                <Label Text="{Binding Twitter}" 
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
+                                <Label Text="{Binding Linkedin}" 
+                            Style="{DynamicResource ListItemDetailTextStyle}"
+                            FontSize="13" />
+                            </StackLayout>
+                        </StackLayout>
+                        
+                        
                         <!--<StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"
