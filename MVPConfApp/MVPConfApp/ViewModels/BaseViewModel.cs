@@ -10,7 +10,7 @@ namespace MVPConfApp.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public IDataStore<Palestra> DataStore => DependencyService.Get<IDataStore<Palestra>>();
 
         bool isBusy = false;
         public bool IsBusy

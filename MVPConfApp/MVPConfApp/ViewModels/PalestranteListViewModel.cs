@@ -13,12 +13,12 @@ namespace MVPConfApp.ViewModels
 {
     public class PalestranteListViewModel : BaseViewModel
     {
-        private Item _selectedItem;
+        private Palestra _selectedItem;
 
         public ObservableCollection<Palestrante> Items { get; }
         public Command LoadItemsCommand { get; }
         public Command AddItemCommand { get; }
-        public Command<Item> ItemTapped { get; }
+        public Command<Palestra> ItemTapped { get; }
 
         private readonly RestClient _restClient;
 
@@ -28,7 +28,7 @@ namespace MVPConfApp.ViewModels
             Items = new ObservableCollection<Palestrante>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
             _restClient = new RestClient();
-            ItemTapped = new Command<Item>(OnItemSelected);
+            ItemTapped = new Command<Palestra>(OnItemSelected);
 
         }
 
@@ -61,7 +61,7 @@ namespace MVPConfApp.ViewModels
             SelectedItem = null;
         }
 
-        public Item SelectedItem
+        public Palestra SelectedItem
         {
             get => _selectedItem;
             set
@@ -71,7 +71,7 @@ namespace MVPConfApp.ViewModels
             }
         }
 
-        async void OnItemSelected(Item item)
+        async void OnItemSelected(Palestra item)
         {
             if (item == null)
                 return;

@@ -148,4 +148,13 @@
       <Name>MVPConfApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pessoas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\evento2019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo.png" />
+  </ItemGroup>
 </Project>
