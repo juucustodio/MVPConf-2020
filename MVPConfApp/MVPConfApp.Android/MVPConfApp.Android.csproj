@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MVPConfApp\MVPConfApp.csproj">
-      <Project>{2E18BDAE-58BB-4874-85F3-7C00929B8577}</Project>
+      <Project>{B6520982-AF7D-4E9E-89A7-393B1899632D}</Project>
       <Name>MVPConfApp</Name>
     </ProjectReference>
   </ItemGroup>
