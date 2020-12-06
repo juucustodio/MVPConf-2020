@@ -1,4 +1,9 @@
+|  Project  |  Status  |
+|---|---|
+| Backend | ![.NET Core](https://github.com/juucustodio/MVPConf-2020/workflows/.NET%20Core/badge.svg) |
+
 # MVPConf-2020
+
 
 ## Tasks
 - [ ] - Criar Azure Functions (Albert)
