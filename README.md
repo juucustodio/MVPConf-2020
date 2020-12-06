@@ -6,7 +6,7 @@
 
 
 ## Tasks
-- [ ] - Criar Azure Functions (Albert)
+- [ ] - Criar Azure Functions (Albert) - Em andamento
 - [ ] - Criar README e desenho arquitetural (Albert)
 - [ ] - Desenvolvimento do APP (Juliano)
 - [ ] - Criar apresentação, ppt
