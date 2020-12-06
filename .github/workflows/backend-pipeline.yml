@@ -18,7 +18,10 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore MVPConf.Backend\MVPConf.Backend.sln
+      run: dotnet restore 
+      working-directory: MVPConf.Backend
+      
     - name: Build
-      run: dotnet build MVPConf.Backend\MVPConf.Backend.sln --configuration Release --no-restore
+      run: dotnet build --configuration Release --no-restore
+      working-directory: MVPConf.Backend
    
