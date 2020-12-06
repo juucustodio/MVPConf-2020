@@ -60,6 +60,16 @@
       "photo":"https://mvp.microsoft.com/PublicProfile/Photo/5003195"
    },
    {
+      "id":"352",
+      "title":"Alex Amorim",
+      "linkedin":"https://www.linkedin.com/in/alexamorim/",
+      "twitter":"https://twitter.com/amorimsecurity",
+      "site":"",
+      "biography":"Mais de 16 anos de experiência Tecnologia, com foco em segurança da informação, atuando nos segmentos de Finanças, Telecom, Aquirencia, Processamento, Consultorias e Startups. \nExpertise no desenvolvimento e execução no Plano Diretor de Segurança da Informação (PDSI) em ambientes como Cloud, BigData, DevSecOps entre outros, além de gestão de times de Resposta a Incidentes (SOC / CSIRT) e análise forence com foco em fraudes.\nHead de Segurança da Informação e Proteção dos Dados do Grupo Cogna com objetivo de assegurar a Continuidade dos Negócios, preservação dos dados estratégicos da Companhia, Clientes e Parceiros de Negócio, assim como atender a LGPD. \nConselheiro Consultivo com objetivo de ajudar os sócios da empresa para identificar as melhores práticas para administração do negócio, definir estratégia e verificar o engajamento da equipe de trabalho. \nColunista na Security Report escrevendo sobre temas como; LGPD, regulação do Bacen e Inovação em segurança. \nFormado em Gestão de rede de computadores na Faculdade Carlos Drummond de Andrade, com MBA pela FIAP Segurança da Informação, MBA pela FGV em Finanças e Gestão Estratégica.\nCertificações nacionais e internacionais como Auditor Leader em Segurança da Informação e Data Protection Officer (DPO).",
+      "email":"Mais de 16 anos de experiência Tecnologia, com foco em segurança da informação, atuando nos segmentos de Finanças, Telecom, Aquirencia, Processamento, Consultorias e Startups. \nExpertise no desenvolvimento e execução no Plano Diretor de Segurança da Informação (PDSI) em ambientes como Cloud, BigData, DevSecOps entre outros, além de gestão de times de Resposta a Incidentes (SOC / CSIRT) e análise forence com foco em fraudes.\nHead de Segurança da Informação e Proteção dos Dados do Grupo Cogna com objetivo de assegurar a Continuidade dos Negócios, preservação dos dados estratégicos da Companhia, Clientes e Parceiros de Negócio, assim como atender a LGPD. \nConselheiro Consultivo com objetivo de ajudar os sócios da empresa para identificar as melhores práticas para administração do negócio, definir estratégia e verificar o engajamento da equipe de trabalho. \nColunista na Security Report escrevendo sobre temas como; LGPD, regulação do Bacen e Inovação em segurança. \nFormado em Gestão de rede de computadores na Faculdade Carlos Drummond de Andrade, com MBA pela FIAP Segurança da Informação, MBA pela FGV em Finanças e Gestão Estratégica.\nCertificações nacionais e internacionais como Auditor Leader em Segurança da Informação e Data Protection Officer (DPO).",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQE6E4_keuOUBA/profile-displayphoto-shrink_800_800/0/1553312574208?e=1612396800&v=beta&t=ZtvMHj6SO_3w4ZrC3VaL2B8yfglhlj5iZUUP-10mj2Y"
+   },
+   {
       "id":"293",
       "title":"Alex Rostán",
       "linkedin":"https://www.linkedin.com/in/alexrostan/",
@@ -81,7 +91,7 @@
    },
    {
       "id":"7",
-      "title":"Alexandre Malavasi ",
+      "title":"Alexandre Malavasi",
       "linkedin":"https://www.linkedin.com/in/alexandremalavasi/",
       "twitter":"https://twitter.com/alemalavasi",
       "site":"",
@@ -181,7 +191,7 @@
    },
    {
       "id":"137",
-      "title":"Andre Baltieri ",
+      "title":"Andre Baltieri",
       "linkedin":"https://www.linkedin.com/in/andrebaltieri/",
       "twitter":"https://twitter.com/andrebaltieri",
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/5000060",
@@ -310,6 +320,16 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHhWdklVIXm0w/profile-displayphoto-shrink_800_800/0?e=1611792000&v=beta&t=2PE6JjTbMRwZu5Ux1QPo0GUyrQp0lWRTij0k5gsagAk"
    },
    {
+      "id":"220",
+      "title":"Bartira Lira",
+      "linkedin":"https://www.linkedin.com/in/bartiralira/",
+      "twitter":"",
+      "site":"",
+      "biography":"",
+      "email":"",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQEolKbSUNJTxg/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=P0Hr_dKU2gO1rD5NIaTU9OX0PQi8wkGamF-C7SKyaD0"
+   },
+   {
       "id":"233",
       "title":"Beatriz Lourenço",
       "linkedin":"https://www.linkedin.com/in/beatriz-louren%C3%A7o-39239215a/",
@@ -391,7 +411,7 @@
    },
    {
       "id":"138",
-      "title":"Carlos dos Santos ",
+      "title":"Carlos dos Santos",
       "linkedin":"https://www.linkedin.com/in/cdssoftware/",
       "twitter":"https://twitter.com/cdssoftware",
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/4015740?fullName=Carlos%20dos%20Santos",
@@ -427,7 +447,7 @@
       "site":"",
       "biography":"\"Gerente do time de Engenharia de Dados e BI, responsável pela gestão do time, organizar os projetos, designar recursos, reuniões com clientes e apoio como líder técnico.\n\nTrabalhando em um ambiente ricos em dados e encarregada de construir a equipe para ajudar a implantar técnicas de Engenharia de Dados de ponta em várias áreas diferentes da empresa. \n\nConstruindo o Big Data das Empresas e levando os clientes a transformação digital e a um nível moderno de DataWarehouse\"\n",
       "email":"\"Gerente do time de Engenharia de Dados e BI, responsável pela gestão do time, organizar os projetos, designar recursos, reuniões com clientes e apoio como líder técnico.\n\nTrabalhando em um ambiente ricos em dados e encarregada de construir a equipe para ajudar a implantar técnicas de Engenharia de Dados de ponta em várias áreas diferentes da empresa. \n\nConstruindo o Big Data das Empresas e levando os clientes a transformação digital e a um nível moderno de DataWarehouse\"\n",
-      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHXGBFuEwQbuA/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=jwlh-dCJa_m2WcI0-UcmNNlKwnWVWcRPgXK2QD1DyzQ"
+      "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQHsONSP4KjAkQ/profile-displayphoto-shrink_400_400/0/1606437290347?e=1612396800&v=beta&t=7tzqMmnkhpUms2hERB5XhEgriteQfBsJ6nHEGeJzZ7k"
    },
    {
       "id":"241",
@@ -597,7 +617,7 @@
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/5002850?fullName=Douglas%20Rom%C3%A3o%20",
       "biography":"\"Microsoft Most Valuable Professional nas categorias Office Apps and Services & Business Applications e arquiteto de soluções focado em inovação e colaboração, têm trabalhado com projetos de software por mais de 13 anos focado em soluções de inovação tecnológica para diferentes tipos e tamanhos de empresa ao redor do mundo. Lidera comunidades técnicas relacionadas à tecnologias Microsoft, produzindo encontros, videos, artigos. livros e palestras. \n\"",
       "email":"\"Microsoft Most Valuable Professional nas categorias Office Apps and Services & Business Applications e arquiteto de soluções focado em inovação e colaboração, têm trabalhado com projetos de software por mais de 13 anos focado em soluções de inovação tecnológica para diferentes tipos e tamanhos de empresa ao redor do mundo. Lidera comunidades técnicas relacionadas à tecnologias Microsoft, produzindo encontros, videos, artigos. livros e palestras. \n\"",
-      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQGRHaQkvUeEfA/profile-displayphoto-shrink_200_200/0?e=1606348800&v=beta&t=QaXYWqk5rvlQFqjXIKkDIcEGL1xnBI6V7XDHDvKPV3U"
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQGRHaQkvUeEfA/profile-displayphoto-shrink_400_400/0?e=1612396800&v=beta&t=npUgeW7rtMT2LhsRIamxbtA6qe7sAUzrB4KVqBlDpfE"
    },
    {
       "id":"117",
@@ -618,16 +638,6 @@
       "biography":"\"Engenheiro Eletricista especialista em instrumentação, Especialista visuais para Power Bi, Palestrante e instrutor.\nProduz meios para o alcance de resultados e metas de clientes, com formas inovadoras e facilitadoras para execução de atividades, gestão dos recursos e redução de custos.\"\n",
       "email":"\"Engenheiro Eletricista especialista em instrumentação, Especialista visuais para Power Bi, Palestrante e instrutor.\nProduz meios para o alcance de resultados e metas de clientes, com formas inovadoras e facilitadoras para execução de atividades, gestão dos recursos e redução de custos.\"\n",
       "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHh8ssR63yxiw/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=sx9C2IM_KP-SHpr4j8LDz0F8SRACqY-EHZnwZew_K9k"
-   },
-   {
-      "id":"251",
-      "title":"Edson Marinho",
-      "linkedin":"https://www.linkedin.com/in/edsonmarinho/",
-      "twitter":"https://twitter.com/edson_marinho",
-      "site":"",
-      "biography":"\"Edson Marinho é Diretor Executivo do PM4NGOs, fundador e diretor da Teoria da Prática, especialista em Gestão de Projetos no Setor de Desenvolvimento Social - certificado nas metodologias Project DPro (PMD Pro), Program DPro, e AgilePM. Edson possui uma trajetória de mais de 15 anos no setor de desenvolvimento social. \n\"\n",
-      "email":"\"Edson Marinho é Diretor Executivo do PM4NGOs, fundador e diretor da Teoria da Prática, especialista em Gestão de Projetos no Setor de Desenvolvimento Social - certificado nas metodologias Project DPro (PMD Pro), Program DPro, e AgilePM. Edson possui uma trajetória de mais de 15 anos no setor de desenvolvimento social. \n\"\n",
-      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQEaGegE8-EVFA/profile-displayphoto-shrink_400_400/0?e=1610582400&v=beta&t=JF_VfsuLod1pntdzCvM79bycdpgzDzbPCD-ft1XvucY"
    },
    {
       "id":"234",
@@ -687,7 +697,7 @@
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/4025063?fullName=Enrique%20Gustavo%20Dutra",
       "biography":"\"Possui na sociedade uma empresa de consultoria que presta suporte e consultoria em Segurança Informática, Consultoria ISO / IEC 27001, Suporte / Projetos na plataforma Microsoft / VMware e Segurança Informática, Informação e Cibersegurança. Sua empresa Punto Net Soluciones SRL,  fundada em 2000.\nPerito forense. Membro da ISACA.\nMVP por 15 anos. Executa cerca de 1000 testes de vulnerabilidade por ano.\"",
       "email":"\"Possui na sociedade uma empresa de consultoria que presta suporte e consultoria em Segurança Informática, Consultoria ISO / IEC 27001, Suporte / Projetos na plataforma Microsoft / VMware e Segurança Informática, Informação e Cibersegurança. Sua empresa Punto Net Soluciones SRL,  fundada em 2000.\nPerito forense. Membro da ISACA.\nMVP por 15 anos. Executa cerca de 1000 testes de vulnerabilidade por ano.\"",
-      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQFP0MSX_28Hug/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=mF8F8CxcEsKKQ_oNECttiH-RWfGBPkExWR36XshI7bM"
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQGeV9CUoL83Ew/profile-displayphoto-shrink_800_800/0/1606871850208?e=1612396800&v=beta&t=f0w8DlJi1t_bWjZGxYRv1V9x-N1IXuhUXP00UwAcn5E"
    },
    {
       "id":"25",
@@ -850,6 +860,16 @@
       "photo":"https://mvp.microsoft.com/PublicProfile/Photo/5000345"
    },
    {
+      "id":"353",
+      "title":"Fernando Amorim de Oliveira",
+      "linkedin":"https://www.linkedin.com/in/in-fernandoamorim/",
+      "twitter":"",
+      "site":"",
+      "biography":"",
+      "email":"",
+      "photo":"https://www.linkedin.com/in/in-fernandoamorim/detail/photo/"
+   },
+   {
       "id":"309",
       "title":"Fernando Andreazi",
       "linkedin":"http://linkedin.com/in/fernandoandreazi",
@@ -902,12 +922,12 @@
    {
       "id":"339",
       "title":"Freddie Santos",
-      "linkedin":"",
+      "linkedin":"https://www.linkedin.com/in/fredguis/",
       "twitter":"",
       "site":"",
       "biography":"",
       "email":"",
-      "photo":"/images/team/1.jpg"
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQEixHUnl-AtQA/profile-displayphoto-shrink_400_400/0/1591994965700?e=1612396800&v=beta&t=1RHeuB7h4JnKA-51NYQm-BglmbrhVhfrryXcD43t43I"
    },
    {
       "id":"311",
@@ -960,6 +980,16 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQFnQahhzLcLZw/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=1Q5I4ng0zyq8IduvSTjI2C9HXOcfVWm24wFL1LP0YK4"
    },
    {
+      "id":"173",
+      "title":"Gilson Banin",
+      "linkedin":"https://www.linkedin.com/in/gilsonbanin/",
+      "twitter":"https://twitter.com/GilsonBanin",
+      "site":"",
+      "biography":"Technical Seller at Microsoft & author of the book Windows Server 2016 Software-Defined DataCenter",
+      "email":"Technical Seller at Microsoft & author of the book Windows Server 2016 Software-Defined DataCenter",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQGms3N_pSxRwA/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=tvkZRiKOQGBKED6aWextX3EIFFSKGt-yTna_C9SpxRk"
+   },
+   {
       "id":"12",
       "title":"Giovanni Bassi",
       "linkedin":"https://br.linkedin.com/in/giovannibassi",
@@ -968,6 +998,16 @@
       "biography":"Arquiteto e desenvolvedor, agilista, escalador, provocador. É fundador e CSA da Lambda3. Programa porque gosta. Acredita que pessoas autogerenciadas funcionam melhor e por acreditar que heterarquia é mais eficiente que hierarquia. Foi reconhecido Microsoft MVP há mais de dez anos, dos mais de vinte que atua no mercado. Já palestrou sobre .NET, microsserviços, Ruby, Node.js, Frontend e Backend, Agile, etc, no Brasil, e no exterior. Lidera alguns grupos de usuários, como o Brasil .NET, e o .NET Architects.",
       "email":"Arquiteto e desenvolvedor, agilista, escalador, provocador. É fundador e CSA da Lambda3. Programa porque gosta. Acredita que pessoas autogerenciadas funcionam melhor e por acreditar que heterarquia é mais eficiente que hierarquia. Foi reconhecido Microsoft MVP há mais de dez anos, dos mais de vinte que atua no mercado. Já palestrou sobre .NET, microsserviços, Ruby, Node.js, Frontend e Backend, Agile, etc, no Brasil, e no exterior. Lidera alguns grupos de usuários, como o Brasil .NET, e o .NET Architects.",
       "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQEBBfYCFtSlgA/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=3xMoFM2qt3PLYPCclWYgP7IDvv0UsLWTaP7wmqVYJo8"
+   },
+   {
+      "id":"146",
+      "title":"Glauter Jannuzzi",
+      "linkedin":"https://www.linkedin.com/in/jannuzzi/",
+      "twitter":"https://twitter.com/glauterj",
+      "site":"",
+      "biography":"Apaixonado por Empreendedorismo Social, Educação, Tecnologia, Inovação, Transformação Digital, Startups, Educação Financeira, Coaching, Gestão de Pessoas, Vendas e Marketing, \nÉ autor do livro \"Espírito de Startup - Tudo ao mesmo tempo agora\" e idealizador do Vale Digital. \nFundou a startup social Atitude Infinita e é co-fundador do FlirtAR: The World's First Augmented Reality Dating App.\n\nNas horas vagas é professor e palestrante convergindo ações corporativas com o meio acadêmico. Busca sempre impactar e influenciar pessoas para transformar o Brasil no país que queremos e acreditamos.\n\nEvangelist Manager e MVP Brasil líder na Microsoft, Mestre em Comércio Eletrônico pelo IME, Pós-graduado em MBA Gestão Empresarial pela FGV, Bacharel em Ciências da Computação pela UNESP e Técnico em Informática pelo Colégio Volta Redonda.\n\nCertificado em Gerência de Projetos (PMP), Gestão da Qualidade (Black Belt Lean Six Sigma e ITIL), Métricas de Softwares (IFPUG), Proficiência em Inglês Comercial (TOEIC) e Espanhol.\n\nOrganizador do START VR 2017, focado no fomento ao empreendedorismo e inovação através da união entre o Poder Público, o Privado, as Instituições Acadêmicas e a Sociedade.",
+      "email":"Apaixonado por Empreendedorismo Social, Educação, Tecnologia, Inovação, Transformação Digital, Startups, Educação Financeira, Coaching, Gestão de Pessoas, Vendas e Marketing, \nÉ autor do livro \"Espírito de Startup - Tudo ao mesmo tempo agora\" e idealizador do Vale Digital. \nFundou a startup social Atitude Infinita e é co-fundador do FlirtAR: The World's First Augmented Reality Dating App.\n\nNas horas vagas é professor e palestrante convergindo ações corporativas com o meio acadêmico. Busca sempre impactar e influenciar pessoas para transformar o Brasil no país que queremos e acreditamos.\n\nEvangelist Manager e MVP Brasil líder na Microsoft, Mestre em Comércio Eletrônico pelo IME, Pós-graduado em MBA Gestão Empresarial pela FGV, Bacharel em Ciências da Computação pela UNESP e Técnico em Informática pelo Colégio Volta Redonda.\n\nCertificado em Gerência de Projetos (PMP), Gestão da Qualidade (Black Belt Lean Six Sigma e ITIL), Métricas de Softwares (IFPUG), Proficiência em Inglês Comercial (TOEIC) e Espanhol.\n\nOrganizador do START VR 2017, focado no fomento ao empreendedorismo e inovação através da união entre o Poder Público, o Privado, as Instituições Acadêmicas e a Sociedade.",
+      "photo":"https://pbs.twimg.com/profile_images/1074469081682771968/PcoMO-RU_400x400.jpg"
    },
    {
       "id":"61",
@@ -1032,12 +1072,12 @@
    {
       "id":"330",
       "title":"Heather Heide",
-      "linkedin":"",
+      "linkedin":"https://www.linkedin.com/in/heather-heide-o-cull-9873614/",
       "twitter":"",
       "site":"",
       "biography":"",
       "email":"",
-      "photo":"/images/team/1.jpg"
+      "photo":"https://media-exp1.licdn.com/dms/image/C5603AQEMsK9J1mVKeg/profile-displayphoto-shrink_400_400/0?e=1612396800&v=beta&t=_su6dWpebmxYRIQtwJWAZFFWsvKQI7tVAcYWMgwEX2U"
    },
    {
       "id":"1",
@@ -1071,7 +1111,7 @@
    },
    {
       "id":"197",
-      "title":"Igor Humberto ",
+      "title":"Igor Humberto",
       "linkedin":"https://www.linkedin.com/in/igorhumberto/",
       "twitter":"https://twitter.com/sobitsnamente",
       "site":"",
@@ -1101,7 +1141,7 @@
    },
    {
       "id":"165",
-      "title":"Ismael Casagrande ",
+      "title":"Ismael Casagrande",
       "linkedin":"https://www.linkedin.com/in/igcasagrande/",
       "twitter":"https://twitter.com/igcasagra",
       "site":"",
@@ -1270,6 +1310,16 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQF274GDr4ypEg/profile-displayphoto-shrink_200_200/0?e=1609372800&v=beta&t=HRk-RFk1R-ppEGQeO7wHADtANaUegF2r9_XfUIwSzRQ"
    },
    {
+      "id":"351",
+      "title":"Julius Kikuda Santana",
+      "linkedin":"https://www.linkedin.com/in/juliussantana/",
+      "twitter":"",
+      "site":"",
+      "biography":"Advogado, Consultor, Palestrante, Pós-Graduado em Direito Digital e membro da Comissão de Direito Digital da OAB Osasco. \n",
+      "email":"Advogado, Consultor, Palestrante, Pós-Graduado em Direito Digital e membro da Comissão de Direito Digital da OAB Osasco. \n",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQGZKcSrBHpEvw/profile-displayphoto-shrink_800_800/0/1602869723149?e=1612396800&v=beta&t=1zIZGc5xFX6thanD7DTTVY3aqB4y1K_VSymRZLNNnLg"
+   },
+   {
       "id":"134",
       "title":"Karine Lago",
       "linkedin":"https://www.linkedin.com/in/karinelago/",
@@ -1411,7 +1461,7 @@
    },
    {
       "id":"164",
-      "title":"Luiz Carlos Faria ",
+      "title":"Luiz Carlos Faria",
       "linkedin":"https://www.linkedin.com/in/luizcarlosfaria/",
       "twitter":"https://twitter.com/luizcarlosfaria",
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/5003292?fullName=Luiz%20Carlos%20Faria",
@@ -1520,6 +1570,26 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQHlCPtqW4ylaw/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=GummzvyAHhhSZGfv2zm20GqIdkSqZYhNGMn-cXDA2PU"
    },
    {
+      "id":"125",
+      "title":"Marcos Tupinambá",
+      "linkedin":"https://www.linkedin.com/in/mtupi/",
+      "twitter":"https://twitter.com/mtupi",
+      "site":"",
+      "biography":"Bacharel em Direito, Especialista em Direito e TI – ESA/OAB/SP, Professor concursado de “Investigação de Crimes Eletrônicos” da Academia de Polícia do Estado de São Paulo – ACADEPOL, Premiado como “Most Valuable Professional” pela Microsoft em 2011/2012/2013/2014/2015/2016 na categoria “Enterprise Security”, Professor da pós-graduação em Gestão da Inovação e Direito Digital na FIA (Fundação Instituto de Administração), Professor da disciplina de “Crimes Eletrônicos” da pós-graduação em Direito Digital e Compliance das Faculdades Damásio, Professor da pós-graduação em Direito e Processo Penal da UNIFOR Universidade de Fortaleza, Professor do curso de formação de DPO do INFI/Febraban, Conteudista do Curso de Inteligência Cibernética da DINT/SENASP/MJ (2018), Coordenador do Laboratório de Análise de Crimes Eletrônicos da Polícia Civil – SP (11/2014 a 02/2019), Autor do caderno didático da disciplina de \"Crimes Eletrônicos\" do Curso de Alinhamento de Procedimentos de Polícia Judiciária e Perícia Criminal - SENASP/MJ (2018), Autor do capítulo de investigação cibernética do livro “Feminicídios – Diretrizes para o atendimento de local de crime e investigação de mortes violentas de mulheres” - Ed. Acadepol/SP – 2019, Coautor do livro “Combate às Fake News” – Ed. Posteridade – 2019, Autor do livro “Investigação Policial de Crimes Eletrônicos” – Ed. Acadepol / SP – 2019, Coautor do livro “Segurança Digital - Proteção de Dados nas Empresas” – Ed. GEN/Atlas – 2020.",
+      "email":"Bacharel em Direito, Especialista em Direito e TI – ESA/OAB/SP, Professor concursado de “Investigação de Crimes Eletrônicos” da Academia de Polícia do Estado de São Paulo – ACADEPOL, Premiado como “Most Valuable Professional” pela Microsoft em 2011/2012/2013/2014/2015/2016 na categoria “Enterprise Security”, Professor da pós-graduação em Gestão da Inovação e Direito Digital na FIA (Fundação Instituto de Administração), Professor da disciplina de “Crimes Eletrônicos” da pós-graduação em Direito Digital e Compliance das Faculdades Damásio, Professor da pós-graduação em Direito e Processo Penal da UNIFOR Universidade de Fortaleza, Professor do curso de formação de DPO do INFI/Febraban, Conteudista do Curso de Inteligência Cibernética da DINT/SENASP/MJ (2018), Coordenador do Laboratório de Análise de Crimes Eletrônicos da Polícia Civil – SP (11/2014 a 02/2019), Autor do caderno didático da disciplina de \"Crimes Eletrônicos\" do Curso de Alinhamento de Procedimentos de Polícia Judiciária e Perícia Criminal - SENASP/MJ (2018), Autor do capítulo de investigação cibernética do livro “Feminicídios – Diretrizes para o atendimento de local de crime e investigação de mortes violentas de mulheres” - Ed. Acadepol/SP – 2019, Coautor do livro “Combate às Fake News” – Ed. Posteridade – 2019, Autor do livro “Investigação Policial de Crimes Eletrônicos” – Ed. Acadepol / SP – 2019, Coautor do livro “Segurança Digital - Proteção de Dados nas Empresas” – Ed. GEN/Atlas – 2020.",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHZd7qYOjVnhA/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=76WBhkwtHqwA5nU1bP_b1LN-9M5H_BWeC2v5Fbnvxzw"
+   },
+   {
+      "id":"150",
+      "title":"Marcus Vinícius Bittencourt",
+      "linkedin":"https://www.linkedin.com/in/marcusbittencourt/",
+      "twitter":"https://twitter.com/mvbitt",
+      "site":"https://mvp.microsoft.com/pt-br/PublicProfile/5001117?fullName=Marcus%20Vinicius%20Bittencourt",
+      "biography":"I'm SQL SERVER MVP besides PASS Regional Mentor, Mentor of SQL PASS Local Groups in Brazil, where it's also the Group Leader SQL Server RS and Board Member of PASS Virtual PT. \n\nSQL Server DBA specializing in infrastructure, working with SQL Server since version 2000. \n\nBachelor in Information Systems from the University of Caxias do Sul.\n\nSQL Performance Counters and Storage Expert, like to talk about powershell, sharepoint and community too, speaker in the SQL Server community events like SQL Saturday, 24HOP, Events of Local and Virtual Local Chapters, among others ... \n\nIt is also creator of Channel SQL8K on youtube and CANAL4IT portal technical content to the community. \n\nMade part of the group of experts from Microsoft, MTAC - Microsoft Technical Audience Contribuitor until recieve MVP Award.",
+      "email":"I'm SQL SERVER MVP besides PASS Regional Mentor, Mentor of SQL PASS Local Groups in Brazil, where it's also the Group Leader SQL Server RS and Board Member of PASS Virtual PT. \n\nSQL Server DBA specializing in infrastructure, working with SQL Server since version 2000. \n\nBachelor in Information Systems from the University of Caxias do Sul.\n\nSQL Performance Counters and Storage Expert, like to talk about powershell, sharepoint and community too, speaker in the SQL Server community events like SQL Saturday, 24HOP, Events of Local and Virtual Local Chapters, among others ... \n\nIt is also creator of Channel SQL8K on youtube and CANAL4IT portal technical content to the community. \n\nMade part of the group of experts from Microsoft, MTAC - Microsoft Technical Audience Contribuitor until recieve MVP Award.",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQE5tTEccs7BLg/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=3qkTNXwtFXJ9sppQ9fhsXJ6_EIH09ybncLoBV4vi9xQ"
+   },
+   {
       "id":"333",
       "title":"Margareth Carneiro",
       "linkedin":"",
@@ -1528,16 +1598,6 @@
       "biography":"",
       "email":"",
       "photo":"/images/team/1.jpg"
-   },
-   {
-      "id":"110",
-      "title":"Mario Trentim",
-      "linkedin":"https://www.linkedin.com/in/trentim/",
-      "twitter":"https://twitter.com/mariotrentim",
-      "site":"https://mvp.microsoft.com/en-us/PublicProfile/5002508?fullName=Mario%20%20Trentim",
-      "biography":"CEO da PMO Global Alliance e Diretor de Governança & Performance na TRENTIM.com\n",
-      "email":"CEO da PMO Global Alliance e Diretor de Governança & Performance na TRENTIM.com\n",
-      "photo":"https://mvp.microsoft.com/PublicProfile/Photo/5002508"
    },
    {
       "id":"226",
@@ -1741,7 +1801,7 @@
    },
    {
       "id":"169",
-      "title":"Rafael Gobbi ",
+      "title":"Rafael Gobbi",
       "linkedin":"https://www.linkedin.com/in/rgobbi/",
       "twitter":"",
       "site":"",
@@ -1850,6 +1910,16 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHXx_l4fcrbbg/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=LytBXOcgt4n7j2ymTW7CRIUfMiXkHoee00mIxQelQnY"
    },
    {
+      "id":"192",
+      "title":"Renato Haddad",
+      "linkedin":"https://www.linkedin.com/in/renatohaddad/",
+      "twitter":"",
+      "site":"",
+      "biography":"Renato Haddad é MVP desde 2001, apaixonado por tecnologias .NET, ASP.NET, Blazor, Power BI, AI. Autor de 12 livros, professor de Pós-graduação e velejador de kitefoil\n",
+      "email":"Renato Haddad é MVP desde 2001, apaixonado por tecnologias .NET, ASP.NET, Blazor, Power BI, AI. Autor de 12 livros, professor de Pós-graduação e velejador de kitefoil\n",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQFGfXh4-WLcPQ/profile-displayphoto-shrink_400_400/0?e=1608163200&v=beta&t=LmIWqq3FD6QwT0bbPf83XckraGIQSoh4q46u7CvB2x8"
+   },
+   {
       "id":"6",
       "title":"Renato Jose Groffe",
       "linkedin":"https://www.linkedin.com/in/renatogroffe/",
@@ -1868,6 +1938,16 @@
       "biography":"Renato é Engenheiro Mecânico-Aeronáutico de formação e analista de dados de coração. Profissional Certificado da Microsoft especialista em Power BI. Iniciou sua carreira profissional em uma das três maiores consultorias estratégicas do mundo. Atualmente é instrutor de Universidade Corporativa, Analista em Soluções Digitais e Analíticas na área de Desempenho no ramo de óleo e gás.",
       "email":"Renato é Engenheiro Mecânico-Aeronáutico de formação e analista de dados de coração. Profissional Certificado da Microsoft especialista em Power BI. Iniciou sua carreira profissional em uma das três maiores consultorias estratégicas do mundo. Atualmente é instrutor de Universidade Corporativa, Analista em Soluções Digitais e Analíticas na área de Desempenho no ramo de óleo e gás.",
       "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQG3oyaVcpiTFA/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=LdtYRrS0aTXHldQO6QjFVA0eEzs8DzSbEUZCgRJOk6Y"
+   },
+   {
+      "id":"349",
+      "title":"Renato Marson Pagan",
+      "linkedin":"https://www.linkedin.com/in/renatomarson/",
+      "twitter":"",
+      "site":"",
+      "biography":"",
+      "email":"",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4E03AQENjjIW5L5p6g/profile-displayphoto-shrink_800_800/0?e=1612396800&v=beta&t=MNjHTKkTr6nUgJ_vwTigpsra3-SexroRQt0gXLerv34"
    },
    {
       "id":"193",
@@ -1981,7 +2061,7 @@
    },
    {
       "id":"162",
-      "title":"Rodrigo Kono ",
+      "title":"Rodrigo Kono",
       "linkedin":"https://www.linkedin.com/in/rodrigokono/",
       "twitter":"",
       "site":"https://mvp.microsoft.com/en-us/PublicProfile/4020681?fullName=Rodrigo%20Kono",
@@ -2120,6 +2200,16 @@
       "photo":"https://media-exp1.licdn.com/dms/image/C5603AQGvhLn1uEEpAg/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=HUHNcsjPSEykWPCMcR1EnuqCd8XsC1DqomvNy-MhGI4"
    },
    {
+      "id":"354",
+      "title":"Thaissa Bueno Sanches",
+      "linkedin":"https://www.linkedin.com/in/thaissa-bueno-sanches/",
+      "twitter":"https://twitter.com/thayssa1186",
+      "site":"",
+      "biography":"I started a Post Graduation in Machine Learning and Deep Learning, which I am doing an MBA in Deep Learning and doing Nanodegree of Deep learning at UDACITY.\nI have more than 13 years of experience developing in the Microsoft .NET Platform with C# and know Java.\nI worked in many companies, including multinationals, such as Capgemini, Stefanini, Walmart, Netshoes, and Avanade, where I learned good logistics, industrial management, commercial management, and financial, health & wellness, human resources, and e-commerce.\nI have experience developing chatbots with Microsoft Bot Framework, applications using cognitive services (Microsoft Azure, Google Cloud, Amazon AWS and IBM Cloud) and Machine Learning services using Azure Machine Learning.\nI have architecture skills for cognitive systems and facial and object recognition systems using OpenCV, Microsoft FaceAPI, and Microsoft Custom Vision.\nI work with the development of Neural Networks in the architectures neuralnet, CNN and LSTM with Keras and Tensorflow or Keras and CNTK.\nI also work with developing algorithms with the scikit-learning library and ML.NET, where it is possible to develop machine learning applications without Microsoft .NET Core.\nI have experience with programming languages as ​​C#, Java, Python, Javascript, and C++. ",
+      "email":"I started a Post Graduation in Machine Learning and Deep Learning, which I am doing an MBA in Deep Learning and doing Nanodegree of Deep learning at UDACITY.\nI have more than 13 years of experience developing in the Microsoft .NET Platform with C# and know Java.\nI worked in many companies, including multinationals, such as Capgemini, Stefanini, Walmart, Netshoes, and Avanade, where I learned good logistics, industrial management, commercial management, and financial, health & wellness, human resources, and e-commerce.\nI have experience developing chatbots with Microsoft Bot Framework, applications using cognitive services (Microsoft Azure, Google Cloud, Amazon AWS and IBM Cloud) and Machine Learning services using Azure Machine Learning.\nI have architecture skills for cognitive systems and facial and object recognition systems using OpenCV, Microsoft FaceAPI, and Microsoft Custom Vision.\nI work with the development of Neural Networks in the architectures neuralnet, CNN and LSTM with Keras and Tensorflow or Keras and CNTK.\nI also work with developing algorithms with the scikit-learning library and ML.NET, where it is possible to develop machine learning applications without Microsoft .NET Core.\nI have experience with programming languages as ​​C#, Java, Python, Javascript, and C++. ",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQHoI4L4kd2mMA/profile-displayphoto-shrink_800_800/0/1543265475686?e=1612396800&v=beta&t=X6R3KabHKnftQLQ15mVP_NY_0ZSVzu3FpnloHWz2CEg"
+   },
+   {
       "id":"14",
       "title":"Thamirys Gameiro",
       "linkedin":"https://www.linkedin.com/in/thamirys-gameiro-5535a520",
@@ -2148,6 +2238,16 @@
       "biography":"Head of Technology na NESS , Microsoft MVP em Developer Technologies  , desenvolvedor .net há 13 anos participando de projetos : Desktop, Services, Web e Mobile utilizando Xamarin.",
       "email":"Head of Technology na NESS , Microsoft MVP em Developer Technologies  , desenvolvedor .net há 13 anos participando de projetos : Desktop, Services, Web e Mobile utilizando Xamarin.",
       "photo":"https://miro.medium.com/max/3150/1*typog9NQJ0guuZ5tyaov2A.png"
+   },
+   {
+      "id":"236",
+      "title":"Thiago Cardoso Luiz",
+      "linkedin":"https://www.linkedin.com/in/cardosothiago/",
+      "twitter":"",
+      "site":"",
+      "biography":"Atualmente trabalha como engenheiro para soluções de Missão Critica juntos aos clientes da America Latina, former MVP em Directory Services.",
+      "email":"Atualmente trabalha como engenheiro para soluções de Missão Critica juntos aos clientes da America Latina, former MVP em Directory Services.",
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQFNZABX2B1irQ/profile-displayphoto-shrink_800_800/0?e=1612396800&v=beta&t=bUhxDxzqeu_-wYC5AGY7JmBjuGK53wseNHUz4jC5jgY"
    },
    {
       "id":"178",
@@ -2181,7 +2281,7 @@
    },
    {
       "id":"195",
-      "title":"Thiago Lunardi ",
+      "title":"Thiago Lunardi",
       "linkedin":"https://www.linkedin.com/in/thiagolunardi/",
       "twitter":"https://twitter.com/ThiagoLunardi13",
       "site":"",
@@ -2242,12 +2342,12 @@
    {
       "id":"139",
       "title":"Vinicius Moura",
-      "linkedin":"https://www.linkedin.com/in/viniciusjmoura/",
+      "linkedin":"https://www.linkedin.com/in/vinijmoura/",
       "twitter":"https://twitter.com/vinijmoura",
       "site":"https://mvp.microsoft.com/pt-br/PublicProfile/5001515?fullName=Vinicius%20Jose%20Moura",
       "biography":"\"MVP na categoria Developer Technologies desde 2015.\nCoordenador da trilha de DevOps | Container no MVP Conf 2020\nCriados e mantenedor do canal Azure DevOps Sprints http://bit.ly/azuredevopssprints\"",
       "email":"\"MVP na categoria Developer Technologies desde 2015.\nCoordenador da trilha de DevOps | Container no MVP Conf 2020\nCriados e mantenedor do canal Azure DevOps Sprints http://bit.ly/azuredevopssprints\"",
-      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQEyyULOcv9Atg/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=MrnTXKAXMhGYO8jnNIi_m5hBliJVuM23hjj2QciZlxk"
+      "photo":"https://media-exp1.licdn.com/dms/image/C4D03AQEyyULOcv9Atg/profile-displayphoto-shrink_800_800/0?e=1612396800&v=beta&t=rOixbfUIywl4J8UZ2jiUIR5jHqttPEpRkWLxhT1jfmk"
    },
    {
       "id":"115",

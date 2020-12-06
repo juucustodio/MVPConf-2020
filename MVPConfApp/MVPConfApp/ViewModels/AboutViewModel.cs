@@ -10,7 +10,7 @@ namespace MVPConfApp.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://mvpconf.com.br/2019"));
         }
 
         public ICommand OpenWebCommand { get; }
