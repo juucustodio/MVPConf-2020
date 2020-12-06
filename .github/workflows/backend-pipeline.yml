@@ -4,7 +4,7 @@ on:
   push:
     #branches: [ master ]
     paths: 
-      - MVPConf.Backend
+      - MVPConf.Backend/**
   pull_request:
     branches: [ master ]
 
