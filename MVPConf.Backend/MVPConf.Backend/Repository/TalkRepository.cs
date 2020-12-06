@@ -31,7 +31,7 @@ namespace MVPConf.Backend.Repository
 
             var data = await table.ExecuteQuerySegmentedAsync(query, new TableContinuationToken());
 
-            return data?.Results.FirstOrDefault();
+            return data?.Results.FirstOrDefault();  
         }
 
         public async Task<List<Talk>> GetTalks()
