@@ -2,6 +2,7 @@
 using MVPConfApp.Services;
 using MVPConfApp.Views;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -15,12 +16,18 @@ namespace MVPConfApp.ViewModels
 
         public ObservableCollection<Palestra> Items { get; }
         public Command LoadItemsCommand { get; }
+        public Command RefreshItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Palestra> ItemTapped { get; }
 
         private readonly RestClient _restClient;
 
-        public ObservableCollection<Track> Tracks;
+        public IList<Track> tracks;
+        public IList<Track> Tracks
+        {
+            get { return tracks; }
+            set { SetProperty(ref tracks, value); }
+        }
 
         public Track SelectedTrack;
 
@@ -29,16 +36,22 @@ namespace MVPConfApp.ViewModels
             Title = "Palestras";
             Items = new ObservableCollection<Palestra>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand());
             _restClient = new RestClient();
             ItemTapped = new Command<Palestra>(OnItemSelected);
             SelectedTrack = new Track(0);
 
-            Tracks = new ObservableCollection<Track>();
+            Tracks = new List<Track>();
 
             for(int x = 0; x <16; x++)
             {
-               // Tracks.Add(new Track((TrackId)x));
+                Tracks.Add(new Track((TrackId)x));
             }
+        }
+
+        async Task ExecuteRefreshItemsCommand()
+        { 
+        
         }
 
         async Task ExecuteLoadItemsCommand()
