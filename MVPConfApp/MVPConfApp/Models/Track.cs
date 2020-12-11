@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MVVMCoffee.Models;
 
 namespace MVPConfApp.Models
 {
-    public class Track
+    public class Track : BaseModel
     {
         public Track(TrackId id)
         {
             Id = id;
         }
-       public TrackId Id { get; set; }
-       public string Title
+
+        private TrackId id;
+        public TrackId Id
+        {
+            get { return id; }
+            set { SetProperty(ref id, value); }
+        }
+        public string Title
         {
             get
             {

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="MVPConfApp.Views.PalestranteDetailPage"
+             Title="Palestrante">
+
+    <ScrollView>
+
+        <StackLayout Spacing="20" Padding="15">
+            <ffimageloading:CachedImage VerticalOptions="Center" HeightRequest="180" WidthRequest="180"
+                            Source="{Binding Item.Photo}"
+                            CacheDuration="7" LoadingPlaceholder="Loading.png" RetryCount="3">
+                <ffimageloading:CachedImage.Transformations>
+                    <fftransformations:CircleTransformation BorderSize="3" BorderHexColor="#FFFFFF"/>
+                </ffimageloading:CachedImage.Transformations>
+            </ffimageloading:CachedImage>
+            <Label Text="{Binding Item.Name, Mode=TwoWay}" 
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Title"/>
+            <Label Text="{Binding Item.Biography}" FontSize="Small"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Linkedin" BackgroundColor="{StaticResource PrimaryButton}" Clicked="Linkedin_Clicked"/>
+
+                <Button Text="Twitter" BackgroundColor="{StaticResource PrimaryButton}" Clicked="Twitter_Clicked"/>
+
+                <Button Text="MVP Perfil" BackgroundColor="{StaticResource PrimaryButton}" Clicked="Mvp_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ScrollView>
+    
+</ContentPage>

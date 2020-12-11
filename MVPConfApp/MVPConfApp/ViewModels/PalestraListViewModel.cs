@@ -7,6 +7,8 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using MVVMCoffee.ViewModels;
+using System.Linq;
 
 namespace MVPConfApp.ViewModels
 {
@@ -15,8 +17,14 @@ namespace MVPConfApp.ViewModels
         private Palestra _selectedItem;
 
         public ObservableCollection<Palestra> Items { get; }
+
+        public ObservableCollection<Palestra> itemsVisible;
+        public ObservableCollection<Palestra> ItemsVisible
+        {
+            get { return itemsVisible; }
+            set { SetProperty(ref itemsVisible, value); }
+        }
         public Command LoadItemsCommand { get; }
-        public Command RefreshItemsCommand { get; }
         public Command AddItemCommand { get; }
         public Command<Palestra> ItemTapped { get; }
 
@@ -29,39 +37,82 @@ namespace MVPConfApp.ViewModels
             set { SetProperty(ref tracks, value); }
         }
 
-        public Track SelectedTrack;
+        public Track selectedTrack;
+        public Track SelectedTrack
+        {
+            get { return selectedTrack; }
+            set 
+            {
+
+                SetProperty(ref selectedTrack, value);
+                ItemsVisible.Clear();
+                foreach (var item in Items.Where(x => x.TrackObj.Id == selectedTrack.Id).ToList())
+                {
+                     ItemsVisible.Add(item);
+                }
+            }
+        }
+
+        public string title;
+        public string Title
+        {
+            get { return title; }
+            set { SetProperty(ref title, value); }
+        }
 
         public PalestraListViewModel()
         {
             Title = "Palestras";
             Items = new ObservableCollection<Palestra>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
-            RefreshItemsCommand = new Command(async () => await ExecuteRefreshItemsCommand());
+            ItemsVisible = new ObservableCollection<Palestra>();
+            LoadItemsCommand = new Command(ExecuteLoadItemsCommand);
             _restClient = new RestClient();
             ItemTapped = new Command<Palestra>(OnItemSelected);
-            SelectedTrack = new Track(0);
-
+            
             Tracks = new List<Track>();
 
             for(int x = 0; x <16; x++)
             {
                 Tracks.Add(new Track((TrackId)x));
             }
+
+            SelectedTrack = new Track(0);
         }
 
-        async Task ExecuteRefreshItemsCommand()
-        { 
-        
-        }
-
-        async Task ExecuteLoadItemsCommand()
+        async Task ExecuteRefreshItemsCommand(Track selected)
         {
-            IsBusy = true;
+            Busy = true;
 
             try
             {
+                if (Items.Count == 0)
+                    return;
+
+                ItemsVisible.Clear();
+                foreach (var item in Items.Where(x => x.TrackObj.Id == selected.Id).ToList())
+                {
+                    ItemsVisible.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+            finally
+            {
+                Busy = false;
+            }
+        }
+
+        async void ExecuteLoadItemsCommand()
+        {
+            Busy = true;
+
+            try
+            {
+                ItemsVisible.Clear();
                 Items.Clear();
-                var items = await _restClient.GetList<Palestra>("d287f08d-11c2-41d0-a766-f5cd962ae9eb");
+                var items = await _restClient.GetList<Palestra>("Talk?code=JwhtwnIZkZNPa82aGH27saF4aEJD24Q2AWyu9aRzbAwB5EMaEkuldw==");
                 foreach (var item in items)
                 {
                     if (item.Visible)
@@ -99,9 +150,16 @@ namespace MVPConfApp.ViewModels
                         else if (item.Track.Contains("Mobile"))
                             item.TrackObj = new Track(Models.TrackId.Mobile);
 
+                        item.Date = DateTime.Parse(item.Scheduler).ToUniversalTime();
+
                         Items.Add(item);
                     }
                 }
+
+                if (SelectedTrack == null)
+                    SelectedTrack = new Track(0);
+                
+                await ExecuteRefreshItemsCommand(SelectedTrack);
             }
             catch (Exception ex)
             {
@@ -109,14 +167,14 @@ namespace MVPConfApp.ViewModels
             }
             finally
             {
-                IsBusy = false;
+                Busy = false;
             }
 
         }
 
         public void OnAppearing()
         {
-            IsBusy = true;
+            Busy = true;
             SelectedItem = null;
         }
 

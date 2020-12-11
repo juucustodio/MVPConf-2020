@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MVPConfApp.Models
 {
-    public enum TrackId
+    public enum TrackId 
     {
 
         [Description("Desenvolvimento de Software")]

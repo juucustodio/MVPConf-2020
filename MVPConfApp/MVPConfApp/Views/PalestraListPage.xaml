@@ -10,28 +10,44 @@
     <ContentPage.BindingContext>
         <local:PalestraListViewModel />
     </ContentPage.BindingContext>
-    <StackLayout>
-        <Picker ItemDisplayBinding="{Binding Title}" ItemsSource="{Binding Tracks}" SelectedItem="{Binding SelectedTrack}" />
+    <StackLayout Padding="10">
+        <Label Text="Trilha:" FontSize="Subtitle"/>
+        <Picker x:Name="PickerTrack"  ItemsSource="{Binding Tracks, Mode=TwoWay}" SelectedItem="{Binding SelectedTrack, Mode=TwoWay}" ItemDisplayBinding="{Binding Title, Mode=TwoWay}" SelectedIndexChanged="Picker_SelectedIndexChanged"/>
 
-        <RefreshView x:DataType="local:PalestraListViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+        <RefreshView x:DataType="local:PalestraListViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding Busy, Mode=TwoWay}">
             <CollectionView x:Name="ItemsListView"
-                ItemsSource="{Binding Items}"
+                ItemsSource="{Binding ItemsVisible}"
                 SelectionMode="None">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Padding="10" x:DataType="model:Palestra">
+                        <StackLayout Padding="5" x:DataType="model:Palestra">
                             <Label Text="{Binding TitleLabel}" FontAttributes="Bold" 
-                            FontSize="16" />
-                            <Label Text="{Binding Flag}" 
-                            LineBreakMode="NoWrap"
-                            FontSize="13" />
-                            <Label Text="{Binding TrackObj.Title}" 
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
+                            FontSize="16" TextColor="{StaticResource Primary}" />
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Idioma: " 
+                                       LineBreakMode="NoWrap"
+                                       FontSize="13" />
+                                
+                                <Label Text="{Binding Flag}" 
+                                       LineBreakMode="NoWrap"
+                                       FontSize="13" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding TrackObj.Title}" 
+                                        Style="{DynamicResource ListItemDetailTextStyle}"
+                                        FontSize="13" TextColor="{StaticResource PrimaryButton}"/>
+
+                                <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy hh:mm tt}'}"
+                                        Style="{DynamicResource ListItemDetailTextStyle}"
+                                        FontSize="13" 
+                                       HorizontalTextAlignment="End"/>
+                            </StackLayout>
 
                             <Label Text="{Binding SpeakersLabel}"
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
+
+                            
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"

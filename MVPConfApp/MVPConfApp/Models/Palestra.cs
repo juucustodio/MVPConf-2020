@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using MVVMCoffee.Models;
 
 namespace MVPConfApp.Models
 {
-    public class Palestra
+    public class Palestra : BaseModel
     {
-        public string Id { get; set; }
+        public long Id { get; set; }
         public string Title { get; set; }
         public string TitleLabel
         {
@@ -21,7 +22,7 @@ namespace MVPConfApp.Models
         public Track TrackObj { get; set; }
         public bool Visible { get; set; }
         public string Scheduler { get; set; }
-        public List<string> Speakers { get; set; }
+        public List<Palestrante> Speakers { get; set; }
         public string SpeakersLabel {
             get 
             {
@@ -29,13 +30,19 @@ namespace MVPConfApp.Models
                 if (Speakers.Count > 0)
                 {
                     foreach (var spk in Speakers)
-                        txt += "" + spk;
+                        txt += spk.Name + " | ";
                 }
-                return txt.Trim();
+                return txt;
             } 
         }
-        public DateTime DateTime { get; set; }
 
+        private DateTime date;
+        public DateTime Date
+        {
+            get { return date; }
+            set { SetProperty(ref date, value); }
+        }
+        
         public string Flag
         {
             get

@@ -3,6 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using MVVMCoffee.ViewModels;
 
 namespace MVPConfApp.ViewModels
 {
@@ -43,10 +44,10 @@ namespace MVPConfApp.ViewModels
         {
             try
             {
-                var item = await DataStore.GetItemAsync(itemId);
+                /*var item = await DataStore.GetItemAsync(itemId);
                 Id = item.Id;
                 Title = item.Title;
-                Description = item.Description;
+                Description = item.Description;*/
             }
             catch (Exception)
             {

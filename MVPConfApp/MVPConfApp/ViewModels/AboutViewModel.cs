@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVVMCoffee.ViewModels;
+using System;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -9,7 +10,6 @@ namespace MVPConfApp.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://mvpconf.com.br/2019"));
         }
 

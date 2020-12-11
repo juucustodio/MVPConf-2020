@@ -15,4 +15,6 @@
          which is used to tint widgets -->
     <item name="colorAccent">#d90845</item>
   </style>
+
+  <style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar"/>
 </resources>
