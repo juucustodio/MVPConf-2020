@@ -8,13 +8,10 @@ namespace MVPConfApp.Models
     {
         public long Id { get; set; }
         public string Title { get; set; }
+
         public string TitleLabel
         {
-            get
-            {
-                return Title.Replace("[EN]", "").Replace("[PT-BR]", "").Replace("[ES]", "").Trim();
-            }
-
+            get { return Title.Replace("[EN]", "").Replace("[PT-BR]", "").Replace("[ES]", "").Trim(); }
         }
 
         public string Description { get; set; }
@@ -29,8 +26,13 @@ namespace MVPConfApp.Models
                 var txt = "";
                 if (Speakers.Count > 0)
                 {
-                    foreach (var spk in Speakers)
-                        txt += spk.Name + " | ";
+                    for (var x = 0; x < Speakers.Count; x++)
+                    {
+                        if (x != 0)
+                            txt += " | ";
+
+                        txt += Speakers[x].Name;
+                    }
                 }
                 return txt;
             } 

@@ -51,5 +51,12 @@ namespace MVPConfApp.Models
             set { SetProperty(ref photo, value); }
         }
 
+        private string url;
+        public string Url
+        {
+            get { return url; }
+            set { SetProperty(ref url, value); }
+        }
+
     }
 }
