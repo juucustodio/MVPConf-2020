@@ -7,13 +7,6 @@
 # MVPConf-2020
 
 
-## Tasks
-- [ ] - Criar Azure Functions (Albert) - Em andamento
-- [ ] - Criar README e desenho arquitetural (Albert)
-- [ ] - Desenvolvimento do APP (Juliano)
-- [ ] - Criar apresentação, ppt
-- [ ] - Disponibilizar o repositório publicamente
-
 
 ## Screenshots
 <image width="170px" src="https://github.com/juucustodio/MVPConf-2020/blob/master/Screenshots/Screenshot_1607791656.png"/> <image width="170px" src="https://github.com/juucustodio/MVPConf-2020/blob/master/Screenshots/Screenshot_1607791864.png"/> <image width="170px" src="https://github.com/juucustodio/MVPConf-2020/blob/master/Screenshots/Screenshot_1607791874.png"/> <image width="170px" src="https://github.com/juucustodio/MVPConf-2020/blob/master/Screenshots/Screenshot_1607791883.png"/> <image width="170px" src="https://github.com/juucustodio/MVPConf-2020/blob/master/Screenshots/Screenshot_1607791888.png"/>
