@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using MVVMCoffee.ViewModels;
 using MVPConfApp.Services;
+using System.Collections.Generic;
+using Xamarin.Essentials;
+using Microsoft.AppCenter.Crashes;
 
 namespace MVPConfApp.ViewModels
 {
@@ -68,6 +71,14 @@ namespace MVPConfApp.ViewModels
             }
             catch (Exception ex)
             {
+                var properties = new Dictionary<string, string>
+                {
+                    { "Category", "PalestraDetail" },
+                    { "ErrorMessage", ex.Message },
+                    { "Wi-fi", Connectivity.NetworkAccess.ToString() },
+                    { "OS", Device.RuntimePlatform }
+                };
+                Crashes.TrackError(ex, properties);
                 await Application.Current.MainPage.DisplayAlert("Erro", "Algo deu errado :( ", "OK");
                 await Application.Current.MainPage.Navigation.PopAsync();
             }
