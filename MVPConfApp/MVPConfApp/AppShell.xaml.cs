@@ -12,6 +12,7 @@ namespace MVPConfApp
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(PalestraDetailPage), typeof(PalestraDetailPage));
+            Routing.RegisterRoute(nameof(PalestranteDetailPage), typeof(PalestranteDetailPage));
         }
 
     }

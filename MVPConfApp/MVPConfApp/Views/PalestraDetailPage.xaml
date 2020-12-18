@@ -1,14 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MVPConfApp.ViewModels"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="MVPConfApp.Views.PalestraDetailPage"
-             Title="{Binding Title}">
+             Title="Palestra">
+    <ScrollView>
+        <StackLayout Padding="15,25">
+            <Label Text="{Binding Item.TitleLabel, Mode=TwoWay}" 
+                   HorizontalTextAlignment="Center" FontSize="Title"
+                   TextColor="{StaticResource Primary}"/>
 
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Title}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Description}" FontSize="Small"/>
-    </StackLayout>
-    
+            <StackLayout Orientation="Vertical" Margin="0,15,0,0">
+                <Label Text="Data: " FontSize="Medium" />
+                <Label Text="{Binding Item.Date, StringFormat='{0:dd/MM/yyyy hh:mm tt}'}" FontSize="Medium" TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0,30,0,0">
+                <Label Text="Idioma: " FontSize="Medium" />
+                <Label Text="{Binding Item.Flag, Mode=TwoWay}" FontSize="Medium" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="0,15,0,0">
+                <Label Text="Trilha: " FontSize="Medium" />
+                <Label Text="{Binding Item.Track, Mode=TwoWay}" FontSize="Medium"  TextColor="{StaticResource Primary}"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="0,10,0,0">
+                <Label Text="Palestrantes: " FontSize="Medium" />
+                <CollectionView x:Name="ItemsListView" IsEnabled="False" ItemsSource="{Binding Item.Speakers}"
+                SelectionMode="None" HeightRequest="150">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="10">
+                                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                    <ffimageloading:CachedImage VerticalOptions="Center" HeightRequest="60" WidthRequest="60"
+                            Source="{Binding Photo}"
+                            CacheDuration="7" LoadingPlaceholder="Loading.png" RetryCount="3">
+                                        <ffimageloading:CachedImage.Transformations>
+                                            <fftransformations:CircleTransformation BorderSize="3" BorderHexColor="#FFFFFF"/>
+                                        </ffimageloading:CachedImage.Transformations>
+                                    </ffimageloading:CachedImage>
+
+                                    <StackLayout VerticalOptions="Center">
+                                        <Label Text="{Binding Name  }" LineBreakMode="NoWrap" 
+                                                Style="{DynamicResource ListItemTextStyle}" 
+                                                FontSize="16" FontAttributes="Bold" />
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

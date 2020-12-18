@@ -21,12 +21,18 @@ namespace MVPConfApp.Views
             InitializeComponent();
 
             BindingContext = _viewModel = new PalestraListViewModel();
+            PickerTrack.SelectedIndex = 0;
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
             _viewModel.OnAppearing();
+        }
+
+        private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ItemsListView.ScrollTo(0);
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using FFImageLoading.Forms.Platform;
 using Foundation;
 using UIKit;
@@ -26,7 +26,7 @@ namespace MVPConfApp.iOS
             global::Xamarin.Forms.Forms.Init();
 
             CachedImageRenderer.Init();
-
+            AppCenter.Start("95880f8b-63e9-4f64-b5a6-82fbb5fab931",  typeof(Analytics), typeof(Crashes));
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

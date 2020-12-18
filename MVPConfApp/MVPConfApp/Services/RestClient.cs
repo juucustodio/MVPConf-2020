@@ -20,7 +20,7 @@ namespace MVPConfApp.Services
         {
             Timeout = new TimeSpan(0, 0, 0, 30); // 30 segundos
 
-            UrlBase = "https://run.mocky.io/v3/";
+            UrlBase = "https://famvpconf2020.azurewebsites.net/api/";
         }
 
         public void VerificaInternet()

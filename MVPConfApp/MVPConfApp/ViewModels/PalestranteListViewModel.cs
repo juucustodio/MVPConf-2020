@@ -8,19 +8,29 @@ using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using MVVMCoffee.ViewModels;
+using System.Linq;
+using Microsoft.AppCenter.Crashes;
+using Xamarin.Essentials;
 
 namespace MVPConfApp.ViewModels
 {
     public class PalestranteListViewModel : BaseViewModel
     {
-        private Palestra _selectedItem;
+        private Palestrante _selectedItem;
 
-        public ObservableCollection<Palestrante> Items { get; }
+        public ObservableCollection<Palestrante> Items { get; set; }
         public Command LoadItemsCommand { get; }
-        public Command AddItemCommand { get; }
-        public Command<Palestra> ItemTapped { get; }
+        public Command<Palestrante> ItemTapped { get; }
 
         private readonly RestClient _restClient;
+
+        public string title;
+        public string Title
+        {
+            get { return title; }
+            set { SetProperty(ref title, value); }
+        }
 
         public PalestranteListViewModel()
         {
@@ -28,40 +38,51 @@ namespace MVPConfApp.ViewModels
             Items = new ObservableCollection<Palestrante>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
             _restClient = new RestClient();
-            ItemTapped = new Command<Palestra>(OnItemSelected);
+            ItemTapped = new Command<Palestrante>(OnItemSelected);
 
         }
 
         async Task ExecuteLoadItemsCommand()
         {
-            IsBusy = true;
+            Busy = true;
 
             try
             {
                 Items.Clear();
-                var items = await _restClient.GetList<Palestrante>("9ecb1fb9-723f-4c77-a9eb-791f1d7d9162");
+                var items = await _restClient.GetList<Palestrante>("Speaker?code=Aw1RNg7WYisFy7KRTTWEJLr4QQnL/eQnrOaUJ2wYYnRFJA/oAAMpdg==");
+                items = items.OrderBy(keySelector: x => x.Name).ToList();
                 foreach (var item in items)
                 {
                     Items.Add(item);
                 }
+
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                var properties = new Dictionary<string, string>
+                {
+                    { "Category", "PalestranteList" },
+                    { "ErrorMessage", ex.Message },
+                    { "Wi-fi", Connectivity.NetworkAccess.ToString() },
+                    { "OS", Device.RuntimePlatform }
+                };
+                Crashes.TrackError(ex, properties);
+
+                await Application.Current.MainPage.DisplayAlert("Erro", "Algo deu errado :( ", "OK");
             }
             finally
             {
-                IsBusy = false;
+                Busy = false;
             }
         }
 
         public void OnAppearing()
         {
-            IsBusy = true;
+            Busy = true;
             SelectedItem = null;
         }
 
-        public Palestra SelectedItem
+        public Palestrante SelectedItem
         {
             get => _selectedItem;
             set
@@ -71,13 +92,12 @@ namespace MVPConfApp.ViewModels
             }
         }
 
-        async void OnItemSelected(Palestra item)
+        async void OnItemSelected(Palestrante item)
         {
             if (item == null)
                 return;
 
-            // This will push the ItemDetailPage onto the navigation stack
-            //await Shell.Current.GoToAsync($"{nameof(PalestraDetailPage)}?{nameof(PalestraDetailViewModel.ItemId)}={item.Id}");
+            await Shell.Current.GoToAsync($"{nameof(PalestranteDetailPage)}?{nameof(PalestranteDetailViewModel.ItemId)}={item.Id}");
         }
     }
 }

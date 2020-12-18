@@ -4,28 +4,24 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using MVVMCoffee.ViewModels;
+using System.Windows.Input;
+using Xamarin.Essentials;
 using MVPConfApp.Services;
 using System.Collections.Generic;
-using Xamarin.Essentials;
 using Microsoft.AppCenter.Crashes;
 
 namespace MVPConfApp.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public class PalestraDetailViewModel : BaseViewModel
+    public class PalestranteDetailViewModel : BaseViewModel
     {
         private readonly RestClient _restClient;
-        public PalestraDetailViewModel()
+        public PalestranteDetailViewModel()
         {
+            Item = new Palestrante();
             _restClient = new RestClient();
         }
 
-        public bool isVisible;
-        public bool IsVisible
-        {
-            get { return !Busy; }
-            set { SetProperty(ref isVisible, value); }
-        }
         public string title;
         public string Title
         {
@@ -33,8 +29,8 @@ namespace MVPConfApp.ViewModels
             set { SetProperty(ref title, value); }
         }
 
-        private Palestra item;
-        public Palestra Item
+        private Palestrante item;
+        public Palestrante Item
         {
             get { return item; }
             set { SetProperty(ref item, value); }
@@ -60,25 +56,20 @@ namespace MVPConfApp.ViewModels
             try
             {
                 Busy = true;
-                Item = _restClient.Get<Palestra>("Talk/" + id + "?code=5aYiUz43SZmQctRfSwyBSr5ZgvTJMklJgTqe8TWnRZP3LWme5kjZ7Q==");
-                Item.Date = DateTime.Parse(Item.Scheduler).ToUniversalTime();
-
-                for(var x = 0; x < Item.Speakers.Count; x++)
-                {
-                    Item.Speakers[x] = _restClient.Get<Palestrante>(Item.Speakers[x].Url + "?code=IVXnMGw3JirGrBHGI5DrcDYxbai1eW1eQUYhnrucJ52jH4oyBkrfPw==");
-
-                }
+                Item =  _restClient.Get<Palestrante>("Speaker/" + id + "?code=IVXnMGw3JirGrBHGI5DrcDYxbai1eW1eQUYhnrucJ52jH4oyBkrfPw==");
+                                
             }
             catch (Exception ex)
             {
                 var properties = new Dictionary<string, string>
                 {
-                    { "Category", "PalestraDetail" },
+                    { "Category", "PalestranteList" },
                     { "ErrorMessage", ex.Message },
                     { "Wi-fi", Connectivity.NetworkAccess.ToString() },
                     { "OS", Device.RuntimePlatform }
                 };
                 Crashes.TrackError(ex, properties);
+
                 await Application.Current.MainPage.DisplayAlert("Erro", "Algo deu errado :( ", "OK");
                 await Application.Current.MainPage.Navigation.PopAsync();
             }
@@ -86,6 +77,6 @@ namespace MVPConfApp.ViewModels
             {
                 Busy = false;
             }
-        }
+        } 
     }
 }

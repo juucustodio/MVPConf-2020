@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="MVPConfApp.Views.PalestranteListPage"
              Title="{Binding Title}"
              xmlns:local="clr-namespace:MVPConfApp.ViewModels"  
@@ -14,24 +15,26 @@
       x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
       https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
     -->
-    <RefreshView x:DataType="local:PalestranteListViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+    <RefreshView x:DataType="local:PalestranteListViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding Busy, Mode=TwoWay}">
         <CollectionView x:Name="ItemsListView"
                 ItemsSource="{Binding Items}"
                 SelectionMode="None">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Padding="10" x:DataType="model:Palestrante">
-                        <StackLayout Orientation="Horizontal">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
                             <ffimageloading:CachedImage VerticalOptions="Center" HeightRequest="80" WidthRequest="80"
                             Source="{Binding Photo}"
                             CacheDuration="7" LoadingPlaceholder="Loading.png" RetryCount="3">
+                                <ffimageloading:CachedImage.Transformations>
+                                    <fftransformations:CircleTransformation BorderSize="3" BorderHexColor="#FFFFFF"/>
+                                </ffimageloading:CachedImage.Transformations>
                             </ffimageloading:CachedImage>
 
-                            <StackLayout>
-                                <Label Text="{Binding Title}" 
-                            LineBreakMode="NoWrap" 
+                            <StackLayout VerticalOptions="Center">
+                                <Label Text="{Binding Name  }" LineBreakMode="NoWrap" 
                             Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
+                            FontSize="16" FontAttributes="Bold" />
                                 <Label Text="{Binding Twitter}" 
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
@@ -39,16 +42,17 @@
                             Style="{DynamicResource ListItemDetailTextStyle}"
                             FontSize="13" />
                             </StackLayout>
+                            
                         </StackLayout>
-                        
-                        
-                        <!--<StackLayout.GestureRecognizers>
+
+
+                        <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
                                 NumberOfTapsRequired="1"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemsViewModel}}, Path=ItemTapped}"		
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:PalestranteListViewModel}}, Path=ItemTapped}"		
                                 CommandParameter="{Binding .}">
                             </TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>-->
+                        </StackLayout.GestureRecognizers>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
