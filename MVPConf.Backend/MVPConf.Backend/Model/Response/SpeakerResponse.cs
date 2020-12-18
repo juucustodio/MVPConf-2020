@@ -18,6 +18,8 @@ namespace MVPConf.Backend.Model.Response
 
         public string Photo { get; set; }
 
+        public string Biography { get; set; }
+
         public SpeakerResponse(Speaker speaker)
         {
             Id = speaker.Id;
@@ -26,7 +28,7 @@ namespace MVPConf.Backend.Model.Response
             Twitter = speaker.Twitter;
             Site = speaker.Site;
             Photo = speaker.Photo;
-
+            Biography = speaker.Biography;
         }
     }
 }

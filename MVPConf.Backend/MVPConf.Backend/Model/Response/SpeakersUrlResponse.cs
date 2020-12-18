@@ -5,10 +5,12 @@ namespace MVPConf.Backend.Model.Response
     {
         public string Name { get; set; }
 
-        public string Url { get; set; }
+        public string Url { get; private set; }
 
-        public SpeakersUrlResponse()
+        public SpeakersUrlResponse(string name, int id)
         {
+            Name = name;
+            Url = $"/Speaker/{id}";
         }
     }
 }

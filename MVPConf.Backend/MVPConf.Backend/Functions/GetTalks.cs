@@ -12,28 +12,28 @@ using System.Linq;
 
 namespace MVPConf.Backend.Functions
 {
-    public class GetSpeakers
+    public class GetTalks
     {
-        private readonly ISpeakerService _speakerService;
+        private readonly ITalkService _talkService;
 
-        public GetSpeakers(ISpeakerService speakerService)
+        public GetTalks(ITalkService talkService)
         {
-            _speakerService = speakerService;
+            _talkService = talkService;
         }
 
-        [FunctionName("GetSpeakers")]
+        [FunctionName("GetTalks")]
         public async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "Speaker")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "Talk")] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("Get Speakers");
+            log.LogInformation("Get Talks");
 
-            var speakers = await _speakerService.GetSpeakers();
+            var talks = await _talkService.GetTalks();
 
-            if (speakers == null || !speakers.Any())
+            if (talks == null || !talks.Any())
                 return new NoContentResult();
 
-            return new OkObjectResult(speakers);
+            return new OkObjectResult(talks);
         }
     }
 }

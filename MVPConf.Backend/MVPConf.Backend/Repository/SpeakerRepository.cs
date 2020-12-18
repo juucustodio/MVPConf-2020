@@ -35,6 +35,19 @@ namespace MVPConf.Backend.Repository
             return data?.Results.FirstOrDefault();
         }
 
+        public async Task<Speaker> GetSpeakerByName(string name)
+        {
+            var table = await GetTable();
+
+            var queryCondition = TableQuery.GenerateFilterCondition("Name", QueryComparisons.Equal, name);
+
+            var query = new TableQuery<Speaker>().Where(queryCondition);
+
+            var data = await table.ExecuteQuerySegmentedAsync(query, new TableContinuationToken());
+
+            return data?.Results.FirstOrDefault();
+        }
+
         public async Task<List<Speaker>> GetSpeakers()
         {
             var table = await GetTable();

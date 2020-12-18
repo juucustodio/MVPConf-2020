@@ -3,6 +3,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using MVPConf.Backend;
 using System.IO;
+using MVPConf.Backend.Config;
+using Microsoft.Extensions.DependencyInjection;
+using MVPConf.Backend.Repository;
+using MVPConf.Backend.Repository.Contract;
+using MVPConf.Backend.Service;
+using MVPConf.Backend.Service.Contract;
 
 [assembly: FunctionsStartup(typeof(Startup))]
 namespace MVPConf.Backend
@@ -11,7 +17,16 @@ namespace MVPConf.Backend
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            //throw new NotImplementedException();
+            builder.Services.AddOptions<CommonConfigurations>()
+            .Configure<IConfiguration>((settings, configuration) =>
+            {
+                configuration.GetSection(nameof(CommonConfigurations)).Bind(settings);
+            });
+
+            builder.Services.AddScoped<ISpeakerRepository, SpeakerRepository>();
+            builder.Services.AddScoped<ITalkRepository, TalkRepository>();
+            builder.Services.AddScoped<ISpeakerService, SpeakerService>();
+            builder.Services.AddScoped<ITalkService, TalkService>();
         }
 
         public override void ConfigureAppConfiguration(IFunctionsConfigurationBuilder builder)

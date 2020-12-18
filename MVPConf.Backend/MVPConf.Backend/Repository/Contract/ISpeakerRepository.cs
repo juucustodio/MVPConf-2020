@@ -13,6 +13,8 @@ namespace MVPConf.Backend.Repository.Contract
 
         Task<Speaker> GetSpeakerById(int id);
 
+        Task<Speaker> GetSpeakerByName(string name);
+
         Task<List<Speaker>> GetSpeakers();
     }
 }

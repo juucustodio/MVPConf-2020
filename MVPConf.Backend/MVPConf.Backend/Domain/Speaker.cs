@@ -14,7 +14,6 @@ namespace MVPConf.Backend.Domain
             set
             {
                 _id = value;
-                this.RowKey = _id.ToString();
             }
         }
 
@@ -24,9 +23,10 @@ namespace MVPConf.Backend.Domain
             set
             {
                 _name = value;
-                this.PartitionKey = _name;
             }
         }
+
+        public string Biography { get; set; }
 
         public string Linkedin { get; set; }
 
@@ -41,7 +41,7 @@ namespace MVPConf.Backend.Domain
         }
 
 
-        public Speaker(int id, string name, string linkedin, string twitter, string site, string photo) : this()
+        public Speaker(int id, string name, string linkedin, string twitter, string site, string photo, string biography) : this()
         {
             Id = id;
             Name = name;
@@ -49,6 +49,9 @@ namespace MVPConf.Backend.Domain
             Twitter = twitter;
             Site = site;
             Photo = photo;
+            Biography = biography;
+            this.PartitionKey = "2020";
+            this.RowKey = Id.ToString();
         }
     }
 }

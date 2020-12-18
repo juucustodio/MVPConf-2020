@@ -14,7 +14,6 @@ namespace MVPConf.Backend.Domain
             set
             {
                 _id = value;
-                this.RowKey = _id.ToString();
             }
         }
 
@@ -24,7 +23,6 @@ namespace MVPConf.Backend.Domain
             set
             {
                 _title = value;
-                this.PartitionKey = _title;
             }
         }
 
@@ -34,7 +32,7 @@ namespace MVPConf.Backend.Domain
 
         public bool Visible { get; set; }
 
-        public string Speakers { get; private set; }
+        public string Speakers { get;set; }
 
 
         public void AddSpeaker(int speakerId)
@@ -60,6 +58,8 @@ namespace MVPConf.Backend.Domain
             Track = track;
             Scheduler = scheduler;
             Visible = visible;
+            this.PartitionKey = "2020";
+            this.RowKey = this.Id.ToString();
         }
     }
 }

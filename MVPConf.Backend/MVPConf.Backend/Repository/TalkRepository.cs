@@ -77,7 +77,7 @@ namespace MVPConf.Backend.Repository
             if (_tableClient == null)
                 _tableClient = _storageAccount.CreateCloudTableClient();
 
-            CloudTable table = _tableClient.GetTableReference(nameof(Talk   ));
+            CloudTable table = _tableClient.GetTableReference(nameof(Talk));
 
             await table.CreateIfNotExistsAsync();
 

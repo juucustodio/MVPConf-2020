@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using MVPConf.Backend.Domain;
 
 namespace MVPConf.Backend.Model.Response
 {
@@ -17,8 +18,13 @@ namespace MVPConf.Backend.Model.Response
 
         public List<SpeakersUrlResponse> Speakers { get; set; }
 
-        public TalkResponse()
+        public TalkResponse(Talk talk)
         {
+            Id = talk.Id;
+            Title = talk.Title;
+            Track = talk.Track;
+            Scheduler = talk.Scheduler;
+            Visible = talk.Visible;
         }
     }
 }
