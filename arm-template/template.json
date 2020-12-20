@@ -17,10 +17,6 @@
         "StorageAccountProcess": {
             "defaultValue": "mvpconfsaprocess",
             "type": "String"
-        },
-        "SmartDetectoralertRulesFailuresName": {
-            "defaultValue": "failure anomalies - famvpconf2020",
-            "type": "String"
         }
     },
     "variables": {},
