@@ -67,7 +67,7 @@ Ao criar os recursos na Azure, você poderá publicar a aplicação através do 
 
 Se preferir, pode utilizar o seguinte botão:
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjuucustodio%2FMVPConf-2020%2Fmaster%2Farm-template%2Ftemplate.json%3Ftoken%3DABO4J3YH5BUHVZPZ2SFY25275DLYS)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjuucustodio%2FMVPConf-2020%2Fmaster%2Farm-template%2Ftemplate.json%3Ftoken%3DABO4J355GQJFRABNZKPPTGK75DOD2)
 
 # Tasks
 - [ ] Documentar publicação pelo Git Actions (Repo público)
