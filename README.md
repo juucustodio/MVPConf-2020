@@ -65,6 +65,10 @@ Em seguida são executados comandos para a criação dos seguintes recursos em o
 
 Ao criar os recursos na Azure, você poderá publicar a aplicação através do Visual Studio ou do Visual Studio Code. A publicação automática deste recurso será disponbilizada posteriormente.
 
+Se preferir, pode utilizar o seguinte botão:
+
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+
 # Tasks
 - [ ] Documentar publicação pelo Git Actions (Repo público)
 - [ ] Documentar publicação App Center
