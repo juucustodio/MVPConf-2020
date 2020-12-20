@@ -141,7 +141,7 @@
         {
             "type": "microsoft.alertsmanagement/smartdetectoralertrules",
             "apiVersion": "2019-06-01",
-            "name": "[concat(parameters('FunctionAppName'), ' - failure']]",
+            "name": "[concat(parameters('FunctionAppName'), ' - failure')]",
             "location": "global",
             "dependsOn": [
                 "[resourceId('microsoft.insights/components', parameters('FunctionAppName'))]"
