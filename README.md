@@ -33,6 +33,36 @@ Esta aplicação foi desenvolvida com o intuito de demonstrar como podemos desen
 - **Storage Account**: Ao criar um function app, também será criado um storage account
 - **Storage Account process**: Este storage account será utilizado para manter os dados dos paletrantes e das talks. Fique a vontade para utilizar o próprio storage account criado juntamente com o function app. Mas por questões de organização e separação de responsabilidades, criei um storage account a parte.
 
+### Criação dos recursos
+
+Você poderá criar os recursos diretamente no Azure, utilizando o recurso de **Cloud Shell**, ou instalando o Azure CLI em sua máquina. Os seguintes comandos devem ser executados para a criação dos recursos(após digitado cada linha, pressione enter):
+
+```bash
+
+resourceGroup="MvpConf-2020"
+location="eastus"
+funcAppName="MvpConfBackEnd"
+storageAccountProcess="mvpconfsaprocess"
+storageAccountFunction="mvpconffuncsa"
+
+az group create --name $resourceGroup --location $location
+
+az storage account create -n $storageAccountFunction -g $resourceGroup -l $location --sku Standard_LRS
+
+az storage account create -n $storageAccountProcess -g $resourceGroup  -l $location --sku Standard_LRS 
+
+az functionapp create --resource-group $resourceGroup --consumption-plan-location $location --runtime dotnet --functions-version 3 --name $functionAppName --storage-account $storageAccountFunction
+
+```
+
+As primeiras 5 linhas criam variáveis para facilitar o uso nos comandos do Azure CLI.
+
+Em seguida são executados comandos para a criação dos seguintes recursos em ordem:
+- Resource Group - Onde serão organizados todos os recursos
+- Storage account function - Criação de um storage account para ser utilizado pelas functions. Todos os functions apps necessitam de um storage account por padrão
+- Storage account process - conforme mencionado anteriormente, este storage account será criado para separar as responsabildiades. Neste caso, será utilizado para a persistência das informações que serão disponibilizadas para o APP
+- Function App - criação da function app
+
 Ao criar os recursos na Azure, você poderá publicar a aplicação através do Visual Studio ou do Visual Studio Code. A publicação automática deste recurso será disponbilizada posteriormente.
 
 # Tasks
