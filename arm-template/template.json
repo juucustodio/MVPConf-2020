@@ -2,32 +2,24 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "sites_famvpconf2020_name": {
+        "FunctionAppName": {
             "defaultValue": "famvpconf2020",
             "type": "String"
         },
-        "serverfarms_ASP_mvpconf_ab4e_name": {
+        "ServicePlanName": {
             "defaultValue": "ASP-mvpconf-ab4e",
             "type": "String"
         },
-        "components_famvpconf2020_name": {
-            "defaultValue": "famvpconf2020",
+        "StorageAccountAzureFunction": {
+            "defaultValue": "mvpconf2020sa",
             "type": "String"
         },
-        "storageAccounts_mvoconf2020sa_name": {
-            "defaultValue": "mvoconf2020sa",
-            "type": "String"
-        },
-        "storageAccounts_mvpconfsaprocess_name": {
+        "StorageAccountProcess": {
             "defaultValue": "mvpconfsaprocess",
             "type": "String"
         },
-        "smartdetectoralertrules_failure_anomalies___famvpconf2020_name": {
+        "SmartDetectoralertRulesFailuresName": {
             "defaultValue": "failure anomalies - famvpconf2020",
-            "type": "String"
-        },
-        "actiongroups_application_insights_smart_detection_externalid": {
-            "defaultValue": "/subscriptions/24de4f36-070f-41c8-b261-42a555a8b645/resourceGroups/igtifatest/providers/microsoft.insights/actiongroups/application insights smart detection",
             "type": "String"
         }
     },
@@ -36,7 +28,7 @@
         {
             "type": "microsoft.insights/components",
             "apiVersion": "2018-05-01-preview",
-            "name": "[parameters('components_famvpconf2020_name')]",
+            "name": "[parameters('FunctionAppName')]",
             "location": "eastus2",
             "tags": {
                 "evento": "mvpconf2020"
@@ -54,7 +46,7 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2020-08-01-preview",
-            "name": "[parameters('storageAccounts_mvoconf2020sa_name')]",
+            "name": "[parameters('StorageAccountAzureFunction')]",
             "location": "eastus2",
             "tags": {
                 "evento": "mvpconf2020"
@@ -90,7 +82,7 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2020-08-01-preview",
-            "name": "[parameters('storageAccounts_mvpconfsaprocess_name')]",
+            "name": "[parameters('StorageAccountProcess')]",
             "location": "eastus2",
             "sku": {
                 "name": "Standard_RAGRS",
@@ -126,7 +118,7 @@
         {
             "type": "Microsoft.Web/serverfarms",
             "apiVersion": "2018-02-01",
-            "name": "[parameters('serverfarms_ASP_mvpconf_ab4e_name')]",
+            "name": "[parameters('ServicePlanName')]",
             "location": "East US 2",
             "tags": {
                 "evento": "mvpconf2020"
@@ -153,10 +145,10 @@
         {
             "type": "microsoft.alertsmanagement/smartdetectoralertrules",
             "apiVersion": "2019-06-01",
-            "name": "[parameters('smartdetectoralertrules_failure_anomalies___famvpconf2020_name')]",
+            "name": "[concat(parameters('FunctionAppName'), ' - failure']]",
             "location": "global",
             "dependsOn": [
-                "[resourceId('microsoft.insights/components', parameters('components_famvpconf2020_name'))]"
+                "[resourceId('microsoft.insights/components', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "description": "Failure Anomalies notifies you of an unusual rise in the rate of failed HTTP requests or dependency calls.",
@@ -172,21 +164,18 @@
                     ]
                 },
                 "scope": [
-                    "[resourceId('microsoft.insights/components', parameters('components_famvpconf2020_name'))]"
+                    "[resourceId('microsoft.insights/components', parameters('FunctionAppName'))]"
                 ],
                 "actionGroups": {
-                    "groupIds": [
-                        "[parameters('actiongroups_application_insights_smart_detection_externalid')]"
-                    ]
                 }
             }
         },
         {
             "type": "Microsoft.Storage/storageAccounts/blobServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "sku": {
                 "name": "Standard_LRS",
@@ -204,9 +193,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/blobServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ],
             "sku": {
                 "name": "Standard_RAGRS",
@@ -224,9 +213,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/fileServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "sku": {
                 "name": "Standard_LRS",
@@ -244,9 +233,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/fileServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ],
             "sku": {
                 "name": "Standard_RAGRS",
@@ -264,9 +253,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/queueServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "properties": {
                 "cors": {
@@ -277,9 +266,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/queueServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ],
             "properties": {
                 "cors": {
@@ -290,9 +279,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/tableServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "properties": {
                 "cors": {
@@ -303,9 +292,9 @@
         {
             "type": "Microsoft.Storage/storageAccounts/tableServices",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ],
             "properties": {
                 "cors": {
@@ -316,10 +305,10 @@
         {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2018-11-01",
-            "name": "[parameters('sites_famvpconf2020_name')]",
+            "name": "[parameters('FunctionAppName')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_mvpconf_ab4e_name'))]"
+                "[resourceId('Microsoft.Web/serverfarms', parameters('ServicePlanName'))]"
             ],
             "tags": {
                 "evento": "mvpconf2020"
@@ -329,17 +318,17 @@
                 "enabled": true,
                 "hostNameSslStates": [
                     {
-                        "name": "[concat(parameters('sites_famvpconf2020_name'), '.azurewebsites.net')]",
+                        "name": "[concat(parameters('FunctionAppName'), '.azurewebsites.net')]",
                         "sslState": "Disabled",
                         "hostType": "Standard"
                     },
                     {
-                        "name": "[concat(parameters('sites_famvpconf2020_name'), '.scm.azurewebsites.net')]",
+                        "name": "[concat(parameters('FunctionAppName'), '.scm.azurewebsites.net')]",
                         "sslState": "Disabled",
                         "hostType": "Repository"
                     }
                 ],
-                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_ASP_mvpconf_ab4e_name'))]",
+                "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('ServicePlanName'))]",
                 "reserved": false,
                 "isXenon": false,
                 "hyperV": false,
@@ -357,10 +346,10 @@
         {
             "type": "Microsoft.Web/sites/config",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/web')]",
+            "name": "[concat(parameters('FunctionAppName'), '/web')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "tags": {
                 "evento": "mvpconf2020"
@@ -440,10 +429,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/AddSpeakers')]",
+            "name": "[concat(parameters('FunctionAppName'), '/AddSpeakers')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/AddSpeakers/",
@@ -456,10 +445,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/AddTalks')]",
+            "name": "[concat(parameters('FunctionAppName'), '/AddTalks')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/AddTalks/",
@@ -472,10 +461,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/GetSpeaker')]",
+            "name": "[concat(parameters('FunctionAppName'), '/GetSpeaker')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/GetSpeaker/",
@@ -489,10 +478,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/GetSpeakers')]",
+            "name": "[concat(parameters('FunctionAppName'), '/GetSpeakers')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/GetSpeakers/",
@@ -506,10 +495,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/GetTalk')]",
+            "name": "[concat(parameters('FunctionAppName'), '/GetTalk')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/GetTalk/",
@@ -523,10 +512,10 @@
         {
             "type": "Microsoft.Web/sites/functions",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/GetTalks')]",
+            "name": "[concat(parameters('FunctionAppName'), '/GetTalks')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "script_root_path_href": "https://famvpconf2020.azurewebsites.net/admin/vfs/site/wwwroot/GetTalks/",
@@ -540,10 +529,10 @@
         {
             "type": "Microsoft.Web/sites/hostNameBindings",
             "apiVersion": "2018-11-01",
-            "name": "[concat(parameters('sites_famvpconf2020_name'), '/', parameters('sites_famvpconf2020_name'), '.azurewebsites.net')]",
+            "name": "[concat(parameters('FunctionAppName'), '/', parameters('FunctionAppName'), '.azurewebsites.net')]",
             "location": "East US 2",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_famvpconf2020_name'))]"
+                "[resourceId('Microsoft.Web/sites', parameters('FunctionAppName'))]"
             ],
             "properties": {
                 "siteName": "famvpconf2020",
@@ -553,10 +542,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default/azure-webjobs-hosts')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default/azure-webjobs-hosts')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccounts_mvoconf2020sa_name'), 'default')]",
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('StorageAccountAzureFunction'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "properties": {
                 "defaultEncryptionScope": "$account-encryption-key",
@@ -567,10 +556,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts/blobServices/containers",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default/azure-webjobs-secrets')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default/azure-webjobs-secrets')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('storageAccounts_mvoconf2020sa_name'), 'default')]",
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts/blobServices', parameters('StorageAccountAzureFunction'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "properties": {
                 "defaultEncryptionScope": "$account-encryption-key",
@@ -581,10 +570,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts/fileServices/shares",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvoconf2020sa_name'), '/default/famvpconf2020af62')]",
+            "name": "[concat(parameters('StorageAccountAzureFunction'), '/default/famvpconf2020af62')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts/fileServices', parameters('storageAccounts_mvoconf2020sa_name'), 'default')]",
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvoconf2020sa_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts/fileServices', parameters('StorageAccountAzureFunction'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountAzureFunction'))]"
             ],
             "properties": {
                 "accessTier": "TransactionOptimized",
@@ -595,19 +584,19 @@
         {
             "type": "Microsoft.Storage/storageAccounts/tableServices/tables",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default/Speaker')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default/Speaker')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts/tableServices', parameters('storageAccounts_mvpconfsaprocess_name'), 'default')]",
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts/tableServices', parameters('StorageAccountProcess'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ]
         },
         {
             "type": "Microsoft.Storage/storageAccounts/tableServices/tables",
             "apiVersion": "2020-08-01-preview",
-            "name": "[concat(parameters('storageAccounts_mvpconfsaprocess_name'), '/default/Talk')]",
+            "name": "[concat(parameters('StorageAccountProcess'), '/default/Talk')]",
             "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts/tableServices', parameters('storageAccounts_mvpconfsaprocess_name'), 'default')]",
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_mvpconfsaprocess_name'))]"
+                "[resourceId('Microsoft.Storage/storageAccounts/tableServices', parameters('StorageAccountProcess'), 'default')]",
+                "[resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountProcess'))]"
             ]
         }
     ]
